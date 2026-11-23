@@ -1,0 +1,78 @@
+name: Data pipeline
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "pipeline/scrape_chain.py"
+      - "pipeline/xmlparse.py"
+      - ".github/workflows/data.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 12
+      matrix:
+        # chains reachable from GitHub runners (see probe/results.md)
+        chain: [BAREKET, CITY_MARKET_SHOPS, DOR_ALON, FRESH_MARKET_AND_SUPER_DOSH, GOOD_PHARM, KESHET,
+                KING_STORE, MAAYAN_2000, MESHMAT_YOSEF_1, MESHMAT_YOSEF_2, OSHER_AD, POLIZER, RAMI_LEVY,
+                SALACH_DABACH, SHEFA_BARCART_ASHEM, SHUFERSAL, SHUK_AHIR, STOP_MARKET, SUPER_SAPIR,
+                SUPER_YUDA, TIV_TAAM, WOLT, YELLOW, YOHANANOF, ZOL_VEBEGADOL]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install il-supermarket-scraper==1.0.8 lxml
+      - run: playwright install --with-deps chromium
+      - run: python pipeline/scrape_chain.py "${{ matrix.chain }}"
+        continue-on-error: true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: chain-${{ matrix.chain }}
+          path: |
+            out/
+            reports/
+          if-no-files-found: ignore
+          retention-days: 3
+
+  report:
+    needs: scrape
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: chains
+          pattern: chain-*
+          merge-multiple: true
+      - name: Summarise
+        run: |
+          mkdir -p reports
+          cp chains/reports/*.json reports/ 2>/dev/null || true
+          python - <<'EOF'
+          import glob, json, os
+          rows = [json.load(open(p, encoding="utf-8")) for p in sorted(glob.glob("reports/*.json")) if not p.endswith("summary.json")]
+          lines = ["| Chain | Stores | w/ prices | Items | Codes | Promos | SQLite MB | Download s | Errors |", "|---|---|---|---|---|---|---|---|---|"]
+          for r in rows:
+              lines.append(f"| {r['chain']} | {r.get('stores')} | {r.get('stores_with_prices')} | {r.get('items')} | {r.get('distinct_codes')} | {r.get('promos')} | {r.get('sqlite_mb')} | {r.get('download_seconds')} | {len(r.get('errors', []))} |")
+          md = "\n".join(lines) + "\n"
+          open("reports/summary.md", "w", encoding="utf-8").write(md)
+          open(os.environ["GITHUB_STEP_SUMMARY"], "a").write(md)
+          print(md)
+          EOF
+      - name: Commit reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          git commit -m "Pipeline reports $(date -u +%F)" || exit 0
+          git pull --rebase -q && git push
