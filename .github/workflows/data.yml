@@ -2,11 +2,18 @@ name: Data pipeline
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "40 3 * * *"   # daily, 05:40/06:40 Israel time
   push:
     paths:
       - "pipeline/scrape_chain.py"
       - "pipeline/xmlparse.py"
+      - "pipeline/build_cities.py"
       - ".github/workflows/data.yml"
+
+concurrency:
+  group: data
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -41,26 +48,43 @@ jobs:
             out/
             reports/
           if-no-files-found: ignore
-          retention-days: 3
+          retention-days: 1
 
-  report:
+  build:
     needs: scrape
     if: always()
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
       - uses: actions/download-artifact@v4
         with:
           path: chains
           pattern: chain-*
           merge-multiple: true
+      - name: Build city databases
+        run: python pipeline/build_cities.py
+      - name: Publish to the "data" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view data >/dev/null 2>&1 || gh release create data --title "נתוני מחירים" \
+            --notes "קבצי נתונים לפי עיר. מתעדכן אוטומטית כל יום." --latest=false
+          # upload databases first, index.json last so the app never sees an index pointing at missing files
+          gh release upload data dist/city-*.db.gz --clobber
+          gh release upload data dist/index.json --clobber
       - name: Summarise
+        if: always()
         run: |
           mkdir -p reports
           cp chains/reports/*.json reports/ 2>/dev/null || true
+          rm -rf chains work dist
           python - <<'EOF'
           import glob, json, os
-          rows = [json.load(open(p, encoding="utf-8")) for p in sorted(glob.glob("reports/*.json")) if not p.endswith("summary.json")]
+          rows = [json.load(open(p, encoding="utf-8")) for p in sorted(glob.glob("reports/*.json")) if "chain" in open(p, encoding="utf-8").read(200)]
           lines = ["| Chain | Stores | w/ prices | Items | Codes | Promos | SQLite MB | Download s | Errors |", "|---|---|---|---|---|---|---|---|---|"]
           for r in rows:
               lines.append(f"| {r['chain']} | {r.get('stores')} | {r.get('stores_with_prices')} | {r.get('items')} | {r.get('distinct_codes')} | {r.get('promos')} | {r.get('sqlite_mb')} | {r.get('download_seconds')} | {len(r.get('errors', []))} |")
@@ -70,9 +94,11 @@ jobs:
           print(md)
           EOF
       - name: Commit reports
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
           git add reports/
-          git commit -m "Pipeline reports $(date -u +%F)" || exit 0
+          git add pipeline/cbs_cities.json 2>/dev/null || true
+          git commit -m "Data update $(date -u +%F)" || exit 0
           git pull --rebase -q && git push

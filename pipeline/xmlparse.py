@@ -41,7 +41,7 @@ def _fields(el) -> dict[str, str]:
     return out
 
 
-def _iter(path: str, wanted: set[str]):
+def _iter(path: str, wanted: set[str] | None):
     """Yield (element, ancestors_fields) for every element whose tag is in `wanted`."""
     parser = etree.iterparse(_open(path), events=("start", "end"), recover=True, huge_tree=True)
     stack: list[dict] = []
@@ -51,7 +51,7 @@ def _iter(path: str, wanted: set[str]):
             stack.append({})
             continue
         stack.pop()
-        if tag in wanted:
+        if (tag in wanted) if wanted is not None else (len(el) > 0 and any(_tag(c) in ("storeid", "storeno") for c in el)):
             ctx = {}
             for frame in stack:
                 ctx.update(frame)
@@ -108,10 +108,12 @@ def parse_prices(path: str) -> tuple[dict, Iterator[dict]]:
 
 
 def parse_stores(path: str) -> Iterator[dict]:
-    for el, ctx in _iter(path, {"store", "branch"}):
+    # A store record is any element with a direct <StoreId> leaf plus a name/address/city leaf.
+    # (City Market nests them as <Store><SubChainStoreXMLObject>..., Shufersal uses <STORE>, etc.)
+    for el, ctx in _iter(path, None):
         f = _fields(el)
         sid = _first(f, "storeid", "storeno")
-        if not sid:
+        if not sid or not (f.keys() & {"storename", "storenm", "address", "city"}):
             continue
         yield {
             "chain_id": _first(f, "chainid") or _first(ctx, "chainid"),
@@ -137,14 +139,15 @@ def parse_promos(path: str) -> tuple[dict, Iterator[dict]]:
             codes = []
             for node in el.iter():
                 t = _tag(node)
-                if t == "itemcode" and node.text:
+                if t == "itemcode" and node.text and node.text.strip().strip("0"):
                     codes.append(node.text.strip())
                 elif len(node) == 0 and t:
                     f.setdefault(t, (node.text or "").strip())
             yield {
                 "promo_id": _first(f, "promotionid"),
                 "description": _first(f, "promotiondescription"),
-                "end": _first(f, "promotionenddate"),
+                "end": _first(f, "promotionenddatetime", "promotionenddate"),
+                "club": _first(f, "clubid", "clubs"),
                 "min_qty": _first(f, "minqty"),
                 "discounted_price": _first(f, "discountedprice"),
                 "discount_rate": _first(f, "discountrate"),

@@ -97,7 +97,7 @@ db.executescript(
     CREATE TABLE items(chain_id, store_id, file_key, code, item_type, name, manufacturer, quantity, unit,
                        unit_qty, is_weighted, price REAL, unit_price REAL, updated);
     CREATE TABLE promos(chain_id, store_id, file_key, promo_id, code, description, end, min_qty,
-                        discounted_price REAL, discount_rate);
+                        discounted_price REAL, discount_rate, club);
     """
 )
 t1 = time.time()
@@ -142,8 +142,8 @@ for path in files_of("PROMO_FULL_FILE"):
             for code in p["codes"] or [""]:
                 batch.append((header.get("chain_id"), header.get("store_id"), key, p["promo_id"], code,
                               p["description"], p["end"], p["min_qty"], to_float(p["discounted_price"]),
-                              p["discount_rate"]))
-        db.executemany("INSERT INTO promos VALUES (?,?,?,?,?,?,?,?,?,?)", batch)
+                              p["discount_rate"], p["club"]))
+        db.executemany("INSERT INTO promos VALUES (?,?,?,?,?,?,?,?,?,?,?)", batch)
     except Exception as e:  # noqa: BLE001
         report["errors"].append(f"promos {os.path.basename(path)}: {type(e).__name__}: {e}"[:300])
 
@@ -171,6 +171,24 @@ report["item_samples"] = q("SELECT * FROM items LIMIT 4")
 report["promo_samples"] = q("SELECT * FROM promos WHERE description != '' LIMIT 4")
 report["store_ids_prices_not_in_stores"] = q(
     "SELECT COUNT(DISTINCT store_id) FROM items WHERE store_id NOT IN (SELECT store_id FROM stores)")[0][0]
+# ---------- compact output: one row per product, one price per store/product, active promos only ----------
+today = now.strftime("%Y-%m-%d")
+db.executescript(f"""
+    CREATE TABLE c_products(code TEXT PRIMARY KEY, item_type, name, manufacturer, quantity, unit, unit_qty, is_weighted);
+    INSERT OR IGNORE INTO c_products
+        SELECT code, item_type, name, manufacturer, quantity, unit, unit_qty, is_weighted FROM items;
+    CREATE TABLE c_prices(store_id TEXT, code TEXT, price REAL);
+    INSERT INTO c_prices SELECT store_id, code, MIN(price) FROM items WHERE price > 0 GROUP BY store_id, code;
+    CREATE TABLE c_promos(store_id TEXT, code TEXT, description TEXT, end TEXT, min_qty TEXT, discounted_price REAL, club TEXT);
+    INSERT INTO c_promos
+        SELECT store_id, code, description, MAX(end), MIN(min_qty), MIN(discounted_price), MIN(club) FROM promos
+        WHERE code != '' AND (end = '' OR substr(end, 1, 10) >= '{today}')
+        GROUP BY store_id, code, description;
+    DROP TABLE items; DROP TABLE promos;
+""")
+report["active_promo_rows"] = q("SELECT COUNT(*) FROM c_promos")[0][0]
+report["promo_clubs"] = q("SELECT club, COUNT(*) c FROM c_promos GROUP BY club ORDER BY c DESC LIMIT 8")
+db.commit()
 db.execute("VACUUM")
 db.close()
 report["sqlite_mb"] = round(os.path.getsize(db_path) / 1e6, 1)
