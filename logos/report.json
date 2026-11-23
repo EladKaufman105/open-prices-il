@@ -1,0 +1,139 @@
+{
+ "SHUFERSAL": {
+  "shufersal.co.il_google": "48x48"
+ },
+ "RAMI_LEVY": {
+  "rami-levy.co.il_html_err": "HTTP Error 403: Forbidden",
+  "rami-levy.co.il_google": "192x192",
+  "ramilevy.co.il_html_err": "<urlopen error [Errno -2] Name or service not known>",
+  "ramilevy.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "OSHER_AD": {
+  "osherad.co.il_site0_err": "'ascii' codec can't encode characters in position 33-36: ordinal not in range(12",
+  "osherad.co.il_site1_err": "'ascii' codec can't encode characters in position 33-36: ordinal not in range(12",
+  "osherad.co.il_site2_err": "'ascii' codec can't encode characters in position 33-36: ordinal not in range(12",
+  "osherad.co.il_google": "152x150"
+ },
+ "YOHANANOF": {
+  "yochananof.co.il_html_err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn",
+  "yochananof.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "TIV_TAAM": {
+  "tivtaam.co.il_site0": "32x32",
+  "tivtaam.co.il_site1": "32x32",
+  "tivtaam.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "STOP_MARKET": {
+  "stopmarket.co.il_site0": "32x32",
+  "stopmarket.co.il_site1": "192x192",
+  "stopmarket.co.il_site2": "180x180",
+  "stopmarket.co.il_google": "192x192"
+ },
+ "SUPER_YUDA": {
+  "superyuda.co.il_html_err": "HTTP Error 403: Forbidden",
+  "superyuda.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "KESHET": {
+  "keshet-teamim.co.il_html_err": "HTTP Error 403: Forbidden",
+  "keshet-teamim.co.il_google": "32x32"
+ },
+ "POLIZER": {
+  "polizer.co.il_html_err": "<urlopen error [Errno -2] Name or service not known>",
+  "polizer.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "CITY_MARKET_SHOPS": {
+  "citymarket-shops.co.il_site0": "32x16",
+  "citymarket-shops.co.il_google_err": "HTTP Error 404: Not Found",
+  "citymarket.co.il_html_err": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+  "citymarket.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "FRESH_MARKET_AND_SUPER_DOSH": {
+  "freshmarket.co.il_site0": "192x122",
+  "freshmarket.co.il_site1": "192x122",
+  "freshmarket.co.il_google": "192x192"
+ },
+ "YELLOW": {
+  "yellow.co.il_site0": "48x48",
+  "yellow.co.il_google": "48x48"
+ },
+ "DOR_ALON": {
+  "alonit.co.il_html_err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-",
+  "alonit.co.il_google_err": "HTTP Error 404: Not Found",
+  "ampm.co.il_site0": "32x15",
+  "ampm.co.il_site1": "32x32",
+  "ampm.co.il_site2": "192x192",
+  "ampm.co.il_site3": "180x180",
+  "ampm.co.il_google": "192x192",
+  "doralon.co.il_site0": "192x192",
+  "doralon.co.il_site1": "32x32",
+  "doralon.co.il_site2": "192x192",
+  "doralon.co.il_site3": "180x180",
+  "doralon.co.il_google": "192x192"
+ },
+ "SALACH_DABACH": {
+  "salachdabach.co.il_html_err": "<urlopen error [Errno -2] Name or service not known>",
+  "salachdabach.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "KING_STORE": {
+  "kingstore.co.il_html_err": "HTTP Error 522: <none>",
+  "kingstore.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "MAAYAN_2000": {
+  "maayan2000.co.il_html_err": "<urlopen error [Errno -2] Name or service not known>",
+  "maayan2000.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "SHEFA_BARCART_ASHEM": {
+  "shefabirkathashem.co.il_html_err": "<urlopen error [Errno -2] Name or service not known>",
+  "shefabirkathashem.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "SHUK_AHIR": {
+  "shukhayir.co.il_html_err": "<urlopen error [Errno -2] Name or service not known>",
+  "shukhayir.co.il_google_err": "HTTP Error 404: Not Found",
+  "shuk-hair.co.il_html_err": "<urlopen error [Errno -2] Name or service not known>",
+  "shuk-hair.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "SUPER_SAPIR": {
+  "supersapir.co.il_html_err": "HTTP Error 403: Forbidden",
+  "supersapir.co.il_google": "192x192"
+ },
+ "BAREKET": {
+  "superbareket.co.il_html_err": "<urlopen error [Errno -2] Name or service not known>",
+  "superbareket.co.il_google_err": "HTTP Error 404: Not Found",
+  "bareket.co.il_google_err": "HTTP Error 404: Not Found"
+ },
+ "GOOD_PHARM": {
+  "good-pharm.co.il_html_err": "<urlopen error [Errno -2] Name or service not known>",
+  "good-pharm.co.il_google_err": "HTTP Error 404: Not Found",
+  "goodpharm.co.il_site0": "64x64",
+  "goodpharm.co.il_site1": "192x192",
+  "goodpharm.co.il_site2": "192x192",
+  "goodpharm.co.il_google": "192x192"
+ },
+ "WOLT": {
+  "wolt.com_html_err": "HTTP Error 404: Not Found",
+  "wolt.com_google": "152x152"
+ },
+ "ZOL_VEBEGADOL": {
+  "zolvebegadol.co.il_site0": "192x192",
+  "zolvebegadol.co.il_google": "192x192"
+ },
+ "MESHMAT_YOSEF": {
+  "mishnatyosef.org_google": "83x83"
+ },
+ "VICTORY": {
+  "victory.co.il_site0": "32x32",
+  "victory.co.il_site1": "192x192",
+  "victory.co.il_site2": "180x180",
+  "victory.co.il_google": "192x192"
+ },
+ "CARREFOUR": {
+  "carrefour.co.il_html_err": "HTTP Error 403: Forbidden",
+  "carrefour.co.il_google": "143x119"
+ },
+ "HAZI_HINAM": {
+  "hazi-hinam.co.il_html_err": "HTTP Error 403: Forbidden"
+ },
+ "SUPER_PHARM": {
+  "super-pharm.co.il_google": "192x192"
+ }
+}
