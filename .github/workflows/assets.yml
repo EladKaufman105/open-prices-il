@@ -1,0 +1,64 @@
+name: Fetch logos and product images
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 2 * * 0"   # weekly refresh of product photos
+  push:
+    paths:
+      - "pipeline/fetch_logos_more.py"
+      - "pipeline/off_images.py"
+      - ".github/workflows/assets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  logos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow cairosvg
+      - run: python pipeline/fetch_logos_more.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: logos
+          path: logos/
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python pipeline/off_images.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: images
+          path: pipeline/off_images.json
+  commit:
+    needs: [logos, images]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: logos
+          path: logos
+        continue-on-error: true
+      - uses: actions/download-artifact@v4
+        with:
+          name: images
+          path: pipeline
+        continue-on-error: true
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add logos/ pipeline/off_images.json 2>/dev/null || true
+          git commit -m "Update logos and product images" || exit 0
+          git pull --rebase -q && git push
