@@ -84,7 +84,7 @@ jobs:
           rm -rf chains work dist
           python - <<'EOF'
           import glob, json, os
-          rows = [json.load(open(p, encoding="utf-8")) for p in sorted(glob.glob("reports/*.json")) if "chain" in open(p, encoding="utf-8").read(200)]
+          rows = [r for r in (json.load(open(p, encoding="utf-8")) for p in sorted(glob.glob("reports/*.json"))) if "chain" in r]
           lines = ["| Chain | Stores | w/ prices | Items | Codes | Promos | SQLite MB | Download s | Errors |", "|---|---|---|---|---|---|---|---|---|"]
           for r in rows:
               lines.append(f"| {r['chain']} | {r.get('stores')} | {r.get('stores_with_prices')} | {r.get('items')} | {r.get('distinct_codes')} | {r.get('promos')} | {r.get('sqlite_mb')} | {r.get('download_seconds')} | {len(r.get('errors', []))} |")

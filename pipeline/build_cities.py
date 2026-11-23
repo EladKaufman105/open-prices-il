@@ -143,7 +143,9 @@ m.executescript("""
 unresolved = Counter()
 chain_stats = {}
 name_votes: dict[str, Counter] = defaultdict(Counter)
-meta: dict[str, tuple] = {}
+manu_votes: dict[str, Counter] = defaultdict(Counter)
+sizes: dict[str, str] = {}
+UNKNOWN = {"לא ידוע", "unknown", "כללי", "0", "-", "לא מוגדר", "none"}
 
 for path in sorted(glob.glob("chains/out/*.sqlite")):
     chain = os.path.basename(path)[:-7]
@@ -161,10 +163,10 @@ for path in sorted(glob.glob("chains/out/*.sqlite")):
             unresolved[chain] += 1
             continue
         label = (name or "").strip()
-        sub = (subchain_name or "").strip()
-        if sub and not sub.isdigit() and sub not in label and sub != cname and len(sub) > 2:
-            label = f"{sub} {label}".strip()
         addr = "" if (address or "").strip().lower() in ("unknown", "0", "none") else (address or "").strip()
+        if not addr and "," in label:
+            label, addr = (x.strip() for x in label.split(",", 1))
+        label = re.sub(r'\s*בע"?מ\s*', " ", label).strip(" -,")
         cur = m.execute("INSERT INTO stores(chain, store_key, name, address, city) VALUES (?,?,?,?,?)",
                         (cname, f"{chain}:{sk}", label, addr, code))
         store_sid[sk] = cur.lastrowid
@@ -186,8 +188,12 @@ for path in sorted(glob.glob("chains/out/*.sqlite")):
             "SELECT code, name, manufacturer, quantity, unit, unit_qty FROM c_products"):
         k = product_key(chain, code)
         name_votes[k][(name or "").strip()] += 1
-        if k not in meta or (not meta[k][0] and manu):
-            meta[k] = ((manu or "").strip(), fmt_size(qty, unit_qty if unit_qty and not unit_qty[0].isdigit() else unit))
+        manu = (manu or "").strip()
+        if manu and manu.lower() not in UNKNOWN:
+            manu_votes[k][manu] += 1
+        size = fmt_size(qty, unit_qty if unit_qty and not unit_qty[0].isdigit() else unit)
+        if size and k not in sizes:
+            sizes[k] = size
 
     batch = []
     n_prices = 0
@@ -224,8 +230,9 @@ for path in sorted(glob.glob("chains/out/*.sqlite")):
 upd = []
 for k, votes in name_votes.items():
     name = max(votes.items(), key=lambda kv: (kv[1], len(kv[0])))[0]
-    manu, size = meta.get(k, ("", ""))
-    upd.append((name, manu, size, k))
+    mv = manu_votes.get(k)
+    manu = max(mv.items(), key=lambda kv: kv[1])[0] if mv else ""
+    upd.append((name, manu, sizes.get(k, ""), k))
 m.executemany("UPDATE prod SET name=?, manufacturer=?, size=? WHERE pkey=?", upd)
 m.executescript("""
     CREATE INDEX prices_sid ON prices(sid);
@@ -260,7 +267,7 @@ for (city_code,) in m.execute("SELECT DISTINCT city FROM stores ORDER BY city").
     promos = {}
     for sid, pid, text, end, mq, dprice, general in m.execute(
             f"SELECT sid, pid, text, end, min_qty, price, general FROM promos WHERE sid IN ({qmarks})", sids):
-        if end and end < today:
+        if (end and end < today) or "קופון" in (text or ""):
             continue
         score = (-general, 0 if (dprice and mq <= 1) else 1, dprice or 1e9)
         cur = promos.get((sid, pid))
@@ -281,10 +288,9 @@ for (city_code,) in m.execute("SELECT DISTINCT city FROM stores ORDER BY city").
     for sid, pid, price in rows:
         pr = promos.get((sid, pid))
         eff = price
-        if pr and pr[1] and pr[3] <= 1 and pr[1] < price:
+        if pr and pr[1] and pr[3] <= 1 and 0.3 * price <= pr[1] < price:
             eff = pr[1]
-        a = agg.setdefault(pid, [1e9, 0, set()])
-        a[0] = min(a[0], eff); a[1] = max(a[1], eff); a[2].add(sid)
+        agg.setdefault(pid, []).append((eff, sid))
         price_rows.append((pid, sid, price, pr[1] if pr else None, pr[2] if pr else None, pr[3] if pr else None,
                            pr[4] if pr else None))
     c.executemany("INSERT OR IGNORE INTO prices VALUES (?,?,?,?,?,?,?)", price_rows)
@@ -294,10 +300,12 @@ for (city_code,) in m.execute("SELECT DISTINCT city FROM stores ORDER BY city").
         part = pids[i:i + 900]
         for pid, pkey, name, manu, size in m.execute(
                 f"SELECT pid, pkey, name, manufacturer, size FROM prod WHERE pid IN ({','.join('?' * len(part))})", part):
-            a = agg[pid]
+            effs = sorted(e for e, _ in agg[pid])
+            med = effs[len(effs) // 2]
+            sane = [e for e in effs if 0.25 * med <= e <= 4 * med] or effs   # ignore ₪1-style data errors
             barcode = pkey if ":" not in pkey else ""
-            prod_rows.append((pid, barcode, name, manu, size, round(a[0], 2), round(a[1], 2), len(a[2]),
-                              search_norm(f"{name} {manu}")))
+            prod_rows.append((pid, barcode, name, manu, size, round(sane[0], 2), round(sane[-1], 2),
+                              len({sid for _, sid in agg[pid]}), search_norm(f"{name} {manu}")))
     c.executemany("INSERT INTO products VALUES (?,?,?,?,?,?,?,?,?)", prod_rows)
     c.executescript("CREATE INDEX products_barcode ON products(barcode); CREATE INDEX prices_store ON prices(store_id);")
     name = cbs.get(city_code, str(city_code))

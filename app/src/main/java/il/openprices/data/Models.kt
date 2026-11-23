@@ -35,7 +35,7 @@ data class StorePrice(
 ) {
     /** Price per unit after a promotion that needs no minimum quantity. */
     val effective: Double
-        get() = if (promoPrice != null && promoPrice > 0 && promoPrice < price && (promoMinQty ?: 1.0) <= 1.0) promoPrice else price
+        get() = if (promoPrice != null && promoPrice >= price * 0.3 && promoPrice < price && (promoMinQty ?: 1.0) <= 1.0) promoPrice else price
 }
 
 data class ListItem(val productId: Long, val name: String, val qty: Int)
