@@ -15,7 +15,7 @@
  "STOP_MARKET": "no image",
  "SUPER_YUDA": "%D7%A1%D7%95%D7%A4%D7%A8_%D7%99%D7%95%D7%93%D7%94.jpg?utm_source=he.wikipedia.org&utm_campaign=api&utm_content=original 384x227",
  "CITY_MARKET": "no image",
- "DOR_ALON": "error: cannot identify image file <_io.BytesIO object at 0x76969e458c70>",
+ "DOR_ALON": "error: cannot identify image file <_io.BytesIO object at 0x709e835d4ae0>",
  "AMPM": "error: 'pages'",
  "GOOD_PHARM": "Good_pharmLogo.png?utm_source=he.wikipedia.org&utm_campaign=api&utm_content=original 225x225",
  "POLIZER": "Gen_pulitzer.jpg?utm_source=he.wikipedia.org&utm_campaign=api&utm_content=original 241x134",
