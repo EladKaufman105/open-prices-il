@@ -93,7 +93,7 @@ private fun ProductHeader(vm: AppViewModel) {
             .padding(16.dp)
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            ProductImage(p.image, 88)
+            ProductImage(p.photo, 88)
             Spacer(Modifier.width(14.dp))
             Column(Modifier.weight(1f)) {
                 Text(p.name, style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.SemiBold), maxLines = 3,

@@ -23,7 +23,11 @@ data class Product(
     val cheapestChain: String = "",
     val chainCount: Int = 0,
     val image: String = "",
-)
+) {
+    /** Product photo: Open Food Facts when the data has one, otherwise the retail catalogue image by barcode. */
+    val photo: String
+        get() = image.ifBlank { if (barcode.length >= 8) "https://img.rami-levy.co.il/product/$barcode/small.jpg" else "" }
+}
 
 /** All branches of one chain that sell a product. */
 data class ChainGroup(val chain: String, val stores: List<StorePrice>) {

@@ -35,8 +35,10 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import il.openprices.ui.theme.LocalExtra
 import java.util.Locale
 
@@ -90,10 +92,17 @@ fun ChainLogo(chain: String, size: Int = 40) {
             Image(painterResource(res), chain, Modifier.size((size * 0.78f).dp), contentScale = ContentScale.Fit)
         }
     } else {
+        // no logo file: the chain's name as a small wordmark on its brand colour
         val c = chainColor(chain)
-        Box(Modifier.size(size.dp).clip(shape).background(c), contentAlignment = Alignment.Center) {
-            Text(
-                chain.trim().take(1), color = Color.White,
+        val name = chain.substringBefore(" /").trim()
+        Box(Modifier.size(size.dp).clip(shape).background(c).padding(2.dp), contentAlignment = Alignment.Center) {
+            if (size >= 36 && name.length <= 12) Text(
+                name, color = Color.White, textAlign = TextAlign.Center, maxLines = 2,
+                style = MaterialTheme.typography.labelSmall.copy(
+                    fontWeight = FontWeight.Bold, fontSize = (size * 0.24f).sp, lineHeight = (size * 0.27f).sp,
+                ),
+            ) else Text(
+                name.take(1), color = Color.White,
                 style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
             )
         }
