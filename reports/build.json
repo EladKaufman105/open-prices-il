@@ -1,0 +1,260 @@
+{
+ "built_at": "23/11/2026 11:09",
+ "cbs_source": "data.gov.il",
+ "cbs_count": 1316,
+ "chains": {
+  "BAREKET": {
+   "stores_located": 14,
+   "stores_unresolved": 1,
+   "prices": 72746
+  },
+  "CITY_MARKET_SHOPS": {
+   "stores_located": 67,
+   "stores_unresolved": 5,
+   "prices": 532619
+  },
+  "DOR_ALON": {
+   "stores_located": 155,
+   "stores_unresolved": 2,
+   "prices": 524641
+  },
+  "FRESH_MARKET_AND_SUPER_DOSH": {
+   "stores_located": 73,
+   "stores_unresolved": 0,
+   "prices": 411443
+  },
+  "GOOD_PHARM": {
+   "stores_located": 82,
+   "stores_unresolved": 2,
+   "prices": 293668
+  },
+  "KESHET": {
+   "stores_located": 20,
+   "stores_unresolved": 8,
+   "prices": 226888
+  },
+  "KING_STORE": {
+   "stores_located": 39,
+   "stores_unresolved": 9,
+   "prices": 173471
+  },
+  "MAAYAN_2000": {
+   "stores_located": 35,
+   "stores_unresolved": 3,
+   "prices": 97592
+  },
+  "MESHMAT_YOSEF_1": {
+   "stores_located": 0,
+   "stores_unresolved": 1,
+   "prices": 0
+  },
+  "MESHMAT_YOSEF_2": {
+   "stores_located": 4,
+   "stores_unresolved": 0,
+   "prices": 17611
+  },
+  "OSHER_AD": {
+   "stores_located": 24,
+   "stores_unresolved": 0,
+   "prices": 148586
+  },
+  "POLIZER": {
+   "stores_located": 3,
+   "stores_unresolved": 5,
+   "prices": 42754
+  },
+  "RAMI_LEVY": {
+   "stores_located": 97,
+   "stores_unresolved": 2,
+   "prices": 991880
+  },
+  "SALACH_DABACH": {
+   "stores_located": 10,
+   "stores_unresolved": 2,
+   "prices": 62119
+  },
+  "SHEFA_BARCART_ASHEM": {
+   "stores_located": 22,
+   "stores_unresolved": 0,
+   "prices": 61696
+  },
+  "SHUFERSAL": {
+   "stores_located": 416,
+   "stores_unresolved": 2,
+   "prices": 2314091
+  },
+  "SHUK_AHIR": {
+   "stores_located": 24,
+   "stores_unresolved": 2,
+   "prices": 90841
+  },
+  "STOP_MARKET": {
+   "stores_located": 11,
+   "stores_unresolved": 0,
+   "prices": 169661
+  },
+  "SUPER_SAPIR": {
+   "stores_located": 109,
+   "stores_unresolved": 20,
+   "prices": 299871
+  },
+  "SUPER_YUDA": {
+   "stores_located": 26,
+   "stores_unresolved": 0,
+   "prices": 150463
+  },
+  "TIV_TAAM": {
+   "stores_located": 54,
+   "stores_unresolved": 0,
+   "prices": 576801
+  },
+  "WOLT": {
+   "stores_located": 37,
+   "stores_unresolved": 0,
+   "prices": 172569
+  },
+  "YELLOW": {
+   "stores_located": 242,
+   "stores_unresolved": 0,
+   "prices": 392421
+  },
+  "YOHANANOF": {
+   "stores_located": 40,
+   "stores_unresolved": 11,
+   "prices": 392048
+  },
+  "ZOL_VEBEGADOL": {
+   "stores_located": 35,
+   "stores_unresolved": 0,
+   "prices": 147570
+  }
+ },
+ "products": 213458,
+ "prices": 8364050,
+ "cities": 253,
+ "unresolved_stores": {
+  "BAREKET": 1,
+  "CITY_MARKET_SHOPS": 5,
+  "DOR_ALON": 2,
+  "GOOD_PHARM": 2,
+  "KESHET": 8,
+  "KING_STORE": 9,
+  "MAAYAN_2000": 3,
+  "MESHMAT_YOSEF_1": 1,
+  "POLIZER": 5,
+  "RAMI_LEVY": 2,
+  "SALACH_DABACH": 2,
+  "SHUFERSAL": 2,
+  "SHUK_AHIR": 2,
+  "SUPER_SAPIR": 20,
+  "YOHANANOF": 11
+ },
+ "biggest_cities": [
+  {
+   "name": "תל אביב - יפו",
+   "stores": 193,
+   "products": 98286,
+   "size": 13325535,
+   "db_size": 66617344
+  },
+  {
+   "name": "ירושלים",
+   "stores": 123,
+   "products": 54046,
+   "size": 8416808,
+   "db_size": 41947136
+  },
+  {
+   "name": "חיפה",
+   "stores": 71,
+   "products": 63045,
+   "size": 7739056,
+   "db_size": 38006784
+  },
+  {
+   "name": "חולון",
+   "stores": 46,
+   "products": 93988,
+   "size": 9025599,
+   "db_size": 37793792
+  },
+  {
+   "name": "אשדוד",
+   "stores": 35,
+   "products": 89415,
+   "size": 7484635,
+   "db_size": 31662080
+  },
+  {
+   "name": "באר שבע",
+   "stores": 50,
+   "products": 67951,
+   "size": 6883703,
+   "db_size": 31248384
+  },
+  {
+   "name": "נתניה",
+   "stores": 40,
+   "products": 64976,
+   "size": 6856724,
+   "db_size": 31113216
+  },
+  {
+   "name": "פתח תקווה",
+   "stores": 50,
+   "products": 58806,
+   "size": 6177421,
+   "db_size": 28344320
+  },
+  {
+   "name": "ראשון לציון",
+   "stores": 44,
+   "products": 64217,
+   "size": 6463915,
+   "db_size": 28336128
+  },
+  {
+   "name": "אשקלון",
+   "stores": 28,
+   "products": 44299,
+   "size": 4175896,
+   "db_size": 18542592
+  },
+  {
+   "name": "חדרה",
+   "stores": 27,
+   "products": 48927,
+   "size": 4439039,
+   "db_size": 18518016
+  },
+  {
+   "name": "כפר סבא",
+   "stores": 32,
+   "products": 42595,
+   "size": 4111118,
+   "db_size": 18112512
+  },
+  {
+   "name": "בת ים",
+   "stores": 24,
+   "products": 47920,
+   "size": 4298963,
+   "db_size": 18079744
+  },
+  {
+   "name": "רחובות",
+   "stores": 21,
+   "products": 45373,
+   "size": 3769579,
+   "db_size": 15925248
+  },
+  {
+   "name": "הרצליה",
+   "stores": 24,
+   "products": 39811,
+   "size": 3630982,
+   "db_size": 15204352
+  }
+ ],
+ "total_gz_mb": 269.2
+}
