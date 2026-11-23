@@ -2,181 +2,106 @@
  "SHUFERSAL": {
   "wikidata": "Q4523181 לוגו שופרסל.svg 384x103",
   "play_ids": [
-   "com.Shufersal",
-   "com.shufersal.cashandcarry",
-   "com.Shufersal.Employees",
-   "com.shufersal.amiga"
+   "com.Shufersal"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "TIV_TAAM": {
   "play_ids": [
-   "com.selfpoint.TivTaam",
-   "com.selfpoint.keshetteamim",
-   "app.tabit.il_prd",
-   "com.tenbis.tbapp"
+   "com.selfpoint.TivTaam"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "YOHANANOF": {
   "play_ids": [
-   "il.co.yochananof.mobile.twa",
-   "ua.silpo.android",
-   "com.bnhp.payments.paymentsapp",
-   "co.hopon.client"
+   "il.co.yochananof.mobile.twa"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "CITY_MARKET": {
-  "play_ids": [
-   "com.playinfinity.game.mysupermarket",
-   "com.playspare.supermarket.store.simulator",
-   "com.nokope.supermarket.simulator",
-   "com.tamamg.supermarket_list"
-  ],
-  "play_err": "HTTP Error 400: Bad Request"
+  "play_ids": []
  },
  "SUPER_YUDA": {
   "play_ids": [
-   "com.selfpoint.supermerkado",
-   "il.co.yellow.app",
-   "com.selfpoint.TwinsMarket",
-   "co.rashamnu.shared.lists"
+   "com.selfpoint.supermerkado"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "POLIZER": {
   "play_ids": [
-   "com.selfpoint.politzer",
-   "com.king.candycrushsodasaga",
-   "com.king.candycrushsaga",
-   "com.miniclip.eightballpool"
+   "com.selfpoint.politzer"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "KING_STORE": {
-  "play_ids": [
-   "tr.com.instreet",
-   "com.application.zomato",
-   "club.sorted.cook",
-   "com.supercell.clashroyale"
-  ],
-  "play_err": "HTTP Error 400: Bad Request"
+  "play_ids": []
  },
  "MAAYAN_2000": {
-  "play_ids": [
-   "simplyclub.co.il.idan2000",
-   "com.xapps.dream2000",
-   "com.dic.mikmak2",
-   "cz.vancisin.ordmob.android"
-  ],
-  "play_err": "HTTP Error 400: Bad Request"
+  "play_ids": []
  },
  "SHEFA_BARCART_ASHEM": {
-  "play_ids": [
-   "com.shaigerbi.mazonsfard",
-   "com.kodem.kodem_brachot",
-   "il.co.myshop.fleshbless",
-   "com.jewishoffice.tashma"
-  ],
-  "play_err": "HTTP Error 400: Bad Request"
+  "play_ids": []
  },
  "SHUK_AHIR": {
   "play_ids": [
-   "com.selfpoint.shukhayir",
-   "com.selfpoint.MahsaneiShuk",
-   "com.ideomobile.hmarket",
-   "com.selfpoint.dalalMarket"
+   "com.selfpoint.shukhayir"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "BAREKET": {
-  "play_ids": [
-   "com.tamamg.supermarket_list",
-   "com.selfpoint.supermerkado",
-   "com.selfpoint.TwinsMarket",
-   "com.yclients.mobile.g540"
-  ],
-  "play_err": "HTTP Error 400: Bad Request"
+  "play_ids": []
  },
  "SALACH_DABACH": {
   "play_ids": [
-   "com.selfpoint.bigdabach",
-   "com.selfpoint.makorhabasarglatt",
-   "com.meyvelikahve.charades",
-   "il.co.offline.hadorabaa"
+   "com.selfpoint.bigdabach"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "MESHMAT_YOSEF": {
-  "play_ids": [
-   "com.EJ.ROvadiahYosefCalendar",
-   "il.yahadut.yalkutyosef",
-   "com.eran.odlv",
-   "il.co.ambulance.yossiambulance"
-  ],
-  "play_err": "HTTP Error 400: Bad Request"
+  "play_ids": []
  },
  "OSHER_AD": {
   "play_ids": [
-   "com.supersmart.android",
-   "com.wolt.android",
-   "com.twitter.android",
-   "net.one97.paytm"
+   "com.supersmart.android"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "RAMI_LEVY": {
   "play_ids": [
-   "com.superup.ramilevy",
-   "com.swiich.rlw",
-   "com.eep.ramilevy",
-   "com.kinkajoo.rummikubwalla"
+   "com.superup.ramilevy"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "VICTORY": {
-  "play_ids": [
-   "com.vwallet",
-   "com.logivote",
-   "com.victory.educationPlatform",
-   "com.skillzrun.victory"
-  ],
-  "play_err": "HTTP Error 400: Bad Request"
+  "play_ids": []
  },
  "CARREFOUR": {
   "play_ids": [
-   "il.co.inmanage.carrefour_android",
-   "com.carrefour.bank",
-   "ar.com.carrefourargentina.app",
-   "com.cfao.carrefour.civ.app"
+   "il.co.inmanage.carrefour_android"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "YELLOW": {
   "play_ids": [
-   "il.co.yellow.app",
-   "gr.winbank.yellow",
-   "africa.yellow.pay",
-   "com.snapchat.android"
+   "il.co.yellow.app"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "KESHET": {
   "play_ids": [
-   "com.selfpoint.keshetteamim",
-   "com.selfpoint.ElimelechEilat",
-   "com.mycompany.motek",
-   "com.selfpoint.TivTaam"
+   "com.selfpoint.keshetteamim"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  },
  "DOR_ALON": {
   "play_ids": [
-   "com.doralonapp",
-   "com.selfpoint.superalonit",
-   "org.mikraot.top",
-   "com.shwartz.alefbeit"
+   "com.doralonapp"
+  ],
+  "play_err": "HTTP Error 400: Bad Request"
+ },
+ "MAHSANI_ASHUK": {
+  "play_ids": [
+   "com.selfpoint.MahsaneiShuk"
   ],
   "play_err": "HTTP Error 400: Bad Request"
  }
