@@ -1,0 +1,8 @@
+app/release.jks
+*.jks
+.gradle/
+build/
+/out/
+/dumps/
+/reports/*.sqlite
+local.properties
