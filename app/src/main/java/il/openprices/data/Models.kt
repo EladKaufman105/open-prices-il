@@ -22,6 +22,7 @@ data class Product(
     val storeCount: Int,
     val cheapestChain: String = "",
     val chainCount: Int = 0,
+    val image: String = "",
 )
 
 /** All branches of one chain that sell a product. */

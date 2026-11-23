@@ -251,10 +251,14 @@ CITY_SCHEMA = """
     CREATE TABLE chains(id INTEGER PRIMARY KEY, name TEXT);
     CREATE TABLE stores(id INTEGER PRIMARY KEY, chain_id INTEGER, name TEXT, address TEXT);
     CREATE TABLE products(id INTEGER PRIMARY KEY, barcode TEXT, name TEXT, manufacturer TEXT, size TEXT,
-                          min_price REAL, max_price REAL, store_count INTEGER, search TEXT);
+                          min_price REAL, max_price REAL, store_count INTEGER, search TEXT, image TEXT);
     CREATE TABLE prices(product_id INTEGER, store_id INTEGER, price REAL, promo_price REAL, promo_text TEXT,
                         promo_min_qty REAL, promo_end TEXT, PRIMARY KEY(product_id, store_id)) WITHOUT ROWID;
 """
+IMAGES_PATH = os.path.join(os.path.dirname(__file__), "off_images.json")
+images = json.load(open(IMAGES_PATH)) if os.path.exists(IMAGES_PATH) else {}
+report["images_available"] = len(images)
+with_image = 0
 index = []
 for (city_code,) in m.execute("SELECT DISTINCT city FROM stores ORDER BY city").fetchall():
     stores = m.execute("SELECT sid, chain, name, address FROM stores WHERE city=?", (city_code,)).fetchall()
@@ -304,9 +308,13 @@ for (city_code,) in m.execute("SELECT DISTINCT city FROM stores ORDER BY city").
             med = effs[len(effs) // 2]
             sane = [e for e in effs if 0.25 * med <= e <= 4 * med] or effs   # ignore ₪1-style data errors
             barcode = pkey if ":" not in pkey else ""
+            img = images.get(barcode, "") if barcode else ""
             prod_rows.append((pid, barcode, name, manu, size, round(sane[0], 2), round(sane[-1], 2),
-                              len({sid for _, sid in agg[pid]}), search_norm(f"{name} {manu}")))
-    c.executemany("INSERT INTO products VALUES (?,?,?,?,?,?,?,?,?)", prod_rows)
+                              len({sid for _, sid in agg[pid]}), search_norm(f"{name} {manu}"), img))
+    c.executemany("INSERT INTO products VALUES (?,?,?,?,?,?,?,?,?,?)", prod_rows)
+    if city_code == 5000:
+        report["tel_aviv_products_with_image"] = sum(1 for r in prod_rows if r[-1])
+        report["tel_aviv_top500_with_image"] = sum(1 for r in sorted(prod_rows, key=lambda r: -r[7])[:500] if r[-1])
     c.executescript("CREATE INDEX products_barcode ON products(barcode); CREATE INDEX prices_store ON prices(store_id);")
     name = cbs.get(city_code, str(city_code))
     c.executemany("INSERT INTO meta VALUES (?,?)", [("city", name), ("built_at", built_at), ("city_code", str(city_code))])

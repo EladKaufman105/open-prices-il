@@ -22,7 +22,6 @@ import kotlinx.coroutines.launch
 
 sealed interface Screen {
     data object Home : Screen
-    data class ProductDetails(val id: Long) : Screen
     data object Basket : Screen
     data object Settings : Screen
     data object CityPicker : Screen
@@ -98,6 +97,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
 
     fun onQuery(q: String) {
         query = q
+        if (product != null) clearProduct()
         searchJob?.cancel()
         searchJob = viewModelScope.launch {
             delay(180)
@@ -132,10 +132,13 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     var groups by mutableStateOf<List<ChainGroup>>(emptyList()); private set
     var loadingPrices by mutableStateOf(false); private set
 
+    /** Shows the price comparison for [p] right on the search screen. */
     fun open(p: Product) {
         commitSearch(query)
+        searchJob?.cancel()
         product = p; prices = emptyList(); groups = emptyList(); loadingPrices = true
-        go(Screen.ProductDetails(p.id))
+        query = p.name
+        if (current != Screen.Home) reset(Screen.Home)
         viewModelScope.launch {
             prices = repo.prices(p.id)
             groups = prices.groupBy { it.chain }.map { (c, s) -> ChainGroup(c, s.sortedBy { it.effective }) }
@@ -145,6 +148,8 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     }
 
     fun openById(id: Long) = viewModelScope.launch { repo.product(id)?.let { open(it) } }
+
+    fun clearProduct() { product = null; prices = emptyList(); groups = emptyList() }
 
     // ---------- shopping list ----------
     val list = mutableStateListOf<ListItem>().apply { addAll(repo.loadList()) }

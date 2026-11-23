@@ -124,14 +124,25 @@ class Repository(private val context: Context) {
 
     @Synchronized
     private fun db(): SQLiteDatabase =
-        db ?: SQLiteDatabase.openDatabase(dbFile.path, null, SQLiteDatabase.OPEN_READONLY).also { db = it }
+        db ?: SQLiteDatabase.openDatabase(dbFile.path, null, SQLiteDatabase.OPEN_READONLY).also {
+            db = it
+            hasImage = it.rawQuery("PRAGMA table_info(products)", null).use { c ->
+                var found = false
+                while (c.moveToNext()) if (c.getString(1) == "image") found = true
+                found
+            }
+        }
+
+    private var hasImage = false
+    private val imageCol get() = if (hasImage) "image" else "''"
 
     // ---------- queries ----------
     suspend fun search(query: String): List<Product> = withContext(Dispatchers.IO) {
         val q = normalize(query)
         if (q.isEmpty()) return@withContext emptyList()
+        val database = db()
         val sql = StringBuilder(
-            """SELECT id, barcode, name, manufacturer, size, min_price, max_price, store_count,
+            """SELECT id, barcode, name, manufacturer, size, min_price, max_price, store_count, $imageCol,
                  (SELECT c.name FROM prices p JOIN stores s ON s.id = p.store_id JOIN chains c ON c.id = s.chain_id
                    WHERE p.product_id = products.id ORDER BY COALESCE(p.promo_price, p.price) LIMIT 1),
                  (SELECT COUNT(DISTINCT s.chain_id) FROM prices p JOIN stores s ON s.id = p.store_id
@@ -160,13 +171,13 @@ class Repository(private val context: Context) {
             sql.append(") DESC, store_count DESC, length(name)")
         }
         sql.append(" LIMIT 80")
-        db().rawQuery(sql.toString(), args.toTypedArray()).use { c ->
+        database.rawQuery(sql.toString(), args.toTypedArray()).use { c ->
             buildList {
                 while (c.moveToNext()) add(
                     Product(
                         c.getLong(0), c.getString(1) ?: "", c.getString(2) ?: "", c.getString(3) ?: "",
                         c.getString(4) ?: "", c.getDouble(5), c.getDouble(6), c.getInt(7),
-                        c.getString(8) ?: "", c.getInt(9),
+                        c.getString(9) ?: "", c.getInt(10), c.getString(8) ?: "",
                     )
                 )
             }
@@ -174,13 +185,14 @@ class Repository(private val context: Context) {
     }
 
     suspend fun product(id: Long): Product? = withContext(Dispatchers.IO) {
-        db().rawQuery(
-            "SELECT id, barcode, name, manufacturer, size, min_price, max_price, store_count FROM products WHERE id = ?",
+        val database = db()
+        database.rawQuery(
+            "SELECT id, barcode, name, manufacturer, size, min_price, max_price, store_count, $imageCol FROM products WHERE id = ?",
             arrayOf(id.toString())
         ).use { c ->
             if (c.moveToFirst()) Product(
                 c.getLong(0), c.getString(1) ?: "", c.getString(2) ?: "", c.getString(3) ?: "",
-                c.getString(4) ?: "", c.getDouble(5), c.getDouble(6), c.getInt(7)
+                c.getString(4) ?: "", c.getDouble(5), c.getDouble(6), c.getInt(7), image = c.getString(8) ?: "",
             ) else null
         }
     }

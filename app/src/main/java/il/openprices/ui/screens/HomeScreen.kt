@@ -94,7 +94,7 @@ fun HomeScreen(vm: AppViewModel) {
         TextField(
             value = vm.query,
             onValueChange = vm::onQuery,
-            placeholder = { Text("חפשו מוצר, מותג או ברקוד") },
+            placeholder = { Text("מה מחפשים?") },
             leadingIcon = { Icon(Icons.Rounded.Search, null) },
             trailingIcon = {
                 Row(verticalAlignment = Alignment.CenterVertically) {
@@ -121,38 +121,28 @@ fun HomeScreen(vm: AppViewModel) {
             modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 14.dp).height(60.dp),
         )
 
-        if (vm.query.isBlank()) {
-            EmptyState(vm)
-        } else if (!vm.searching && vm.results.isEmpty()) {
-            Column(Modifier.fillMaxWidth().padding(40.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+        when {
+            vm.product != null -> LazyColumn(contentPadding = PaddingValues(start = 16.dp, end = 16.dp, bottom = 24.dp)) {
+                productComparison(vm)
+            }
+            vm.query.isBlank() -> EmptyState(vm)
+            !vm.searching && vm.results.isEmpty() -> Column(
+                Modifier.fillMaxWidth().padding(40.dp), horizontalAlignment = Alignment.CenterHorizontally,
+            ) {
                 Icon(Icons.Rounded.SearchOff, null, Modifier.size(40.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
                 Spacer(Modifier.height(8.dp))
                 Text("לא מצאנו את \"${vm.query}\" ב${vm.cityName ?: "עיר"}", style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
-        } else {
-            LazyColumn(contentPadding = PaddingValues(start = 16.dp, end = 16.dp, bottom = 16.dp)) {
-                item {
-                    Text("${vm.results.size}${if (vm.results.size >= 80) "+" else ""} תוצאות",
-                        style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        modifier = Modifier.padding(start = 4.dp, bottom = 8.dp))
-                }
+            // suggestions dropdown
+            else -> LazyColumn(
+                contentPadding = PaddingValues(bottom = 16.dp),
+                modifier = Modifier.padding(horizontal = 16.dp).clip(RoundedCornerShape(20.dp))
+                    .background(MaterialTheme.colorScheme.surfaceContainerLowest),
+            ) {
                 itemsIndexed(vm.results, key = { _, p -> p.id }) { i, p ->
-                    val first = i == 0
-                    val last = i == vm.results.lastIndex
-                    Box(
-                        Modifier.fillMaxWidth()
-                            .clip(RoundedCornerShape(
-                                topStart = if (first) 20.dp else 0.dp, topEnd = if (first) 20.dp else 0.dp,
-                                bottomStart = if (last) 20.dp else 0.dp, bottomEnd = if (last) 20.dp else 0.dp,
-                            ))
-                            .background(MaterialTheme.colorScheme.surfaceContainerLowest)
-                    ) {
-                        Column {
-                            ProductRow(p, inBasket = vm.inList(p.id)) { focus.clearFocus(); vm.open(p) }
-                            if (!last) HorizontalDivider(Modifier.padding(start = 72.dp, end = 16.dp), color = MaterialTheme.colorScheme.outlineVariant)
-                        }
-                    }
+                    if (i > 0) HorizontalDivider(Modifier.padding(start = 72.dp, end = 16.dp), color = MaterialTheme.colorScheme.outlineVariant)
+                    ProductRow(p, inBasket = vm.inList(p.id)) { focus.clearFocus(); vm.open(p) }
                 }
             }
         }
@@ -216,26 +206,23 @@ private fun EmptyState(vm: AppViewModel) {
 fun ProductRow(p: Product, inBasket: Boolean = false, onClick: () -> Unit) {
     val extra = LocalExtra.current
     Row(
-        Modifier.fillMaxWidth().clickable(onClick = onClick).padding(horizontal = 16.dp, vertical = 14.dp),
+        Modifier.fillMaxWidth().clickable(onClick = onClick).padding(horizontal = 14.dp, vertical = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        if (p.cheapestChain.isNotBlank()) ChainLogo(p.cheapestChain, 40) else Spacer(Modifier.width(40.dp))
-        Spacer(Modifier.width(16.dp))
-        Column(Modifier.weight(1f)) {
-            Text(p.name, style = MaterialTheme.typography.titleMedium, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            val sub = listOf(p.size, p.manufacturer).filter { it.isNotBlank() }.joinToString(" · ")
-            if (sub.isNotEmpty()) Text(sub, style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            if (inBasket) Text("בסל", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary)
-        }
+        ProductImage(p.image, 46)
         Spacer(Modifier.width(12.dp))
-        Column(horizontalAlignment = Alignment.End) {
-            Text(money(p.minPrice), style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                color = extra.best)
-            Text(
-                if (p.chainCount > 1) "${p.chainCount} רשתות" else p.cheapestChain,
-                style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1,
+        Column(Modifier.weight(1f)) {
+            Text(p.name, style = MaterialTheme.typography.bodyLarge, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            if (p.size.isNotBlank() || inBasket) Text(
+                listOfNotNull(p.size.takeIf { it.isNotBlank() }, if (inBasket) "בסל" else null).joinToString(" · "),
+                style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1,
             )
+        }
+        Spacer(Modifier.width(10.dp))
+        Column(horizontalAlignment = Alignment.End) {
+            Text(money(p.minPrice), style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold), color = extra.best)
+            if (p.cheapestChain.isNotBlank()) Text(p.cheapestChain, style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1)
         }
     }
 }

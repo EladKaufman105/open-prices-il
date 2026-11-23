@@ -40,7 +40,6 @@ import androidx.compose.ui.unit.LayoutDirection
 import il.openprices.ui.screens.BasketScreen
 import il.openprices.ui.screens.CityPickerScreen
 import il.openprices.ui.screens.HomeScreen
-import il.openprices.ui.screens.ProductScreen
 import il.openprices.ui.screens.SettingsScreen
 import il.openprices.ui.theme.AppTheme
 
@@ -61,8 +60,13 @@ class MainActivity : ComponentActivity() {
                 CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
                     Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
                         LaunchedEffect(Unit) { if (vm.repo.hasData()) vm.checkForUpdate() }
-                        BackHandler(enabled = vm.stack.size > 1 || (vm.isTab && vm.current != Screen.Home)) {
-                            if (!vm.back()) vm.selectTab(Screen.Home)
+                        BackHandler(enabled = vm.stack.size > 1 || (vm.isTab && vm.current != Screen.Home) ||
+                            (vm.current == Screen.Home && (vm.product != null || vm.query.isNotEmpty()))) {
+                            when {
+                                vm.current == Screen.Home && vm.product != null -> vm.onQuery("")
+                                vm.current == Screen.Home && vm.query.isNotEmpty() -> vm.onQuery("")
+                                !vm.back() -> vm.selectTab(Screen.Home)
+                            }
                         }
                         Column(Modifier.fillMaxSize()) {
                             Box(Modifier.weight(1f).fillMaxWidth().imePadding()) {
@@ -73,7 +77,6 @@ class MainActivity : ComponentActivity() {
                                 ) { screen ->
                                     when (screen) {
                                         Screen.Home -> HomeScreen(vm)
-                                        is Screen.ProductDetails -> ProductScreen(vm)
                                         Screen.Basket -> BasketScreen(vm)
                                         Screen.Settings -> SettingsScreen(vm)
                                         Screen.CityPicker -> CityPickerScreen(vm)
