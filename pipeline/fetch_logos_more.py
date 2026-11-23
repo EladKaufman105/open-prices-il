@@ -34,9 +34,14 @@ os.makedirs("logos", exist_ok=True)
 report = {}
 
 
+BROWSER = {"User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) "
+                         "Chrome/124.0 Mobile Safari/537.36", "Accept-Language": "en-US,en;q=0.9"}
+
+
 def get(url):
     time.sleep(1.2)  # be polite (Wikimedia rate limits)
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
+    headers = BROWSER if "google" in url or "ggpht" in url else UA
+    with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=30) as r:
         return r.read()
 
 

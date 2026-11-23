@@ -36,7 +36,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python pipeline/probe_images.py
+      - run: echo skip   # image source decided (see pipeline/image_probe.json)
       - uses: actions/upload-artifact@v4
         with:
           name: images
