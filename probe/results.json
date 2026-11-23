@@ -1,0 +1,374 @@
+[
+ {
+  "chain": "BAREKET",
+  "ok": true,
+  "files": 3,
+  "bytes": 456096,
+  "seconds": 8.9,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "CITY_MARKET_SHOPS",
+  "ok": true,
+  "files": 3,
+  "bytes": 42802451,
+  "seconds": 13.4,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "DOR_ALON",
+  "ok": true,
+  "files": 3,
+  "bytes": 9257723,
+  "seconds": 19.0,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "FRESH_MARKET_AND_SUPER_DOSH",
+  "ok": true,
+  "files": 3,
+  "bytes": 18392901,
+  "seconds": 16.8,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "GOOD_PHARM",
+  "ok": true,
+  "files": 3,
+  "bytes": 348278,
+  "seconds": 8.5,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "KESHET",
+  "ok": true,
+  "files": 3,
+  "bytes": 17359090,
+  "seconds": 18.9,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "KING_STORE",
+  "ok": true,
+  "files": 3,
+  "bytes": 190948,
+  "seconds": 8.6,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "MAAYAN_2000",
+  "ok": true,
+  "files": 3,
+  "bytes": 247400,
+  "seconds": 9.9,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "MESHMAT_YOSEF_1",
+  "ok": true,
+  "files": 3,
+  "bytes": 398909,
+  "seconds": 2.0,
+  "types": {
+   "store": 1,
+   "price": 2
+  },
+  "error": null
+ },
+ {
+  "chain": "MESHMAT_YOSEF_2",
+  "ok": true,
+  "files": 3,
+  "bytes": 422538,
+  "seconds": 9.7,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "OSHER_AD",
+  "ok": true,
+  "files": 3,
+  "bytes": 11151862,
+  "seconds": 11.2,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "POLIZER",
+  "ok": true,
+  "files": 3,
+  "bytes": 21290067,
+  "seconds": 10.6,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "RAMI_LEVY",
+  "ok": true,
+  "files": 3,
+  "bytes": 21302439,
+  "seconds": 15.9,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "SALACH_DABACH",
+  "ok": true,
+  "files": 3,
+  "bytes": 25923280,
+  "seconds": 12.6,
+  "types": {
+   "store": 1,
+   "price": 2
+  },
+  "error": null
+ },
+ {
+  "chain": "SHEFA_BARCART_ASHEM",
+  "ok": true,
+  "files": 3,
+  "bytes": 270772,
+  "seconds": 9.4,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "SHUFERSAL",
+  "ok": true,
+  "files": 3,
+  "bytes": 9844883,
+  "seconds": 2.9,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "SHUK_AHIR",
+  "ok": true,
+  "files": 3,
+  "bytes": 124593,
+  "seconds": 9.6,
+  "types": {
+   "store": 1,
+   "price": 2
+  },
+  "error": null
+ },
+ {
+  "chain": "STOP_MARKET",
+  "ok": true,
+  "files": 3,
+  "bytes": 26032379,
+  "seconds": 15.6,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "SUPER_SAPIR",
+  "ok": true,
+  "files": 3,
+  "bytes": 6247,
+  "seconds": 9.0,
+  "types": {
+   "store": 1,
+   "price": 2
+  },
+  "error": null
+ },
+ {
+  "chain": "SUPER_YUDA",
+  "ok": true,
+  "files": 3,
+  "bytes": 10442704,
+  "seconds": 12.5,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "TIV_TAAM",
+  "ok": true,
+  "files": 3,
+  "bytes": 35478018,
+  "seconds": 13.7,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "WOLT",
+  "ok": true,
+  "files": 3,
+  "bytes": 9876,
+  "seconds": 1.7,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "YELLOW",
+  "ok": true,
+  "files": 3,
+  "bytes": 2572094,
+  "seconds": 12.5,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "YOHANANOF",
+  "ok": true,
+  "files": 3,
+  "bytes": 18041699,
+  "seconds": 11.3,
+  "types": {
+   "price": 2,
+   "store": 1
+  },
+  "error": null
+ },
+ {
+  "chain": "ZOL_VEBEGADOL",
+  "ok": true,
+  "files": 3,
+  "bytes": 368106,
+  "seconds": 8.5,
+  "types": {
+   "store": 1,
+   "price": 2
+  },
+  "error": null
+ },
+ {
+  "chain": "CITY_MARKET_KIRYATGAT",
+  "ok": false,
+  "files": 0,
+  "bytes": 0,
+  "seconds": 0.1,
+  "types": {},
+  "error": "no files downloaded"
+ },
+ {
+  "chain": "HAZI_HINAM",
+  "ok": false,
+  "files": 0,
+  "bytes": 0,
+  "seconds": 29.2,
+  "types": {},
+  "error": "no files downloaded"
+ },
+ {
+  "chain": "HET_COHEN_NEW_SOURCE",
+  "ok": false,
+  "files": 0,
+  "bytes": 0,
+  "seconds": 61.5,
+  "types": {},
+  "error": "no files downloaded"
+ },
+ {
+  "chain": "MAHSANI_ASHUK_NEW_SOURCE",
+  "ok": false,
+  "files": 0,
+  "bytes": 0,
+  "seconds": 121.6,
+  "types": {},
+  "error": "no files downloaded"
+ },
+ {
+  "chain": "NETIV_HASED",
+  "ok": false,
+  "files": 0,
+  "bytes": 0,
+  "seconds": 0.2,
+  "types": {},
+  "error": "no files downloaded"
+ },
+ {
+  "chain": "SUPER_PHARM",
+  "ok": false,
+  "files": 0,
+  "bytes": 0,
+  "seconds": 30.9,
+  "types": {},
+  "error": "no files downloaded"
+ },
+ {
+  "chain": "VICTORY_NEW_SOURCE",
+  "ok": false,
+  "files": 0,
+  "bytes": 0,
+  "seconds": 121.6,
+  "types": {},
+  "error": "no files downloaded"
+ },
+ {
+  "chain": "YAYNO_BITAN_AND_CARREFOUR",
+  "ok": false,
+  "files": 0,
+  "bytes": 0,
+  "seconds": 629.5,
+  "types": {},
+  "error": "no files downloaded"
+ }
+]
