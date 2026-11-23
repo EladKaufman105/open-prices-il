@@ -9,6 +9,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import il.openprices.data.BasketStore
+import il.openprices.data.ChainGroup
 import il.openprices.data.City
 import il.openprices.data.DataIndex
 import il.openprices.data.ListItem
@@ -36,6 +37,14 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     fun go(s: Screen) { stack.add(s) }
     fun back(): Boolean = if (stack.size > 1) { stack.removeAt(stack.lastIndex); true } else false
     private fun reset(s: Screen) { stack.clear(); stack.add(s) }
+
+    /** Bottom-navigation tabs are roots: selecting one replaces the stack. */
+    val isTab: Boolean get() = current == Screen.Home || current == Screen.Basket || current == Screen.Settings
+    fun selectTab(s: Screen) {
+        if (current == s) return
+        reset(s)
+        if (s == Screen.Basket) refreshBasket()
+    }
 
     var themeMode by mutableIntStateOf(repo.themeMode)
         private set
@@ -120,19 +129,33 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     // ---------- product ----------
     var product by mutableStateOf<Product?>(null); private set
     var prices by mutableStateOf<List<StorePrice>>(emptyList()); private set
+    var groups by mutableStateOf<List<ChainGroup>>(emptyList()); private set
+    var loadingPrices by mutableStateOf(false); private set
 
     fun open(p: Product) {
         commitSearch(query)
-        product = p; prices = emptyList()
+        product = p; prices = emptyList(); groups = emptyList(); loadingPrices = true
         go(Screen.ProductDetails(p.id))
-        viewModelScope.launch { prices = repo.prices(p.id) }
+        viewModelScope.launch {
+            prices = repo.prices(p.id)
+            groups = prices.groupBy { it.chain }.map { (c, s) -> ChainGroup(c, s.sortedBy { it.effective }) }
+                .sortedWith(compareBy<ChainGroup> { it.best }.thenByDescending { it.stores.size })
+            loadingPrices = false
+        }
     }
+
+    fun openById(id: Long) = viewModelScope.launch { repo.product(id)?.let { open(it) } }
 
     // ---------- shopping list ----------
     val list = mutableStateListOf<ListItem>().apply { addAll(repo.loadList()) }
     var basket by mutableStateOf<List<BasketStore>>(emptyList()); private set
 
     fun inList(id: Long) = list.any { it.productId == id }
+    fun qtyOf(id: Long) = list.firstOrNull { it.productId == id }?.qty ?: 0
+
+    fun addToList(p: Product) {
+        if (!inList(p.id)) { list.add(ListItem(p.id, p.name, 1)); repo.saveList(list) }
+    }
 
     fun toggleList(p: Product) {
         val i = list.indexOfFirst { it.productId == p.id }

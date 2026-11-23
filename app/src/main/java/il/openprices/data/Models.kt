@@ -20,7 +20,16 @@ data class Product(
     val minPrice: Double,
     val maxPrice: Double,
     val storeCount: Int,
+    val cheapestChain: String = "",
+    val chainCount: Int = 0,
 )
+
+/** All branches of one chain that sell a product. */
+data class ChainGroup(val chain: String, val stores: List<StorePrice>) {
+    val best: Double get() = stores.minOf { it.effective }
+    val worst: Double get() = stores.maxOf { it.effective }
+    val promo: StorePrice? get() = stores.firstOrNull { !it.promoText.isNullOrBlank() }
+}
 
 data class StorePrice(
     val storeId: Long,

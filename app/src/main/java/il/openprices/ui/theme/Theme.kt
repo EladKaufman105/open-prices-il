@@ -41,9 +41,9 @@ private val Light = lightColorScheme(
     tertiary = Color(0xFFD92D20),
     tertiaryContainer = Color(0xFFFEE4E2),
     onTertiaryContainer = Color(0xFF912018),
-    background = Color(0xFFF8FAF9),
+    background = Color(0xFFF3F5F4),
     onBackground = Color(0xFF101828),
-    surface = Color(0xFFF8FAF9),
+    surface = Color(0xFFF3F5F4),
     onSurface = Color(0xFF101828),
     surfaceVariant = Color(0xFFF2F4F7),
     onSurfaceVariant = Color(0xFF667085),
@@ -67,16 +67,16 @@ private val Dark = darkColorScheme(
     tertiary = Color(0xFFF97066),
     tertiaryContainer = Color(0xFF55160C),
     onTertiaryContainer = Color(0xFFFECDCA),
-    background = Color(0xFF0F1412),
+    background = Color(0xFF0E1211),
     onBackground = Color(0xFFE9ECEB),
-    surface = Color(0xFF0F1412),
+    surface = Color(0xFF0E1211),
     onSurface = Color(0xFFE9ECEB),
     surfaceVariant = Color(0xFF1C2220),
     onSurfaceVariant = Color(0xFF98A2B3),
-    surfaceContainerLowest = Color(0xFF0B0F0E),
-    surfaceContainerLow = Color(0xFF161B19),
-    surfaceContainer = Color(0xFF1C2220),
-    surfaceContainerHigh = Color(0xFF242B28),
+    surfaceContainerLowest = Color(0xFF181E1C),
+    surfaceContainerLow = Color(0xFF1C2321),
+    surfaceContainer = Color(0xFF222A27),
+    surfaceContainerHigh = Color(0xFF2A322F),
     outline = Color(0xFF3A423F),
     outlineVariant = Color(0xFF2A312E),
 )
@@ -121,8 +121,8 @@ fun AppTheme(themeMode: Int = 0, content: @Composable () -> Unit) {
         2 -> true
         else -> isSystemInDarkTheme()
     }
-    val extra = if (dark) Extra(EmeraldBright, Color(0xFF0B3D26), Color(0xFFF97066), Color(0xFF55160C))
-    else Extra(Emerald, Color(0xFFDCFAE6), Color(0xFFD92D20), Color(0xFFFEE4E2))
+    val extra = if (dark) Extra(Color(0xFF3CCB7F), Color(0xFF123323), Color(0xFFFDA29B), Color(0xFF2D1A18))
+    else Extra(Color(0xFF067647), Color(0xFFDCFAE6), Color(0xFFB42318), Color(0xFFFEF3F2))
     CompositionLocalProvider(LocalExtra provides extra) {
         MaterialTheme(
             colorScheme = if (dark) Dark else Light,

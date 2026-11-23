@@ -32,7 +32,7 @@ import il.openprices.Screen
 @Composable
 fun SettingsScreen(vm: AppViewModel) {
     Column(Modifier.fillMaxSize()) {
-        TopBar("הגדרות", onBack = { vm.back() })
+        TopBar("הגדרות")
         Column(
             Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),

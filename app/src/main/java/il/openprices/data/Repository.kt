@@ -131,20 +131,33 @@ class Repository(private val context: Context) {
         val q = normalize(query)
         if (q.isEmpty()) return@withContext emptyList()
         val sql = StringBuilder(
-            "SELECT id, barcode, name, manufacturer, size, min_price, max_price, store_count FROM products WHERE "
+            """SELECT id, barcode, name, manufacturer, size, min_price, max_price, store_count,
+                 (SELECT c.name FROM prices p JOIN stores s ON s.id = p.store_id JOIN chains c ON c.id = s.chain_id
+                   WHERE p.product_id = products.id ORDER BY COALESCE(p.promo_price, p.price) LIMIT 1),
+                 (SELECT COUNT(DISTINCT s.chain_id) FROM prices p JOIN stores s ON s.id = p.store_id
+                   WHERE p.product_id = products.id)
+               FROM products WHERE """
         )
         val args = mutableListOf<String>()
         if (q.all { it.isDigit() } && q.length >= 5) {
             sql.append("barcode = ? OR barcode LIKE ?")
             args += q; args += "%$q"
         } else {
-            q.split(" ").filter { it.isNotBlank() }.forEachIndexed { i, w ->
+            val words = q.split(" ").filter { it.isNotBlank() }
+            words.forEachIndexed { i, w ->
                 if (i > 0) sql.append(" AND ")
                 sql.append("search LIKE ?")
                 args += "%$w%"
             }
-            sql.append(" ORDER BY (search LIKE ?) DESC, store_count DESC, length(name)")
+            // rank: name starts with the query, then all words in the product name itself (not only the maker)
+            sql.append(" ORDER BY (search LIKE ?) DESC, (")
             args += "$q%"
+            words.forEachIndexed { i, w ->
+                if (i > 0) sql.append(" AND ")
+                sql.append("name LIKE ?")
+                args += "%$w%"
+            }
+            sql.append(") DESC, store_count DESC, length(name)")
         }
         sql.append(" LIMIT 80")
         db().rawQuery(sql.toString(), args.toTypedArray()).use { c ->
@@ -152,7 +165,8 @@ class Repository(private val context: Context) {
                 while (c.moveToNext()) add(
                     Product(
                         c.getLong(0), c.getString(1) ?: "", c.getString(2) ?: "", c.getString(3) ?: "",
-                        c.getString(4) ?: "", c.getDouble(5), c.getDouble(6), c.getInt(7)
+                        c.getString(4) ?: "", c.getDouble(5), c.getDouble(6), c.getInt(7),
+                        c.getString(8) ?: "", c.getInt(9),
                     )
                 )
             }

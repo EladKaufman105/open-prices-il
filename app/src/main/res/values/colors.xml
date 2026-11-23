@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="surface">#FFF8FAF9</color>
+    <color name="surface">#FFF3F5F4</color>
     <color name="brand">#FF0E9F5A</color>
     <color name="ic_bg">#FF0E9F5A</color>
 </resources>
