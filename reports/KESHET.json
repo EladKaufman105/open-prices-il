@@ -1,0 +1,208 @@
+{
+ "chain": "KESHET",
+ "started": "2026-11-23 08:46:09",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 28,
+ "PRICE_FULL_FILE_mb": 262.5,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 28,
+ "PROMO_FULL_FILE_mb": 132.4,
+ "download_seconds": 51,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290785400000</ChainID><ChainName>קשת טעמים</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>05:10:00.597</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>002</StoreID><BikoretNo>5</BikoretNo><StoreType>1</StoreType><StoreName>נהריה</StoreName><Address>לוחמי הגטאות 9</Address><City>0</City><ZIPCode>2244628</ZIPCode></Store><Store><StoreID>003</StoreID><BikoretNo>4</BikoretNo><StoreType>1</StoreType><StoreName>נשר</StoreName><Address>הזית 1</Address><City>0</City><ZIPCode>3675018</ZIPCode></Store><Store><StoreID>004</StoreID><BikoretNo>3</BikoretNo><StoreType>1</StoreType><StoreName>הדר</StoreName><Address>שבתאי לוי 23-25</Address><City>0</City><ZIPCode>3330421</ZIPCode></Store><Store><StoreID>005</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>קרית אליעזר</StoreName><Address>תל אביב 11</Address><City>0</City><ZIPCode>3541633</ZIPCode></Store><Store><StoreID>008</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>נוף הגליל</StoreName><Address>עמל 1</Address><City>0</City><ZIPCode>1783011</ZIPCode></Store><Store><StoreID>010</StoreID><BikoretNo>8</BikoretNo><StoreType>1</StoreType><StoreName>גבעת רם</StoreName><Address>בציר 46</Address><City>0</City><ZIPCode>2196081</ZIPCode></Store><Store><StoreID>011</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>יוקנעם</StoreName><Address>הירדן 64ב</Address><City>0</City><ZIPCode>2",
+  "PRICE_FULL_FILE": "<Root>\r\n  <XmlDocVersion>19</XmlDocVersion>\r\n  <ChainId>7290785400000</ChainId>\r\n  <SubChainId>1</SubChainId>\r\n  <StoreId>022</StoreId>\r\n  <BikoretNo>9</BikoretNo>\r\n  <DllVerNo>9.4.0.50</DllVerNo>\r\n  <Items Count=\"15727\">\r\n    <Item>\r\n      <PriceUpdateDate>2023-06-04 15:11:02</PriceUpdateDate>\r\n      <ItemCode>10010</ItemCode>\r\n      <ItemType>0</ItemType>\r\n      <ItemName>חצי בגט כפרי</ItemName>\r\n      <ManufacturerName>בונז'ור</ManufacturerName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufacturerItemDescription>חצי באגט כפרי</ManufacturerItemDescription>\r\n      <UnitQty>Unknown </UnitQty>\r\n      <Quantity>0.00</Quantity>\r\n      <UnitOfMeasure>Unknown </UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage>1</QtyInPackage>\r\n      <ItemPrice>2.90</ItemPrice>\r\n      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus>1</ItemStatus>\r\n      <ItemId>167351</ItemId>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateDate>2021-11-23 18:24:16</PriceUpdateDate>\r\n      <ItemCode>7290000010013</ItemCode>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>שליש בגט</ItemName>\r\n      <ManufacturerName>בונז'ור</ManufacturerName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufacturerItemDescription>שליש בגט</ManufacturerItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>110.00</Quantity>\r\n      <UnitOfMeasure>100 גרם</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n",
+  "PROMO_FULL_FILE": "<Root>\r\n  <XmlDocVersion>19</XmlDocVersion>\r\n  <ChainId>7290785400000</ChainId>\r\n  <SubChainId>1</SubChainId>\r\n  <StoreId>011</StoreId>\r\n  <BikoretNo>3</BikoretNo>\r\n  <DllVerNo>9.4.0.50</DllVerNo>\r\n  <Promotions Count=\"2352\">\r\n    <Promotion>\r\n      <PromotionId>1216</PromotionId>\r\n      <PromotionDescription>עוגיות בישקוטים פינוקים 200 גר 2 ב 14.90</PromotionDescription>\r\n      <PromotionUpdateDate>2025-04-08 00:00</PromotionUpdateDate>\r\n      <PromotionStartDate>2012-05-06</PromotionStartDate>\r\n      <PromotionStartHour>00:00:00</PromotionStartHour>\r\n      <PromotionEndDate>2026-11-28</PromotionEndDate>\r\n      <PromotionEndHour>23:59:00</PromotionEndHour>\r\n      <RewardType>1</RewardType>\r\n      <AllowMultipleDiscounts>1</AllowMultipleDiscounts>\r\n      <IsWeightedPromo>0</IsWeightedPromo>\r\n      <AdditionalRestrictions>\r\n        <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n        <AdditionalGiftCount>0</AdditionalGiftCount>\r\n        <AdditionalIsTotal>0</AdditionalIsTotal>\r\n        <AdditionalIsActive>1</AdditionalIsActive>\r\n      </AdditionalRestrictions>\r\n      <MinQty>2.00</MinQty>\r\n      <DiscountedPrice>14.90</DiscountedPrice>\r\n      <DiscountedPricePerMida>7.45</DiscountedPricePerMida>\r\n      <MinNoOfItemOfered>10</MinNoOfItemOfered>\r\n      <WeightUnit>1</WeightUnit>\r\n      <PromotionItems>\r\n        <Item>\r\n          <ItemCode>7290010259007</ItemCode>\r\n          <ItemType>1</ItemType>\r\n          <IsGiftItem>0</IsGiftItem>\r\n        </Item>\r\n      </PromotionItems>\r\n   "
+ },
+ "parse_seconds": 21,
+ "stores": 28,
+ "stores_with_prices": 27,
+ "items": 306244,
+ "distinct_codes": 28839,
+ "item_types": {
+  "0": 23738,
+  "1": 282506
+ },
+ "promos": 369772,
+ "cities": [
+  [
+   "0",
+   26
+  ],
+  [
+   "7400",
+   1
+  ],
+  [
+   "5000",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290785400000",
+   "קשת טעמים",
+   "001",
+   "1",
+   "002",
+   "נהריה",
+   "לוחמי הגטאות 9",
+   "0",
+   "2244628"
+  ],
+  [
+   "7290785400000",
+   "קשת טעמים",
+   "001",
+   "1",
+   "003",
+   "נשר",
+   "הזית 1",
+   "0",
+   "3675018"
+  ],
+  [
+   "7290785400000",
+   "קשת טעמים",
+   "001",
+   "1",
+   "004",
+   "הדר",
+   "שבתאי לוי 23-25",
+   "0",
+   "3330421"
+  ],
+  [
+   "7290785400000",
+   "קשת טעמים",
+   "001",
+   "1",
+   "005",
+   "קרית אליעזר",
+   "תל אביב 11",
+   "0",
+   "3541633"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290785400000",
+   "022",
+   "202611230010",
+   "10010",
+   "0",
+   "חצי בגט כפרי",
+   "בונז'ור",
+   "0.00",
+   "Unknown",
+   "Unknown",
+   "0",
+   2.9,
+   0.0,
+   "2023-06-04 15:11:02"
+  ],
+  [
+   "7290785400000",
+   "022",
+   "202611230010",
+   "7290000010013",
+   "1",
+   "שליש בגט",
+   "בונז'ור",
+   "110.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   2.3,
+   2.0909,
+   "2021-11-23 18:24:16"
+  ],
+  [
+   "7290785400000",
+   "022",
+   "202611230010",
+   "102",
+   "0",
+   "בטטה",
+   "ביכורי שדה דרום 2002",
+   "1.00",
+   "ק\"ג",
+   "קילוגרמים",
+   "1",
+   8.9,
+   8.9,
+   "2026-11-16 14:51:17"
+  ],
+  [
+   "7290785400000",
+   "022",
+   "202611230010",
+   "7290000001032",
+   "1",
+   "פריזר צהוב גדול",
+   "מעדני מניה תעשיות בש",
+   "1.00",
+   "ק\"ג",
+   "קילוגרמים",
+   "1",
+   39.0,
+   39.0,
+   "2024-11-11 13:44:07"
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290785400000",
+   "011",
+   "202611230010",
+   "1216",
+   "7290010259007",
+   "עוגיות בישקוטים פינוקים 200 גר 2 ב 14.90",
+   "2026-11-28",
+   "2.00",
+   14.9,
+   ""
+  ],
+  [
+   "7290785400000",
+   "011",
+   "202611230010",
+   "1277",
+   "4820002300306",
+   "וופל ארטק 130 גר 2 ב 9.90",
+   "2026-11-28",
+   "2.00",
+   9.9,
+   ""
+  ],
+  [
+   "7290785400000",
+   "011",
+   "202611230010",
+   "12973",
+   "4014086020407",
+   "בירה אותינגר 500 מל 3 ב 15.90",
+   "2026-11-28",
+   "3.00",
+   15.9,
+   ""
+  ],
+  [
+   "7290785400000",
+   "011",
+   "202611230010",
+   "12973",
+   "4014086020414",
+   "בירה אותינגר 500 מל 3 ב 15.90",
+   "2026-11-28",
+   "3.00",
+   15.9,
+   ""
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 1,
+ "sqlite_mb": 96.0
+}

@@ -1,0 +1,300 @@
+{
+ "chain": "TIV_TAAM",
+ "started": "2026-11-23 08:48:33",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 54,
+ "PRICE_FULL_FILE_mb": 495.5,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 53,
+ "PROMO_FULL_FILE_mb": 889.1,
+ "download_seconds": 112,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290873255550</ChainID><ChainName>טיב טעם</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>05:05:01.727</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>002</StoreID><BikoretNo>5</BikoretNo><StoreType>1</StoreType><StoreName>נתניה</StoreName><Address>בני גאון 2</Address><City>7400</City><ZipCode>0000000</ZipCode></Store><Store><StoreID>003</StoreID><BikoretNo>4</BikoretNo><StoreType>1</StoreType><StoreName>אשדוד</StoreName><Address>ז'בוטינסקי 45 מתחם סטאר סנטר</Address><City>70</City><ZipCode>0000000</ZipCode></Store><Store><StoreID>006</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>בת ים</StoreName><Address>אהוד קינמון 14</Address><City>6200</City><ZipCode>5959401</ZipCode></Store><Store><StoreID>007</StoreID><BikoretNo>0</BikoretNo><StoreType>1</StoreType><StoreName>אשקלון</StoreName><Address>התחיה 1</Address><City>7100</City><ZipCode>7858201</ZipCode></Store><Store><StoreID>010</StoreID><BikoretNo>4</BikoretNo><StoreType>1</StoreType><StoreName>כרמיאל</StoreName><Address>מעלה כמון 3 מתחם ביג</Address><City>1139</City><ZipCode>0000000</ZipCode></Store><Store><StoreID>012</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>חוצות המפרץ (קריות)</StoreName><Address>החרושת 10 מתחם חוצות המפרץ</Address><City>4000</City><ZipCode>2629310</ZipCode></Store><Store><StoreID>014</StoreID><BikoretNo>0</BikoretNo><StoreType>1</StoreType><StoreName>",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290873255550</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>057</StoreID>\r\n  <BikoretNo>8</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2026-01-25T15:51:00</PriceUpdateTime>\r\n      <ItemCode>11182700916</ItemCode>\r\n      <LastSaleDateTime>2026-11-10T10:11:55</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>שעועית לבנה צפונית 454 גרם</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufactureItemDescription>שעועית לבנה צפונית 4</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>454.00</Quantity>\r\n      <UnitOfMeasure>100 גרם</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage>1</QtyInPackage>\r\n      <ItemPrice>18.50</ItemPrice>\r\n      <UnitOfMeasurePrice>4.07</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus />\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-01-25T15:51:00</PriceUpdateTime>\r\n      <ItemCode>11182700923</ItemCode>\r\n      <LastSaleDateTime>2026-11-13T13:06:47</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>שעועית אדומה בהירה 454 גרם</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufactureItemDescription>שעועית אדומה בהירה 4</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>454.00</Quantity>\r\n      <UnitOfMeasure>100 גרם</UnitOfM",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290873255550</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>087</StoreID>\r\n  <BikoretNo>9</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-09-29T13:17:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>1</AllowMultipleDiscounts>\r\n      <PromotionID>110211</PromotionID>\r\n      <PromotionDescription>הנחה DM 10%</PromotionDescription>\r\n      <PromotionStartDateTime>2016-01-01T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2030-12-31T23:58:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour>00:00:00.000</PromotionStartHour>\r\n      <PromotionEndHour>23:58:00.000</PromotionEndHour>\r\n      <PromotionDays />\r\n      <RedemptionLimit>0</RedemptionLimit>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>1 - המועדון החדש</ClubID>\r\n      <IsGiftItem />\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount></MinPurchaseAmount>\r\n          <DiscountType>0</DiscountType>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290001829455</ItemCode>\r\n              <ItemType></ItemType>\r\n              <RewardType>2</RewardType>\r\n              <MinQty>1</MinQty>\r\n              <MaxQty></MaxQty>\r\n              <DiscountRate></DiscountRate>\r\n              <DiscountedPrice></DiscountedPrice>\r\n              <DiscountedPricePer"
+ },
+ "parse_seconds": 94,
+ "stores": 54,
+ "stores_with_prices": 54,
+ "items": 576801,
+ "distinct_codes": 32411,
+ "item_types": {
+  "0": 21031,
+  "1": 555770
+ },
+ "promos": 1756879,
+ "cities": [
+  [
+   "5000",
+   19
+  ],
+  [
+   "8300",
+   3
+  ],
+  [
+   "4000",
+   3
+  ],
+  [
+   "9000",
+   2
+  ],
+  [
+   "7400",
+   2
+  ],
+  [
+   "70",
+   2
+  ],
+  [
+   "6600",
+   2
+  ],
+  [
+   "6300",
+   2
+  ],
+  [
+   "1167",
+   2
+  ],
+  [
+   "9700",
+   1
+  ],
+  [
+   "9400",
+   1
+  ],
+  [
+   "8700",
+   1
+  ],
+  [
+   "8600",
+   1
+  ],
+  [
+   "8400",
+   1
+  ],
+  [
+   "8200",
+   1
+  ],
+  [
+   "7900",
+   1
+  ],
+  [
+   "7100",
+   1
+  ],
+  [
+   "6900",
+   1
+  ],
+  [
+   "6400",
+   1
+  ],
+  [
+   "6200",
+   1
+  ],
+  [
+   "587",
+   1
+  ],
+  [
+   "386",
+   1
+  ],
+  [
+   "2620",
+   1
+  ],
+  [
+   "1200",
+   1
+  ],
+  [
+   "1139",
+   1
+  ],
+  [
+   "104",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290873255550",
+   "טיב טעם",
+   "001",
+   "1",
+   "002",
+   "נתניה",
+   "בני גאון 2",
+   "7400",
+   "0000000"
+  ],
+  [
+   "7290873255550",
+   "טיב טעם",
+   "001",
+   "1",
+   "003",
+   "אשדוד",
+   "ז'בוטינסקי 45 מתחם סטאר סנטר",
+   "70",
+   "0000000"
+  ],
+  [
+   "7290873255550",
+   "טיב טעם",
+   "001",
+   "1",
+   "006",
+   "בת ים",
+   "אהוד קינמון 14",
+   "6200",
+   "5959401"
+  ],
+  [
+   "7290873255550",
+   "טיב טעם",
+   "001",
+   "1",
+   "007",
+   "אשקלון",
+   "התחיה 1",
+   "7100",
+   "7858201"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290873255550",
+   "057",
+   "20261123",
+   "11182700916",
+   "1",
+   "שעועית לבנה צפונית 454 גרם",
+   "לא ידוע",
+   "454.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   18.5,
+   4.07,
+   ""
+  ],
+  [
+   "7290873255550",
+   "057",
+   "20261123",
+   "11182700923",
+   "1",
+   "שעועית אדומה בהירה 454 גרם",
+   "לא ידוע",
+   "454.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   18.5,
+   4.07,
+   ""
+  ],
+  [
+   "7290873255550",
+   "057",
+   "20261123",
+   "11182700930",
+   "1",
+   "שעועית אדומה כהה 454 גרם",
+   "לא ידוע",
+   "454.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   18.5,
+   4.07,
+   ""
+  ],
+  [
+   "7290873255550",
+   "057",
+   "20261123",
+   "11210000032",
+   "1",
+   "טבסקו משפחתי 350 מ\"ל",
+   "לא ידוע",
+   "350.00",
+   "100 מיליליטר",
+   "מיליליטר",
+   "0",
+   69.6,
+   19.89,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290873255550",
+   "087",
+   "20261123",
+   "110211",
+   "7290001829455",
+   "הנחה DM 10%",
+   "",
+   "1",
+   null,
+   ""
+  ],
+  [
+   "7290873255550",
+   "087",
+   "20261123",
+   "110211",
+   "7290010824823",
+   "הנחה DM 10%",
+   "",
+   "1",
+   null,
+   ""
+  ],
+  [
+   "7290873255550",
+   "087",
+   "20261123",
+   "110211",
+   "7290015937399",
+   "הנחה DM 10%",
+   "",
+   "1",
+   null,
+   ""
+  ],
+  [
+   "7290873255550",
+   "087",
+   "20261123",
+   "110211",
+   "7290015937405",
+   "הנחה DM 10%",
+   "",
+   "1",
+   null,
+   ""
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 292.8
+}

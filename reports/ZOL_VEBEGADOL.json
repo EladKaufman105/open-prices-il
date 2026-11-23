@@ -1,0 +1,223 @@
+{
+ "chain": "ZOL_VEBEGADOL",
+ "started": "2026-11-23 08:49:16",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 34,
+ "PRICE_FULL_FILE_mb": 6.4,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 35,
+ "PROMO_FULL_FILE_mb": 1.4,
+ "download_seconds": 36,
+ "raw_heads": {
+  "STORE_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058173198</ChainID>\r\n  <ChainName>זול ובגדול בע\"מ</ChainName>\r\n  <LastUpdateDate>2026-11-23</LastUpdateDate>\r\n  <LastUpdateTime>04:03:53.373</LastUpdateTime>\r\n  <SubChains>\r\n    <SubChain>\r\n      <SubChainID>000</SubChainID>\r\n      <SubChainName />\r\n      <Stores>\r\n        <Store>\r\n          <StoreID>003</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>רמות עליית נוער</StoreName>\r\n          <Address>עליית הנוער 5</Address>\r\n          <City>3000</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>004</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>מאה שערים</StoreName>\r\n          <Address>מאה שערים פינת חבקוק 21</Address>\r\n          <City>3000</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>006</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>הפסגה 39 החדש</StoreName>\r\n          <Address>הפסגה 39 39</Address>\r\n          <City>3000</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>007</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>הרב קוק</StoreName>\r\n          <Address>הרב קוק 8 8</Address>\r\n          <City>3000</City>\r\n          <ZIPCode>0000000</Z",
+  "PRICE_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058173198</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>012</StoreID>\r\n  <BikoretNo>3</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-22T20:10:00.000</PriceUpdateTime>\r\n      <ItemCode>14</ItemCode>\r\n      <LastSaleDateTime>2026-11-20T07:33:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>חלה רגילה קלועה/מרובעת 500-600 גרם</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>IL</ManufactureCountry>\r\n      <ManufactureItemDescription>חלה רגילה קלועה/מרובעת 500-600 גרם</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>500</Quantity>\r\n      <UnitOfMeasure>100 גרם</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage />\r\n      <ItemPrice>6.60</ItemPrice>\r\n      <UnitOfMeasurePrice>1.32</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus>0</ItemStatus>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-22T13:56:00.000</PriceUpdateTime>\r\n      <ItemCode>16</ItemCode>\r\n      <LastSaleDateTime>2026-11-20T06:46:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>חלה מתוקה 500 גר' אנג'ל</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>IL</ManufactureCountry>\r\n      <ManufactureItemDescription>חלה מתוקה 500 גר' אנג'ל</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>500</Quantit",
+  "PROMO_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058173198</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>016</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-23T04:06:07.135</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>1</AllowMultipleDiscounts>\r\n      <PromotionID>203568</PromotionID>\r\n      <PromotionDescription>עוגיות עבאדי 350-400 ג' ב11.9שח</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-23T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-11-23T00:00:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour />\r\n      <PromotionEndHour />\r\n      <PromotionDays />\r\n      <RedemptionLimit />\r\n      <MinNoOfItemOffered />\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>1.0000</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>001</GroupID>\r\n          <MinPurchaseAmount />\r\n          <DiscountType />\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>856591000062</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>3</RewardType>\r\n              <MinQty>1.0000</MinQty>\r\n              <MaxQty />\r\n              <DiscountRate>37.04</DiscountRate>\r\n              <DiscountedPrice>11.90</DiscountedPrice>\r\n              <DiscountedPricePerMida>2.98</DiscountedPricePerMida>\r\n              <bIsWeig"
+ },
+ "parse_seconds": 8,
+ "stores": 35,
+ "stores_with_prices": 34,
+ "items": 147570,
+ "distinct_codes": 16377,
+ "item_types": {
+  "1": 147570
+ },
+ "promos": 53590,
+ "cities": [
+  [
+   "3000",
+   24
+  ],
+  [
+   "0",
+   3
+  ],
+  [
+   "7100",
+   2
+  ],
+  [
+   "3616",
+   2
+  ],
+  [
+   "2610",
+   2
+  ],
+  [
+   "70",
+   1
+  ],
+  [
+   "1015",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290058173198",
+   "זול ובגדול בע\"מ",
+   "000",
+   "",
+   "003",
+   "רמות עליית נוער",
+   "עליית הנוער 5",
+   "3000",
+   "0000000"
+  ],
+  [
+   "7290058173198",
+   "זול ובגדול בע\"מ",
+   "000",
+   "",
+   "004",
+   "מאה שערים",
+   "מאה שערים פינת חבקוק 21",
+   "3000",
+   "0000000"
+  ],
+  [
+   "7290058173198",
+   "זול ובגדול בע\"מ",
+   "000",
+   "",
+   "006",
+   "הפסגה 39 החדש",
+   "הפסגה 39 39",
+   "3000",
+   "0000000"
+  ],
+  [
+   "7290058173198",
+   "זול ובגדול בע\"מ",
+   "000",
+   "",
+   "007",
+   "הרב קוק",
+   "הרב קוק 8 8",
+   "3000",
+   "0000000"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290058173198",
+   "012",
+   "20261123",
+   "14",
+   "1",
+   "חלה רגילה קלועה/מרובעת 500-600 גרם",
+   "לא ידוע",
+   "500",
+   "100 גרם",
+   "גרם",
+   "0",
+   6.6,
+   1.32,
+   ""
+  ],
+  [
+   "7290058173198",
+   "012",
+   "20261123",
+   "16",
+   "1",
+   "חלה מתוקה 500 גר' אנג'ל",
+   "לא ידוע",
+   "500",
+   "100 גרם",
+   "גרם",
+   "0",
+   15.9,
+   3.18,
+   ""
+  ],
+  [
+   "7290058173198",
+   "012",
+   "20261123",
+   "26",
+   "1",
+   "משטח עץ",
+   "לא ידוע",
+   "1",
+   "",
+   "",
+   "0",
+   10.0,
+   10.0,
+   ""
+  ],
+  [
+   "7290058173198",
+   "012",
+   "20261123",
+   "89",
+   "1",
+   "טונה סטרקיסט בשמן 160 ג'",
+   "לא ידוע",
+   "160",
+   "100 גרם",
+   "גרם",
+   "0",
+   7.9,
+   4.93,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290058173198",
+   "016",
+   "20261123",
+   "203568",
+   "856591000062",
+   "עוגיות עבאדי 350-400 ג' ב11.9שח",
+   "",
+   "1.0000",
+   11.9,
+   "37.04"
+  ],
+  [
+   "7290058173198",
+   "016",
+   "20261123",
+   "203568",
+   "7290002132011",
+   "עוגיות עבאדי 350-400 ג' ב11.9שח",
+   "",
+   "1.0000",
+   11.9,
+   "37.04"
+  ],
+  [
+   "7290058173198",
+   "016",
+   "20261123",
+   "203568",
+   "856591000109",
+   "עוגיות עבאדי 350-400 ג' ב11.9שח",
+   "",
+   "1.0000",
+   11.9,
+   "37.04"
+  ],
+  [
+   "7290058173198",
+   "016",
+   "20261123",
+   "203568",
+   "856591000512",
+   "עוגיות עבאדי 350-400 ג' ב11.9שח",
+   "",
+   "1.0000",
+   11.9,
+   "37.04"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 30.0
+}

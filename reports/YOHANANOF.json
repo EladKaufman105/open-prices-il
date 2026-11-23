@@ -1,0 +1,200 @@
+{
+ "chain": "YOHANANOF",
+ "started": "2026-11-23 08:49:11",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 47,
+ "PRICE_FULL_FILE_mb": 393.2,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 47,
+ "PROMO_FULL_FILE_mb": 149.3,
+ "download_seconds": 66,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290803800003</ChainID><ChainName>מ. יוחננוף ובניו</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>01:00:00.840</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>001</StoreID><BikoretNo>6</BikoretNo><StoreType>1</StoreType><StoreName>יוחננוף מפוח</StoreName><Address>רחוב המפוח 11, אזור התעשיה</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>002</StoreID><BikoretNo>5</BikoretNo><StoreType>1</StoreType><StoreName>יוחננוף ישן</StoreName><Address>unknown</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>004</StoreID><BikoretNo>3</BikoretNo><StoreType>1</StoreType><StoreName>בילו</StoreName><Address>צומת ביל\"ו</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>005</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>אשדוד</StoreName><Address>זבוטינסקי 27, סטאר סנטר</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>007</StoreID><BikoretNo>0</BikoretNo><StoreType>1</StoreType><StoreName>עקרון</StoreName><Address>המלך חסן 1</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>008</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>אחד העם</StoreName><Address>רחוב אחד העם 19</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>009</StoreID><BikoretNo>8</BikoretNo><StoreType>1</StoreType><StoreName>נתיבות</StoreName><Addr",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290803800003</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>046</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2025-10-28T23:00:00</PriceUpdateTime>\r\n      <ItemCode>101114</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T20:32:17</LastSaleDateTime>\r\n      <ItemType>0</ItemType>\r\n      <ItemName>תרומה לבית אלמוג שיל</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry />\r\n      <ManufactureItemDescription>תרומה לבית אלמוג שיל</ManufactureItemDescription>\r\n      <UnitQty>יחידות</UnitQty>\r\n      <Quantity>1.00</Quantity>\r\n      <UnitOfMeasure>יחידות</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage>0</QtyInPackage>\r\n      <ItemPrice>15.00</ItemPrice>\r\n      <UnitOfMeasurePrice>15.00</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus />\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-08-02T07:18:00</PriceUpdateTime>\r\n      <ItemCode>1022788</ItemCode>\r\n      <LastSaleDateTime>2026-09-16T15:17:28</LastSaleDateTime>\r\n      <ItemType>0</ItemType>\r\n      <ItemName>*מבצע* גבינת פקורינו</ItemName>\r\n      <ManufactureName>אלפאסטור</ManufactureName>\r\n      <ManufactureCountry />\r\n      <ManufactureItemDescription>*מבצע* גבינת פקורינו</ManufactureItemDescription>\r\n      <UnitQty>קילוגרם</UnitQty>\r\n      <Quantity>1.00</Quantity>\r\n      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>\r\n      <bIsWeighted>1</bIsWeighted>\r\n      <QtyInPackage>0</",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290803800003</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>060</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-02T07:25:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>1</AllowMultipleDiscounts>\r\n      <PromotionID>78510</PromotionID>\r\n      <PromotionDescription>שישליק הודו 2קג ב65- רשתי</PromotionDescription>\r\n      <PromotionStartDateTime>2018-12-12T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2027-01-30T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour />\r\n      <PromotionEndHour />\r\n      <PromotionDays />\r\n      <RedemptionLimit>0</RedemptionLimit>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0 - כלל הלקוחות</ClubID>\r\n      <IsGiftItem>2.0</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount></MinPurchaseAmount>\r\n          <DiscountType></DiscountType>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>400433</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>1</RewardType>\r\n              <MinQty>1.90</MinQty>\r\n              <MaxQty></MaxQty>\r\n              <DiscountRate>19</DiscountRate>\r\n              <DiscountedPrice>61.75</DiscountedPrice>\r\n              <DiscountedPricePerMida>32.500</DiscountedPricePer"
+ },
+ "parse_seconds": 36,
+ "stores": 51,
+ "stores_with_prices": 47,
+ "items": 476641,
+ "distinct_codes": 18207,
+ "item_types": {
+  "0": 22978,
+  "1": 453663
+ },
+ "promos": 187178,
+ "cities": [
+  [
+   "0",
+   51
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290803800003",
+   "מ. יוחננוף ובניו",
+   "001",
+   "1",
+   "001",
+   "יוחננוף מפוח",
+   "רחוב המפוח 11, אזור התעשיה",
+   "0",
+   "0000000"
+  ],
+  [
+   "7290803800003",
+   "מ. יוחננוף ובניו",
+   "001",
+   "1",
+   "002",
+   "יוחננוף ישן",
+   "unknown",
+   "0",
+   "0000000"
+  ],
+  [
+   "7290803800003",
+   "מ. יוחננוף ובניו",
+   "001",
+   "1",
+   "004",
+   "בילו",
+   "צומת ביל\"ו",
+   "0",
+   "0000000"
+  ],
+  [
+   "7290803800003",
+   "מ. יוחננוף ובניו",
+   "001",
+   "1",
+   "005",
+   "אשדוד",
+   "זבוטינסקי 27, סטאר סנטר",
+   "0",
+   "0000000"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290803800003",
+   "046",
+   "20261123",
+   "101114",
+   "0",
+   "תרומה לבית אלמוג שיל",
+   "לא ידוע",
+   "1.00",
+   "יחידות",
+   "יחידות",
+   "0",
+   15.0,
+   15.0,
+   ""
+  ],
+  [
+   "7290803800003",
+   "046",
+   "20261123",
+   "1022788",
+   "0",
+   "*מבצע* גבינת פקורינו",
+   "אלפאסטור",
+   "1.00",
+   "1קילוגרם",
+   "קילוגרם",
+   "1",
+   139.0,
+   139.0,
+   ""
+  ],
+  [
+   "7290803800003",
+   "046",
+   "20261123",
+   "1022801",
+   "0",
+   "גבינה צהובה קלאסית 2",
+   "גולד פרוסט",
+   "1.00",
+   "1קילוגרם",
+   "קילוגרם",
+   "1",
+   31.0,
+   31.0,
+   ""
+  ],
+  [
+   "7290803800003",
+   "046",
+   "20261123",
+   "1022849",
+   "0",
+   "גבינה קשה עם רוטב פס",
+   "אלפסטור",
+   "1.00",
+   "1קילוגרם",
+   "קילוגרם",
+   "1",
+   149.0,
+   149.0,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290803800003",
+   "060",
+   "20261123",
+   "78510",
+   "400433",
+   "שישליק הודו 2קג ב65- רשתי",
+   "",
+   "1.90",
+   61.75,
+   "19"
+  ],
+  [
+   "7290803800003",
+   "060",
+   "20261123",
+   "120997",
+   "401034",
+   "כנפיים הודו טרי 14.90 רשתי",
+   "",
+   "0.01",
+   14.9,
+   "6"
+  ],
+  [
+   "7290803800003",
+   "060",
+   "20261123",
+   "305995",
+   "400228",
+   "טחון עוף טרי 2קג ב80- רשתי",
+   "",
+   "1.90",
+   76.0,
+   "16"
+  ],
+  [
+   "7290803800003",
+   "060",
+   "20261123",
+   "308142",
+   "7290003598915",
+   "קיזוז אריזה בלדי",
+   "",
+   "0.01",
+   18.99,
+   "5"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 94.1
+}

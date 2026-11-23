@@ -1,0 +1,312 @@
+{
+ "chain": "FRESH_MARKET_AND_SUPER_DOSH",
+ "started": "2026-11-23 08:46:06",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 52,
+ "PRICE_FULL_FILE_mb": 402.5,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 52,
+ "PROMO_FULL_FILE_mb": 249.4,
+ "download_seconds": 92,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290876100000</ChainID><ChainName>פרש מרקט</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>06:00:00.150</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>001</StoreID><BikoretNo>6</BikoretNo><StoreType>1</StoreType><StoreName>פרשמרקט גליל ים</StoreName><Address>קיבוץ גליל ים</Address><City>346</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>002</StoreID><BikoretNo>5</BikoretNo><StoreType>1</StoreType><StoreName>פרשמרקט הנדיב</StoreName><Address>הנדיב 71 הרצליה</Address><City>6400</City><ZIPCode>4648583</ZIPCode></Store><Store><StoreID>004</StoreID><BikoretNo>3</BikoretNo><StoreType>1</StoreType><StoreName>פרשמרקט אזורי חו</StoreName><Address>אורי צבי גרינברג 25 תל אביב</Address><City>5000</City><ZIPCode>6937931</ZIPCode></Store><Store><StoreID>005</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>פרשמרקט קריות זול-בי</StoreName><Address>קרן היסוד 5 קריית ביאליק</Address><City>9500</City><ZIPCode>2721603</ZIPCode></Store><Store><StoreID>006</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>מחסני מזון טירת הכרמ</StoreName><Address>הלחי 8 טירת הכרמל</Address><City>2100</City><ZIPCode>3902851</ZIPCode></Store><Store><StoreID>008</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>טיפ טוב אשר ברש</StoreName><Address>רח'אשר ברש הרצליה</Address><City>6400</City><ZIPCode>4636500</ZIPCode></Store><Store><StoreID>009</Stor",
+  "PRICE_FULL_FILE": "믯㲿潒瑯ാ 㰠桃楡䥮㹄㈷〹㜸ㄶ〰〰㰰䌯慨湩䑉ാ 㰠畓䍢慨湩䑉〾㄰⼼畓䍢慨湩䑉ാ 㰠瑓牯䥥㹄㌰㰱匯潴敲䑉ാ 㰠楂潫敲乴㹯㰱䈯歩牯瑥潎ാ 㰠瑉浥㹳਍††䤼整㹭਍†††值楲散灕慤整楔敭㈾㈰ⴶ㌰ㄭ吹㜰ㄺ㨴㠰〮〰⼼牐捩啥摰瑡呥浩㹥਍†††䤼整䍭摯㹥㈷〹㄰〰ㄵ㜳㰳䤯整䍭摯㹥਍†††䰼獡却污䑥瑡呥浩㹥〲㘲ㄭⴱ㈲ㅔ㨶㠴〺⸸〰㰰䰯獡却污䑥瑡呥浩㹥਍†††䤼整呭灹㹥㰰䤯整呭灹㹥਍†††䤼整乭浡㹥ꛗ黗鏗휠힗힡힕₪郗휮힐힓힞㲔䤯整乭浡㹥਍†††䴼湡晵捡畴敲慎敭휾힜ₐ駗鏗闗ꋗ⼼慍畮慦瑣牵乥浡㹥਍†††䴼湡晵捡畴敲潃湵牴㹹駗꧗꣗郗鳗⼼慍畮慦瑣牵䍥畯瑮祲ാ ††㰠慍畮慦瑣牵䥥整䑭獥牣灩楴湯휾힦힞ₓ韗ꇗ闗꫗휠⺐郗鏗黗铗⼼慍畮慦瑣牵䥥整䑭獥牣灩楴湯ാ ††㰠湕瑩瑑㹹鳗郗휠힙힓힕㲢唯楮兴祴ാ ††㰠畑湡楴祴〾〮㰰儯慵瑮瑩㹹਍†††唼楮佴䵦慥畳敲휾힜ₐ駗鏗闗ꋗ⼼湕瑩晏敍獡牵㹥਍†††戼獉敗杩瑨摥〾⼼䥢坳楥桧整㹤਍†††儼祴湉慐正条㹥鳗郗휠힙힓힕㲢儯祴湉慐正条㹥਍†††䤼整偭楲散ㄾ⸰〹⼼瑉浥牐捩㹥਍†††唼楮佴䵦慥畳敲牐捩㹥⸰〰⼼湕瑩晏敍獡牵健楲散ാ ††㰠汁潬䑷獩潣湵㹴㰱䄯汬睯楄捳畯瑮ാ ††㰠瑉浥瑓瑡獵㸯਍††⼼瑉浥ാ †㰠瑉浥ാ ††㰠牐捩啥摰瑡呥浩㹥〲㘲〭ⴴ㠰ㅔ㨰㔵㈺⸴〰㰰倯楲散灕慤整楔敭ാ ††㰠瑉浥潃敤㜾㈶㈲㈰㘲㘵㠴⼼瑉浥潃敤ാ ††㰠慌瑳慓敬慄整楔敭㈾㈰ⴶㄱㄭ吸ㄱ㔺㨳㌵〮〰⼼慌瑳慓敬慄整楔敭ാ ††㰠瑉浥祔数〾⼼瑉浥祔数ാ ††㰠瑉浥慎敭휾힞힙힜힧ₔ꧗闗ꟗ闗鳗鏗휠힜힑₟〹鋗⼼瑉浥慎敭ാ ††㰠慍畮慦瑣牵乥浡㹥鳗郗휠힙힓힕㲢䴯湡晵捡畴敲慎敭ാ ††㰠慍畮慦瑣牵䍥畯瑮祲휾힦힙힜㲔䴯湡晵捡畴敲潃湵牴㹹਍†††䴼湡晵捡畴敲瑉浥敄捳楲瑰潩㹮黗駗鳗ꟗ铗휠힩힕힧힕힜ₓ鳗釗鿗㤠휰㲒䴯湡晵捡畴敲瑉浥敄捳楲瑰潩㹮਍†††唼楮兴祴휾힜ₐ駗鏗闗ꋗ⼼湕瑩瑑㹹਍†††儼慵瑮瑩㹹〹〮㰰儯慵瑮瑩㹹਍†††唼楮佴䵦慥畳敲ㄾ〰휠힞힙힜힙힜힙힘㲨唯楮佴䵦慥畳敲ാ ††㰠䥢坳楥桧整㹤㰰戯獉敗杩瑨摥ാ ††㰠瑑䥹偮捡慫敧휾힜ₐ駗鏗闗ꋗ⼼瑑䥹偮捡慫敧ാ ††㰠瑉浥牐捩㹥⸹〹⼼瑉浥牐捩㹥਍†††唼楮佴䵦慥畳敲牐捩㹥⸰ㄱ⼼湕瑩晏敍獡牵健楲散ാ ††㰠汁潬䑷獩潣湵㹴㰱䄯汬睯楄捳畯瑮ാ ††㰠瑉浥瑓瑡獵㸯਍††⼼瑉浥ാ †㰠瑉浥ാ ††㰠牐捩啥摰瑡呥浩㹥〲㘲〭ⴵ㠲ご㨸㔰〺⸵〰㰰倯楲散灕慤整楔敭ാ ††㰠瑉浥潃敤㜾㤲〰㐰㔶㤸㘴⼼瑉浥潃敤ാ ††㰠慌瑳慓敬慄整楔敭㈾㈰ⴶㄱㄭ吱㠱㐺㨳㌳〮〰⼼慌瑳慓敬慄整楔敭ാ ††㰠瑉浥祔数〾⼼瑉浥祔数ാ ††㰠瑉浥慎敭휾힙힙₟꧗꣗鏗闗ꃗ铗휠힛힨힞ₜ倮䌮⼼瑉浥慎敭ാ ††㰠慍畮慦瑣牵乥浡㹥ꟗ꣗駗闗꫗휠힖힕㲜䴯湡晵捡畴敲慎敭ാ ††㰠慍畮慦瑣牵䍥畯瑮祲휾힦힙힜㲔䴯湡晵捡畴敲潃湵牴㹹਍†††䴼湡晵捡畴敲瑉浥敄捳楲瑰潩㹮駗駗鿗휠힩힨힓힕힠ₔ鯗꣗黗鳗⸠⹐㱃䴯湡晵捡畴敲瑉浥敄捳楲瑰潩㹮਍†††唼楮兴祴휾힜ₐ駗鏗闗ꋗ⼼湕瑩瑑㹹਍†††儼慵瑮瑩㹹㔷⸰〰⼼畑湡楴祴ാ ††㰠湕瑩晏敍獡牵㹥鳗郗휠힙힓힕㲢唯楮佴䵦慥畳敲ാ ††㰠䥢坳楥桧整㹤㰰戯獉敗杩瑨摥ാ ††㰠瑑䥹偮捡慫敧휾힜ₐ駗鏗闗ꋗ⼼瑑䥹偮捡慫敧ാ ††㰠瑉浥牐捩㹥㔵㤮㰰䤯整偭楲散ാ ††㰠湕瑩晏敍獡牵健楲散〾〮㰷唯楮佴䵦慥畳敲牐捩㹥਍†††䄼汬睯楄捳畯瑮ㄾ⼼汁潬䑷獩潣湵㹴਍†††䤼整卭慴畴⽳ാ †㰠䤯整㹭਍††䤼整㹭਍†††值楲散灕慤整楔敭㈾㈰ⴶ㔰㈭吸㠰〺㨵㔰〮〰⼼牐捩啥摰瑡呥浩㹥਍†††䤼整䍭摯㹥㈷〹〰㘴㠵㔹㰳䤯整䍭摯㹥਍†††䰼獡却污䑥瑡呥浩㹥〲㘲〭ⴹ㘱ㅔ㨶㜱㌺⸴〰㰰䰯獡却污䑥瑡呥浩㹥਍†††䤼整呭灹㹥㰰䤯整呭灹㹥਍†††䤼整乭浡㹥駗駗鿗휠힛힨힞ₜꓗ꣗",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290876100000</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>049</StoreID>\r\n  <BikoretNo>6</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-01T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0001240090</PromotionID>\r\n      <PromotionDescription>שמן קנולה/חמניות 3 ב25</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-01T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-11-28T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour/>\r\n      <PromotionEndHour/>\r\n      <PromotionDays/>\r\n      <RedemptionLimit/>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>3</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount>0.00</MinPurchaseAmount>\r\n          <DiscountType/>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>693493177283</ItemCode>\r\n              <ItemType>0</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>3</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate>15.82</DiscountRate>\r\n              <DiscountedPrice>25.00</DiscountedPrice>\r\n              <DiscountedPricePerMida>0.926</DiscountedPricePerMida>\r\n              <bIsWeighted>0</bIsWeighted>"
+ },
+ "parse_seconds": 24,
+ "stores": 73,
+ "stores_with_prices": 46,
+ "items": 461482,
+ "distinct_codes": 19726,
+ "item_types": {
+  "0": 456975,
+  "1": 4507
+ },
+ "promos": 412491,
+ "cities": [
+  [
+   "5000",
+   21
+  ],
+  [
+   "7900",
+   5
+  ],
+  [
+   "8300",
+   4
+  ],
+  [
+   "6600",
+   4
+  ],
+  [
+   "6400",
+   4
+  ],
+  [
+   "8700",
+   3
+  ],
+  [
+   "70",
+   3
+  ],
+  [
+   "6200",
+   3
+  ],
+  [
+   "4000",
+   3
+  ],
+  [
+   "9600",
+   2
+  ],
+  [
+   "9500",
+   2
+  ],
+  [
+   "6800",
+   2
+  ],
+  [
+   "9400",
+   1
+  ],
+  [
+   "9000",
+   1
+  ],
+  [
+   "8600",
+   1
+  ],
+  [
+   "8200",
+   1
+  ],
+  [
+   "7400",
+   1
+  ],
+  [
+   "681",
+   1
+  ],
+  [
+   "587",
+   1
+  ],
+  [
+   "346",
+   1
+  ],
+  [
+   "2660",
+   1
+  ],
+  [
+   "2640",
+   1
+  ],
+  [
+   "2620",
+   1
+  ],
+  [
+   "2530",
+   1
+  ],
+  [
+   "2100",
+   1
+  ],
+  [
+   "182",
+   1
+  ],
+  [
+   "1345",
+   1
+  ],
+  [
+   "1139",
+   1
+  ],
+  [
+   "1061",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290876100000",
+   "פרש מרקט",
+   "001",
+   "1",
+   "001",
+   "פרשמרקט גליל ים",
+   "קיבוץ גליל ים",
+   "346",
+   "0000000"
+  ],
+  [
+   "7290876100000",
+   "פרש מרקט",
+   "001",
+   "1",
+   "002",
+   "פרשמרקט הנדיב",
+   "הנדיב 71 הרצליה",
+   "6400",
+   "4648583"
+  ],
+  [
+   "7290876100000",
+   "פרש מרקט",
+   "001",
+   "1",
+   "004",
+   "פרשמרקט אזורי חו",
+   "אורי צבי גרינברג 25 תל אביב",
+   "5000",
+   "6937931"
+  ],
+  [
+   "7290876100000",
+   "פרש מרקט",
+   "001",
+   "1",
+   "005",
+   "פרשמרקט קריות זול-בי",
+   "קרן היסוד 5 קריית ביאליק",
+   "9500",
+   "2721603"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290876100000",
+   "031",
+   "20261123",
+   "7290010051373",
+   "0",
+   "צמד חסות א.אדמה",
+   "לא ידוע",
+   "0.00",
+   "לא ידוע",
+   "לא ידוע",
+   "0",
+   10.9,
+   0.0,
+   ""
+  ],
+  [
+   "7290876100000",
+   "031",
+   "20261123",
+   "7622202265648",
+   "0",
+   "מילקה שוקולד לבן 90ג",
+   "לא ידוע",
+   "90.00",
+   "100 מיליליטר",
+   "לא ידוע",
+   "0",
+   9.9,
+   0.11,
+   ""
+  ],
+  [
+   "7290876100000",
+   "031",
+   "20261123",
+   "7290004658946",
+   "0",
+   "יין שרדונה כרמל .P.C",
+   "קריות זול",
+   "750.00",
+   "לא ידוע",
+   "לא ידוע",
+   "0",
+   55.9,
+   0.07,
+   ""
+  ],
+  [
+   "7290876100000",
+   "031",
+   "20261123",
+   "7290004658953",
+   "0",
+   "יין כרמל פרייבט קולק",
+   "קריות זול",
+   "750.00",
+   "100 מיליליטר",
+   "לא ידוע",
+   "0",
+   55.9,
+   0.07,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290876100000",
+   "049",
+   "20261123",
+   "0001240090",
+   "693493177283",
+   "שמן קנולה/חמניות 3 ב25",
+   "",
+   "3",
+   25.0,
+   "15.82"
+  ],
+  [
+   "7290876100000",
+   "049",
+   "20261123",
+   "0001240090",
+   "693493249287",
+   "שמן קנולה/חמניות 3 ב25",
+   "",
+   "3",
+   25.0,
+   "15.82"
+  ],
+  [
+   "7290876100000",
+   "049",
+   "20261123",
+   "0001240090",
+   "4600829002702",
+   "שמן קנולה/חמניות 3 ב25",
+   "",
+   "3",
+   25.0,
+   "15.82"
+  ],
+  [
+   "7290876100000",
+   "049",
+   "20261123",
+   "0001240090",
+   "4600829002870",
+   "שמן קנולה/חמניות 3 ב25",
+   "",
+   "3",
+   25.0,
+   "15.82"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 119.1
+}

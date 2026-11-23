@@ -1,0 +1,203 @@
+{
+ "chain": "MESHMAT_YOSEF_2",
+ "started": "2026-11-23 08:46:11",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 4,
+ "PRICE_FULL_FILE_mb": 0.8,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 4,
+ "PROMO_FULL_FILE_mb": 0.1,
+ "download_seconds": 12,
+ "raw_heads": {
+  "STORE_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058289400</ChainID>\r\n  <ChainName>קי טי יבוא ושווק בע\"מ</ChainName>\r\n  <LastUpdateDate>2026-11-23</LastUpdateDate>\r\n  <LastUpdateTime>02:02:56.190</LastUpdateTime>\r\n  <SubChains>\r\n    <SubChain>\r\n      <SubChainID>000</SubChainID>\r\n      <SubChainName />\r\n      <Stores>\r\n        <Store>\r\n          <StoreID>001</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>קיטי מרקט האמוראים 14</StoreName>\r\n          <Address>האמוראים 14</Address>\r\n          <City>2610</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>002</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>קיטי רב חנן 3</StoreName>\r\n          <Address>רב חנן 3</Address>\r\n          <City>2610</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>003</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>קיטי ריש לקיש 5</StoreName>\r\n          <Address>ריש לקיש 5</Address>\r\n          <City>2610</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>004</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>קיטי מרקט חריש</StoreName>\r\n          <Address>חברותא 13</Address>\r\n          <City>0</City>\r\n          <ZIPCode>0000000<",
+  "PRICE_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058289400</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>003</StoreID>\r\n  <BikoretNo>3</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-23T00:59:00.000</PriceUpdateTime>\r\n      <ItemCode>5</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T09:29:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>עגבניה</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>IL</ManufactureCountry>\r\n      <ManufactureItemDescription>עגבניה</ManufactureItemDescription>\r\n      <UnitQty>קילוגרם</UnitQty>\r\n      <Quantity>1</Quantity>\r\n      <UnitOfMeasure>1 קילוגרם</UnitOfMeasure>\r\n      <bIsWeighted>1</bIsWeighted>\r\n      <QtyInPackage />\r\n      <ItemPrice>8.90</ItemPrice>\r\n      <UnitOfMeasurePrice>8.9</UnitOfMeasurePrice>\r\n      <AllowDiscount>0</AllowDiscount>\r\n      <ItemStatus>0</ItemStatus>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-23T00:59:00.000</PriceUpdateTime>\r\n      <ItemCode>9</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T07:10:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>חציל</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>IL</ManufactureCountry>\r\n      <ManufactureItemDescription>חציל</ManufactureItemDescription>\r\n      <UnitQty>קילוגרם</UnitQty>\r\n      <Quantity>1</Quantity>\r\n      <UnitOfMeasure>1 קילוגרם</UnitOfMeasure>\r\n      <bIsWeighted>1</bIsWeighted>\r\n   ",
+  "PROMO_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058289400</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>001</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-23T02:04:25.243</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>2007</PromotionID>\r\n      <PromotionDescription>קליק 65 גרם</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-23T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-12-12T00:00:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour />\r\n      <PromotionEndHour />\r\n      <PromotionDays />\r\n      <RedemptionLimit />\r\n      <MinNoOfItemOffered />\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>3.0000</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>001</GroupID>\r\n          <MinPurchaseAmount />\r\n          <DiscountType />\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290112494238</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>3.0000</MinQty>\r\n              <MaxQty />\r\n              <DiscountRate />\r\n              <DiscountedPrice>18.00</DiscountedPrice>\r\n              <DiscountedPricePerMida />\r\n              <bIsWeighted>0</bIsWeighted>\r\n            </PromotionItem>\r\n            <"
+ },
+ "parse_seconds": 1,
+ "stores": 4,
+ "stores_with_prices": 4,
+ "items": 17611,
+ "distinct_codes": 6959,
+ "item_types": {
+  "1": 17611
+ },
+ "promos": 3155,
+ "cities": [
+  [
+   "2610",
+   3
+  ],
+  [
+   "0",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290058289400",
+   "קי טי יבוא ושווק בע\"מ",
+   "000",
+   "",
+   "001",
+   "קיטי מרקט האמוראים 14",
+   "האמוראים 14",
+   "2610",
+   "0000000"
+  ],
+  [
+   "7290058289400",
+   "קי טי יבוא ושווק בע\"מ",
+   "000",
+   "",
+   "002",
+   "קיטי רב חנן 3",
+   "רב חנן 3",
+   "2610",
+   "0000000"
+  ],
+  [
+   "7290058289400",
+   "קי טי יבוא ושווק בע\"מ",
+   "000",
+   "",
+   "003",
+   "קיטי ריש לקיש 5",
+   "ריש לקיש 5",
+   "2610",
+   "0000000"
+  ],
+  [
+   "7290058289400",
+   "קי טי יבוא ושווק בע\"מ",
+   "000",
+   "",
+   "004",
+   "קיטי מרקט חריש",
+   "חברותא 13",
+   "0",
+   "0000000"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290058289400",
+   "003",
+   "20261123",
+   "5",
+   "1",
+   "עגבניה",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   8.9,
+   8.9,
+   ""
+  ],
+  [
+   "7290058289400",
+   "003",
+   "20261123",
+   "9",
+   "1",
+   "חציל",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   7.9,
+   7.9,
+   ""
+  ],
+  [
+   "7290058289400",
+   "003",
+   "20261123",
+   "10",
+   "1",
+   "קישוא",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   9.9,
+   9.9,
+   ""
+  ],
+  [
+   "7290058289400",
+   "003",
+   "20261123",
+   "11",
+   "1",
+   "בטטה",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   6.9,
+   6.9,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290058289400",
+   "001",
+   "20261123",
+   "2007",
+   "7290112494238",
+   "קליק 65 גרם",
+   "",
+   "3.0000",
+   18.0,
+   ""
+  ],
+  [
+   "7290058289400",
+   "001",
+   "20261123",
+   "2007",
+   "7290112494283",
+   "קליק 65 גרם",
+   "",
+   "3.0000",
+   18.0,
+   ""
+  ],
+  [
+   "7290058289400",
+   "001",
+   "20261123",
+   "2007",
+   "7290112494221",
+   "קליק 65 גרם",
+   "",
+   "3.0000",
+   18.0,
+   ""
+  ],
+  [
+   "7290058289400",
+   "001",
+   "20261123",
+   "2007",
+   "7290112494313",
+   "קליק 65 גרם",
+   "",
+   "3.0000",
+   18.0,
+   ""
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 3.2
+}

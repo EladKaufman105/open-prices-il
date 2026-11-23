@@ -1,0 +1,287 @@
+{
+ "chain": "WOLT",
+ "started": "2026-11-23 08:48:36",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 37,
+ "PRICE_FULL_FILE_mb": 119.8,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 37,
+ "PROMO_FULL_FILE_mb": 20.0,
+ "download_seconds": 30,
+ "raw_heads": {
+  "STORE_FILE": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><Root><ChainID>7290058249350</ChainID><ChainName>וולט מרקט</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>00:00:00.000</LastUpdateTime><SubChains><SubChain><SubChainID>000</SubChainID><SubChainName>000</SubChainName><Stores><Store><StoreID>001</StoreID><BikoretNo>0</BikoretNo><StoreType>2</StoreType><StoreName>וולט מרקט | מודיעין</StoreName><Address>מתתיהו הכהן 1 מודיעין</Address><City>מודיעין-מכבים-רעות</City><ZIPCode>71700</ZIPCode></Store><Store><StoreID>002</StoreID><BikoretNo>0</BikoretNo><StoreType>2</StoreType><StoreName>וולט מרקט | וולפסון</StoreName><Address>הלוחמים 11 תל אביב</Address><City>תל אביב - יפו</City><ZIPCode>6820184</ZIPCode></Store><Store><StoreID>038</StoreID><BikoretNo>0</BikoretNo><StoreType>2</StoreType><StoreName>Wolt Market Israel Test Venue</StoreName><Address>שביט 8</Address><City>תל אביב - יפו</City><ZIPCode>6425813</ZIPCode></Store><Store><StoreID>036</StoreID><BikoretNo>0</BikoretNo><StoreType>2</StoreType><StoreName>וולט מרקט | אור יהודה</StoreName><Address>משה אביב 6, אור יהודה, Israel</Address><City>אור יהודה</City><ZIPCode>6037128</ZIPCode></Store><Store><StoreID>003</StoreID><BikoretNo>0</BikoretNo><StoreType>2</StoreType><StoreName>וולט מרקט | אשדוד</StoreName><Address>דוד המלך 18 אשדוד</Address><City>אשדוד</City><ZIPCode>7748609</ZIPCode></Store><Store><StoreID>004</StoreID><BikoretNo>0</BikoretNo><StoreType>2</StoreType><StoreName>וולט מרקט | קריית אליעזר</St",
+  "PRICE_FULL_FILE": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><Root><ChainID>7290058249350</ChainID><SubChainID>000</SubChainID><StoreID>007</StoreID><BikoretNo>0</BikoretNo><Items><Item><PriceUpdateTime>2026-11-21T14:22:20.000</PriceUpdateTime><ItemCode>7290107280341</ItemCode><ItemType>1</ItemType><ItemName>סנו סושי מטליות לחות לרצפה בניחוח מלון - 10 יח׳</ItemName><ManufactureName>סנו</ManufactureName><ManufactureCountry>IL</ManufactureCountry><ManufactureItemDescription>סנו סושי מטליות לחות לרצפה בניחוח מלון - 10 יח׳</ManufactureItemDescription><UnitQty>גרם</UnitQty><Quantity>995</Quantity><UnitOfMeasure>100 גרם</UnitOfMeasure><blsWeighted>0</blsWeighted><QtyInPackage>12</QtyInPackage><ItemPrice>13.90</ItemPrice><UnitOfMeasurePrice>1.40</UnitOfMeasurePrice><AllowDiscount>1</AllowDiscount><ItemStatus></ItemStatus></Item><Item><PriceUpdateTime>2026-11-18T16:04:52.000</PriceUpdateTime><ItemCode>7290013284310</ItemCode><ItemType>1</ItemType><ItemName>רוטב פסטה פריניר - 240 גרם</ItemName><ManufactureName>מ.ד אטיאס</ManufactureName><ManufactureCountry>IL</ManufactureCountry><ManufactureItemDescription>רוטב פסטה פריניר - 240 גרם</ManufactureItemDescription><UnitQty>גרם</UnitQty><Quantity>240</Quantity><UnitOfMeasure>100 גרם</UnitOfMeasure><blsWeighted>0</blsWeighted><QtyInPackage>24</QtyInPackage><ItemPrice>6.90</ItemPrice><UnitOfMeasurePrice>2.88</UnitOfMeasurePrice><AllowDiscount>1</AllowDiscount><ItemStatus></ItemStatus></Item><Item><PriceUpdateTime>2026-11-19T20:10:24.000</PriceUpda",
+  "PROMO_FULL_FILE": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><Root><ChainID>7290058249350</ChainID><SubChainID>000</SubChainID><StoreID>039</StoreID><BikoretNo>0</BikoretNo><Promotions><Promotion><PromotionUpdateTime>2026-11-18T12:09:00.000</PromotionUpdateTime><PromotionId>980384</PromotionId><PromotionDescription>20.00 תחבושות קוטקס אקסטרא לונג נייט</PromotionDescription><PromotionStartDate>2026-11-18</PromotionStartDate><PromotionStartHour>12:09:00.000</PromotionStartHour><PromotionEndDate>2026-11-30</PromotionEndDate><PromotionEndHour>23:59:59.000</PromotionEndHour><ClubId>0</ClubId><AdditionalRestrictions></AdditionalRestrictions><Remarks></Remarks><PromotionItems><PromotionItem><ItemCode>7290111344459</ItemCode><ItemType>1</ItemType><RewardType>3</RewardType><blsWeighted>0</blsWeighted><AllowMultipleDiscounts>1</AllowMultipleDiscounts><MinQty>2</MinQty><MaxQty>2</MaxQty><DiscountRate>16.32</DiscountRate><MinPurchaseAmount></MinPurchaseAmount><DiscountedPrice>20.00</DiscountedPrice><DiscountedPricePerMida>20.00</DiscountedPricePerMida><MinNoOfItemsOffered>18</MinNoOfItemsOffered></PromotionItem><PromotionItem><ItemCode>7290000199313</ItemCode><ItemType>1</ItemType><RewardType>3</RewardType><blsWeighted>0</blsWeighted><AllowMultipleDiscounts>1</AllowMultipleDiscounts><MinQty>2</MinQty><MaxQty>2</MaxQty><DiscountRate>16.32</DiscountRate><MinPurchaseAmount></MinPurchaseAmount><DiscountedPrice>20.00</DiscountedPrice><DiscountedPricePerMida>20.00</DiscountedPricePerMida><MinNoOfIte"
+ },
+ "parse_seconds": 11,
+ "stores": 37,
+ "stores_with_prices": 32,
+ "items": 172579,
+ "distinct_codes": 7112,
+ "item_types": {
+  "1": 172579
+ },
+ "promos": 22058,
+ "cities": [
+  [
+   "תל אביב - יפו",
+   7
+  ],
+  [
+   "ראשון לציון",
+   3
+  ],
+  [
+   "כפר קאסם",
+   3
+  ],
+  [
+   "רמת גן",
+   2
+  ],
+  [
+   "מודיעין-מכבים-רעות",
+   2
+  ],
+  [
+   "ירושלים",
+   2
+  ],
+  [
+   "חדרה",
+   2
+  ],
+  [
+   "רעננה",
+   1
+  ],
+  [
+   "רמת השרון",
+   1
+  ],
+  [
+   "רמלה",
+   1
+  ],
+  [
+   "רחובות",
+   1
+  ],
+  [
+   "קרית ביאליק",
+   1
+  ],
+  [
+   "קרית אונו",
+   1
+  ],
+  [
+   "פתח תקווה",
+   1
+  ],
+  [
+   "נתניה",
+   1
+  ],
+  [
+   "נס ציונה",
+   1
+  ],
+  [
+   "כפר סבא",
+   1
+  ],
+  [
+   "חיפה",
+   1
+  ],
+  [
+   "הרצליה",
+   1
+  ],
+  [
+   "באר שבע",
+   1
+  ],
+  [
+   "אשדוד",
+   1
+  ],
+  [
+   "אילון",
+   1
+  ],
+  [
+   "אור יהודה",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290058249350",
+   "וולט מרקט",
+   "000",
+   "000",
+   "001",
+   "וולט מרקט | מודיעין",
+   "מתתיהו הכהן 1 מודיעין",
+   "מודיעין-מכבים-רעות",
+   "71700"
+  ],
+  [
+   "7290058249350",
+   "וולט מרקט",
+   "000",
+   "000",
+   "002",
+   "וולט מרקט | וולפסון",
+   "הלוחמים 11 תל אביב",
+   "תל אביב - יפו",
+   "6820184"
+  ],
+  [
+   "7290058249350",
+   "וולט מרקט",
+   "000",
+   "000",
+   "038",
+   "Wolt Market Israel Test Venue",
+   "שביט 8",
+   "תל אביב - יפו",
+   "6425813"
+  ],
+  [
+   "7290058249350",
+   "וולט מרקט",
+   "000",
+   "000",
+   "036",
+   "וולט מרקט | אור יהודה",
+   "משה אביב 6, אור יהודה, Israel",
+   "אור יהודה",
+   "6037128"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290058249350",
+   "007",
+   "20261123",
+   "7290107280341",
+   "1",
+   "סנו סושי מטליות לחות לרצפה בניחוח מלון - 10 יח׳",
+   "סנו",
+   "995",
+   "100 גרם",
+   "גרם",
+   "",
+   13.9,
+   1.4,
+   ""
+  ],
+  [
+   "7290058249350",
+   "007",
+   "20261123",
+   "7290013284310",
+   "1",
+   "רוטב פסטה פריניר - 240 גרם",
+   "מ.ד אטיאס",
+   "240",
+   "100 גרם",
+   "גרם",
+   "",
+   6.9,
+   2.88,
+   ""
+  ],
+  [
+   "7290058249350",
+   "007",
+   "20261123",
+   "7290123005058",
+   "1",
+   "כרעיים פרימיום טרי, 1 ק״ג - מיטמן",
+   "מיטמן",
+   "1000",
+   "קילוגרם",
+   "גרם",
+   "",
+   41.9,
+   41.9,
+   ""
+  ],
+  [
+   "7290058249350",
+   "007",
+   "20261123",
+   "7290013269638",
+   "1",
+   "סנו סושי - ספוג הפלא אקסטרא",
+   "סנו",
+   "40",
+   "100 גרם",
+   "גרם",
+   "",
+   14.9,
+   37.25,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290058249350",
+   "039",
+   "20261123",
+   "980384",
+   "7290111344459",
+   "20.00 תחבושות קוטקס אקסטרא לונג נייט",
+   "2026-11-30",
+   "2",
+   20.0,
+   "16.32"
+  ],
+  [
+   "7290058249350",
+   "039",
+   "20261123",
+   "980384",
+   "7290000199313",
+   "20.00 תחבושות קוטקס אקסטרא לונג נייט",
+   "2026-11-30",
+   "2",
+   20.0,
+   "16.32"
+  ],
+  [
+   "7290058249350",
+   "039",
+   "20261123",
+   "980384",
+   "5029053510828",
+   "20.00 תחבושות קוטקס אקסטרא לונג נייט",
+   "2026-11-30",
+   "2",
+   20.0,
+   "16.32"
+  ],
+  [
+   "7290058249350",
+   "039",
+   "20261123",
+   "980384",
+   "5029053510811",
+   "20.00 תחבושות קוטקס אקסטרא לונג נייט",
+   "2026-11-30",
+   "2",
+   20.0,
+   "16.32"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 33.7
+}

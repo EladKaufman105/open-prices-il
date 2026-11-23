@@ -1,0 +1,231 @@
+{
+ "chain": "SHEFA_BARCART_ASHEM",
+ "started": "2026-11-23 08:48:03",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 22,
+ "PRICE_FULL_FILE_mb": 2.6,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 22,
+ "PROMO_FULL_FILE_mb": 0.6,
+ "download_seconds": 32,
+ "raw_heads": {
+  "STORE_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058134977</ChainID>\r\n  <ChainName>שפע ברכת השם בע\"מ</ChainName>\r\n  <LastUpdateDate>2026-11-23</LastUpdateDate>\r\n  <LastUpdateTime>05:06:34.399</LastUpdateTime>\r\n  <SubChains>\r\n    <SubChain>\r\n      <SubChainID>000</SubChainID>\r\n      <SubChainName />\r\n      <Stores>\r\n        <Store>\r\n          <StoreID>001</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>כף החיים</StoreName>\r\n          <Address>כף החיים 38</Address>\r\n          <City>3780</City>\r\n          <ZIPCode>9053738</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>002</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>בן ציון ברוק</StoreName>\r\n          <Address>בן ציון ברוק 7</Address>\r\n          <City>3780</City>\r\n          <ZIPCode>9055408</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>003</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>עלי הכהן</StoreName>\r\n          <Address>עלי הכהן 21</Address>\r\n          <City>3000</City>\r\n          <ZIPCode>9531123</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>005</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>החיד\"א</StoreName>\r\n          <Address>החיד\"א 11</Address>\r\n          <City>3780</City>\r\n          <ZIPCode>9050811</ZIPCode>\r\n        </St",
+  "PRICE_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058134977</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>007</StoreID>\r\n  <BikoretNo>9</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-17T00:48:00.000</PriceUpdateTime>\r\n      <ItemCode>6</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T07:08:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>תוספת קירור בקבוק גדול</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>תוספת קירור בקבוק גדול</ManufactureItemDescription>\r\n      <UnitQty>יחידות</UnitQty>\r\n      <Quantity>1</Quantity>\r\n      <UnitOfMeasure>יחידות</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage />\r\n      <ItemPrice>2.00</ItemPrice>\r\n      <UnitOfMeasurePrice>2</UnitOfMeasurePrice>\r\n      <AllowDiscount>0</AllowDiscount>\r\n      <ItemStatus>0</ItemStatus>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-17T00:48:00.000</PriceUpdateTime>\r\n      <ItemCode>7</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T07:08:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>תוספת קירור לפחית/בקבוק קטן</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>תוספת קירור לפחית/בקבוק קטן</ManufactureItemDescription>\r\n      <UnitQty>יחידות</UnitQty>\r\n      <Quantity>1</Quantity>\r\n      ",
+  "PROMO_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058134977</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>032</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-23T05:10:06.787</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>978856300</PromotionID>\r\n      <PromotionDescription>מאגדת פאף/צ'פסטיקס 3 ב 20</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-22T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-11-28T00:00:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour />\r\n      <PromotionEndHour />\r\n      <PromotionDays />\r\n      <RedemptionLimit />\r\n      <MinNoOfItemOffered />\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>3.0000</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>001</GroupID>\r\n          <MinPurchaseAmount />\r\n          <DiscountType />\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290015194471</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>3.0000</MinQty>\r\n              <MaxQty />\r\n              <DiscountRate />\r\n              <DiscountedPrice>20.00</DiscountedPrice>\r\n              <DiscountedPricePerMida />\r\n              <bIsWeighted>0</bIsWeighted>\r\n            </PromotionI"
+ },
+ "parse_seconds": 5,
+ "stores": 22,
+ "stores_with_prices": 22,
+ "items": 61696,
+ "distinct_codes": 9885,
+ "item_types": {
+  "1": 61696
+ },
+ "promos": 21854,
+ "cities": [
+  [
+   "3780",
+   8
+  ],
+  [
+   "3000",
+   5
+  ],
+  [
+   "2610",
+   3
+  ],
+  [
+   "6100",
+   1
+  ],
+  [
+   "3797",
+   1
+  ],
+  [
+   "3730",
+   1
+  ],
+  [
+   "31",
+   1
+  ],
+  [
+   "1309",
+   1
+  ],
+  [
+   "0",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290058134977",
+   "שפע ברכת השם בע\"מ",
+   "000",
+   "",
+   "001",
+   "כף החיים",
+   "כף החיים 38",
+   "3780",
+   "9053738"
+  ],
+  [
+   "7290058134977",
+   "שפע ברכת השם בע\"מ",
+   "000",
+   "",
+   "002",
+   "בן ציון ברוק",
+   "בן ציון ברוק 7",
+   "3780",
+   "9055408"
+  ],
+  [
+   "7290058134977",
+   "שפע ברכת השם בע\"מ",
+   "000",
+   "",
+   "003",
+   "עלי הכהן",
+   "עלי הכהן 21",
+   "3000",
+   "9531123"
+  ],
+  [
+   "7290058134977",
+   "שפע ברכת השם בע\"מ",
+   "000",
+   "",
+   "005",
+   "החיד\"א",
+   "החיד\"א 11",
+   "3780",
+   "9050811"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290058134977",
+   "007",
+   "20261123",
+   "6",
+   "1",
+   "תוספת קירור בקבוק גדול",
+   "לא ידוע",
+   "1",
+   "יחידות",
+   "יחידות",
+   "0",
+   2.0,
+   2.0,
+   ""
+  ],
+  [
+   "7290058134977",
+   "007",
+   "20261123",
+   "7",
+   "1",
+   "תוספת קירור לפחית/בקבוק קטן",
+   "לא ידוע",
+   "1",
+   "יחידות",
+   "יחידות",
+   "0",
+   1.0,
+   1.0,
+   ""
+  ],
+  [
+   "7290058134977",
+   "007",
+   "20261123",
+   "139",
+   "1",
+   "מחיר כללי כולל מע\"מ",
+   "לא ידוע",
+   "1",
+   "יחידות",
+   "יחידות",
+   "0",
+   1.0,
+   1.0,
+   ""
+  ],
+  [
+   "7290058134977",
+   "007",
+   "20261123",
+   "300",
+   "1",
+   "עגבניה",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   9.9,
+   9.9,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290058134977",
+   "032",
+   "20261123",
+   "978856300",
+   "7290015194471",
+   "מאגדת פאף/צ'פסטיקס 3 ב 20",
+   "",
+   "3.0000",
+   20.0,
+   ""
+  ],
+  [
+   "7290058134977",
+   "032",
+   "20261123",
+   "978856300",
+   "7290015194488",
+   "מאגדת פאף/צ'פסטיקס 3 ב 20",
+   "",
+   "3.0000",
+   20.0,
+   ""
+  ],
+  [
+   "7290058134977",
+   "032",
+   "20261123",
+   "978856300",
+   "7290015194495",
+   "מאגדת פאף/צ'פסטיקס 3 ב 20",
+   "",
+   "3.0000",
+   20.0,
+   ""
+  ],
+  [
+   "7290058134977",
+   "032",
+   "20261123",
+   "978856284",
+   "6908109500138",
+   "מנת נודלס 4 ב 10",
+   "",
+   "4.0000",
+   10.0,
+   ""
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 12.1
+}

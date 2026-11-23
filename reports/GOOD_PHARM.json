@@ -1,0 +1,347 @@
+{
+ "chain": "GOOD_PHARM",
+ "started": "2026-11-23 08:46:20",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 97,
+ "PRICE_FULL_FILE_mb": 17.2,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 144,
+ "PROMO_FULL_FILE_mb": 3.1,
+ "download_seconds": 126,
+ "raw_heads": {
+  "STORE_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058197699</ChainID>\r\n  <ChainName>גוד פארם בע\"מ</ChainName>\r\n  <LastUpdateDate>2026-11-23</LastUpdateDate>\r\n  <LastUpdateTime>04:02:11.742</LastUpdateTime>\r\n  <SubChains>\r\n    <SubChain>\r\n      <SubChainID>000</SubChainID>\r\n      <SubChainName />\r\n      <Stores>\r\n        <Store>\r\n          <StoreID>048</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>נס ציונה - הבנים</StoreName>\r\n          <Address>הבנים 1</Address>\r\n          <City>7200</City>\r\n          <ZIPCode>7407101</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>051</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>ת\"א - כיכר רבין</StoreName>\r\n          <Address>בלוך 2</Address>\r\n          <City>0</City>\r\n          <ZIPCode>6811112</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>070</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>יהוד - מקלב</StoreName>\r\n          <Address>מקלב 8</Address>\r\n          <City>0</City>\r\n          <ZIPCode>5626605</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>073</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>חולון - אילת</StoreName>\r\n          <Address>אילת 4</Address>\r\n          <City>6600</City>\r\n          <ZIPCode>5830224</ZIPCode>\r\n        </Store>\r\n    ",
+  "PRICE_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058197699</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>261</StoreID>\r\n  <BikoretNo>7</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-17T16:47:00.000</PriceUpdateTime>\r\n      <ItemCode>1</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T09:38:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>GOOD PHARM - שקית אל בד גדול</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>GOOD PHARM - שקית אל בד גדול</ManufactureItemDescription>\r\n      <UnitQty>יחידות</UnitQty>\r\n      <Quantity>1</Quantity>\r\n      <UnitOfMeasure>יחידות</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage />\r\n      <ItemPrice>2.50</ItemPrice>\r\n      <UnitOfMeasurePrice>2.5</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus>0</ItemStatus>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-17T16:47:00.000</PriceUpdateTime>\r\n      <ItemCode>1025</ItemCode>\r\n      <LastSaleDateTime>2026-11-17T09:19:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>הנחת קופון האגיס ערכת הריון ולידה</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>הנחת קופון האגיס ערכת הריון ולידה</ManufactureItemDescription>\r\n      <UnitQty>יחידות</UnitQty>\r\n      <",
+  "PROMO_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058197699</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>852</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-23T04:06:33.823</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>28351</PromotionID>\r\n      <PromotionDescription>פישר קמיל בלו תחליב לתינוק ב-19.90 ש\"ח</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-22T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-11-30T00:00:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour />\r\n      <PromotionEndHour />\r\n      <PromotionDays />\r\n      <RedemptionLimit />\r\n      <MinNoOfItemOffered />\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>1.0000</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>001</GroupID>\r\n          <MinPurchaseAmount />\r\n          <DiscountType />\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290011525316</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>3</RewardType>\r\n              <MinQty>1.0000</MinQty>\r\n              <MaxQty />\r\n              <DiscountRate>28.67</DiscountRate>\r\n              <DiscountedPrice>19.90</DiscountedPrice>\r\n              <DiscountedPricePerMida>3.98</DiscountedPricePerMida>\r\n              <"
+ },
+ "parse_seconds": 26,
+ "stores": 84,
+ "stores_with_prices": 83,
+ "items": 353737,
+ "distinct_codes": 16844,
+ "item_types": {
+  "1": 353737
+ },
+ "promos": 119552,
+ "cities": [
+  [
+   "0",
+   24
+  ],
+  [
+   "6400",
+   5
+  ],
+  [
+   "7900",
+   4
+  ],
+  [
+   "7400",
+   4
+  ],
+  [
+   "4000",
+   4
+  ],
+  [
+   "9000",
+   3
+  ],
+  [
+   "6600",
+   3
+  ],
+  [
+   "6200",
+   3
+  ],
+  [
+   "8600",
+   2
+  ],
+  [
+   "6900",
+   2
+  ],
+  [
+   "6300",
+   2
+  ],
+  [
+   "1139",
+   2
+  ],
+  [
+   "9700",
+   1
+  ],
+  [
+   "9100",
+   1
+  ],
+  [
+   "8700",
+   1
+  ],
+  [
+   "8400",
+   1
+  ],
+  [
+   "8300",
+   1
+  ],
+  [
+   "7800",
+   1
+  ],
+  [
+   "7700",
+   1
+  ],
+  [
+   "7300",
+   1
+  ],
+  [
+   "7200",
+   1
+  ],
+  [
+   "7100",
+   1
+  ],
+  [
+   "70",
+   1
+  ],
+  [
+   "6500",
+   1
+  ],
+  [
+   "6100",
+   1
+  ],
+  [
+   "3570",
+   1
+  ],
+  [
+   "2640",
+   1
+  ],
+  [
+   "2630",
+   1
+  ],
+  [
+   "2620",
+   1
+  ],
+  [
+   "2610",
+   1
+  ],
+  [
+   "2600",
+   1
+  ],
+  [
+   "2530",
+   1
+  ],
+  [
+   "2500",
+   1
+  ],
+  [
+   "246",
+   1
+  ],
+  [
+   "1061",
+   1
+  ],
+  [
+   "1049",
+   1
+  ],
+  [
+   "1031",
+   1
+  ],
+  [
+   "1020",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290058197699",
+   "גוד פארם בע\"מ",
+   "000",
+   "",
+   "048",
+   "נס ציונה - הבנים",
+   "הבנים 1",
+   "7200",
+   "7407101"
+  ],
+  [
+   "7290058197699",
+   "גוד פארם בע\"מ",
+   "000",
+   "",
+   "051",
+   "ת\"א - כיכר רבין",
+   "בלוך 2",
+   "0",
+   "6811112"
+  ],
+  [
+   "7290058197699",
+   "גוד פארם בע\"מ",
+   "000",
+   "",
+   "070",
+   "יהוד - מקלב",
+   "מקלב 8",
+   "0",
+   "5626605"
+  ],
+  [
+   "7290058197699",
+   "גוד פארם בע\"מ",
+   "000",
+   "",
+   "073",
+   "חולון - אילת",
+   "אילת 4",
+   "6600",
+   "5830224"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290058197699",
+   "261",
+   "20261123",
+   "1",
+   "1",
+   "GOOD PHARM - שקית אל בד גדול",
+   "לא ידוע",
+   "1",
+   "יחידות",
+   "יחידות",
+   "0",
+   2.5,
+   2.5,
+   ""
+  ],
+  [
+   "7290058197699",
+   "261",
+   "20261123",
+   "1025",
+   "1",
+   "הנחת קופון האגיס ערכת הריון ולידה",
+   "לא ידוע",
+   "1",
+   "יחידות",
+   "יחידות",
+   "0",
+   0.01,
+   null,
+   ""
+  ],
+  [
+   "7290058197699",
+   "261",
+   "20261123",
+   "8905",
+   "1",
+   "הנחת קופון GOOD PHARM רביעיית מגבונים לחים פרימיום בייבי",
+   "לא ידוע",
+   "1",
+   "יחידות",
+   "יחידות",
+   "0",
+   0.01,
+   null,
+   ""
+  ],
+  [
+   "7290058197699",
+   "261",
+   "20261123",
+   "30074576",
+   "1",
+   "מייבלין - מסקרה קולוסאל ווליום אקספרס",
+   "לא ידוע",
+   "1",
+   "יחידות",
+   "יחידות",
+   "0",
+   40.0,
+   40.0,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290058197699",
+   "852",
+   "20261123",
+   "28351",
+   "7290011525316",
+   "פישר קמיל בלו תחליב לתינוק ב-19.90 ש\"ח",
+   "",
+   "1.0000",
+   19.9,
+   "28.67"
+  ],
+  [
+   "7290058197699",
+   "852",
+   "20261123",
+   "28302",
+   "7290000297446",
+   "אפקטיב קר MEN ג'ל גילוח 200 מ\"ל ב-16.90",
+   "",
+   "1.0000",
+   16.9,
+   "15.08"
+  ],
+  [
+   "7290058197699",
+   "852",
+   "20261123",
+   "28300",
+   "3600524250157",
+   "לוריאל אלביב ספריי לשיער 200 מ\"ל ב-39.90",
+   "",
+   "1.0000",
+   39.9,
+   "33.39"
+  ],
+  [
+   "7290058197699",
+   "852",
+   "20261123",
+   "28299",
+   "3600524268022",
+   "אלביב שמפו/מרכך קולגן 500 מ\"ל 2 ב-32 ש\"ח",
+   "",
+   "2.0000",
+   32.0,
+   ""
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 83.8
+}

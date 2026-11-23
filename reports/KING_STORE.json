@@ -1,0 +1,275 @@
+{
+ "chain": "KING_STORE",
+ "started": "2026-11-23 08:46:30",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 48,
+ "PRICE_FULL_FILE_mb": 9.0,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 29,
+ "PROMO_FULL_FILE_mb": 1.0,
+ "download_seconds": 36,
+ "raw_heads": {
+  "STORE_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058108879</ChainID>\r\n  <ChainName>אלמשהדאוי קינג סטור בע\"מ</ChainName>\r\n  <LastUpdateDate>2026-11-23</LastUpdateDate>\r\n  <LastUpdateTime>04:05:12.940</LastUpdateTime>\r\n  <SubChains>\r\n    <SubChain>\r\n      <SubChainID>000</SubChainID>\r\n      <SubChainName />\r\n      <Stores>\r\n        <Store>\r\n          <StoreID>001</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>אום אלפחם</StoreName>\r\n          <Address>שרפה 22, כביש ראשי של העיר 0</Address>\r\n          <City>2710</City>\r\n          <ZIPCode>0030010</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>002</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>דבוריה</StoreName>\r\n          <Address>דרך אלשראר,כביש ראשי 0</Address>\r\n          <City>489</City>\r\n          <ZIPCode>0016910</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>003</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>פרידיס</StoreName>\r\n          <Address>כביש 4, בכניסה לפוריידיס 0</Address>\r\n          <City>537</City>\r\n          <ZIPCode>0030898</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>005</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>קלנסווה</StoreName>\r\n          <Address>כביש ראשי 5614 0</Address>\r\n          <City>638</City>\r\n     ",
+  "PRICE_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058108879</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>3380</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2025-08-21T12:15:15.000</PriceUpdateTime>\r\n      <ItemCode>13006</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T16:04:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>פסטרמה מקסיקנית</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>IL2</ManufactureCountry>\r\n      <ManufactureItemDescription>פסטרמה מקסיקנית</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>1000</Quantity>\r\n      <UnitOfMeasure>1 קילוגרם</UnitOfMeasure>\r\n      <bIsWeighted>1</bIsWeighted>\r\n      <QtyInPackage />\r\n      <ItemPrice>99.00</ItemPrice>\r\n      <UnitOfMeasurePrice>99</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus>0</ItemStatus>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2025-08-21T12:15:32.000</PriceUpdateTime>\r\n      <ItemCode>13037</ItemCode>\r\n      <LastSaleDateTime>2026-11-06T09:16:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>פסטרמה פרגיות על לבנים</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>IL2</ManufactureCountry>\r\n      <ManufactureItemDescription>פסטרמה פרגיות על לבנים</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>1000</Quantity>\r\n      <UnitOfMeasure>1 ק",
+  "PROMO_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058108879</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>007</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-23T04:07:32.580</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>587748662</PromotionID>\r\n      <PromotionDescription>פרגית עם עור 3 קג ב 79.9</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-23T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-11-29T00:00:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour />\r\n      <PromotionEndHour />\r\n      <PromotionDays />\r\n      <RedemptionLimit>3.16667</RedemptionLimit>\r\n      <MinNoOfItemOffered />\r\n      <ClubID>(\"לקוחות הקפה=3\" | \"מועדון לקוחות=3\" | \"HEBREW=3\" | \"ARABIC=3\" | \"לקוחות אתר קניות=3\" | \"מיתר=3\" | \"לקוחות סיטונאים=3\" | \"עובדי קינגסטור -ARABIC=3\" | \"עובדי קינגסטור -HEBREW=3\" | \"טסט הנחות=3\" | \"לקוח גדול=3\" | \"עובדי סוא=3\" | \"בעלים=3\" | \"לקוחות רכבים=3\" | \"ואדי אלג'וז CASHBACK=3\" | \"לקוחות פרידיס=3\" | \"לקוחות הקפה שוברים=3\" | \"עמותת אפדל אלעולום=3\")</ClubID>\r\n      <IsGiftItem>3.0000</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>001</GroupID>\r\n          <MinPurchaseAmount />\r\n          <DiscountType />\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemC"
+ },
+ "parse_seconds": 8,
+ "stores": 48,
+ "stores_with_prices": 48,
+ "items": 194890,
+ "distinct_codes": 15338,
+ "item_types": {
+  "1": 194890
+ },
+ "promos": 33996,
+ "cities": [
+  [
+   "0",
+   22
+  ],
+  [
+   "638",
+   3
+  ],
+  [
+   "9000",
+   2
+  ],
+  [
+   "7600",
+   2
+  ],
+  [
+   "509",
+   2
+  ],
+  [
+   "1161",
+   2
+  ],
+  [
+   "1061",
+   2
+  ],
+  [
+   "944",
+   1
+  ],
+  [
+   "8900",
+   1
+  ],
+  [
+   "8800",
+   1
+  ],
+  [
+   "8500",
+   1
+  ],
+  [
+   "7300",
+   1
+  ],
+  [
+   "537",
+   1
+  ],
+  [
+   "499",
+   1
+  ],
+  [
+   "489",
+   1
+  ],
+  [
+   "4000",
+   1
+  ],
+  [
+   "3000",
+   1
+  ],
+  [
+   "2730",
+   1
+  ],
+  [
+   "2710",
+   1
+  ],
+  [
+   "1139",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290058108879",
+   "אלמשהדאוי קינג סטור בע\"מ",
+   "000",
+   "",
+   "001",
+   "אום אלפחם",
+   "שרפה 22, כביש ראשי של העיר 0",
+   "2710",
+   "0030010"
+  ],
+  [
+   "7290058108879",
+   "אלמשהדאוי קינג סטור בע\"מ",
+   "000",
+   "",
+   "002",
+   "דבוריה",
+   "דרך אלשראר,כביש ראשי 0",
+   "489",
+   "0016910"
+  ],
+  [
+   "7290058108879",
+   "אלמשהדאוי קינג סטור בע\"מ",
+   "000",
+   "",
+   "003",
+   "פרידיס",
+   "כביש 4, בכניסה לפוריידיס 0",
+   "537",
+   "0030898"
+  ],
+  [
+   "7290058108879",
+   "אלמשהדאוי קינג סטור בע\"מ",
+   "000",
+   "",
+   "005",
+   "קלנסווה",
+   "כביש ראשי 5614 0",
+   "638",
+   "0040640"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290058108879",
+   "3380",
+   "20261123",
+   "13006",
+   "1",
+   "פסטרמה מקסיקנית",
+   "לא ידוע",
+   "1000",
+   "1 קילוגרם",
+   "גרם",
+   "1",
+   99.0,
+   99.0,
+   ""
+  ],
+  [
+   "7290058108879",
+   "3380",
+   "20261123",
+   "13037",
+   "1",
+   "פסטרמה פרגיות על לבנים",
+   "לא ידוע",
+   "1000",
+   "1 קילוגרם",
+   "גרם",
+   "1",
+   99.0,
+   99.0,
+   ""
+  ],
+  [
+   "7290058108879",
+   "3380",
+   "20261123",
+   "13174",
+   "1",
+   "פסטרמה של פעם",
+   "לא ידוע",
+   "1000",
+   "1 קילוגרם",
+   "גרם",
+   "1",
+   99.0,
+   99.0,
+   ""
+  ],
+  [
+   "7290058108879",
+   "3380",
+   "20261123",
+   "13747",
+   "1",
+   "תה סלמי מפולפל",
+   "לא ידוע",
+   "1000",
+   "1 קילוגרם",
+   "גרם",
+   "1",
+   59.0,
+   59.0,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290058108879",
+   "007",
+   "20261123",
+   "587748662",
+   "888008",
+   "פרגית עם עור 3 קג ב 79.9",
+   "",
+   "3.0000",
+   79.89,
+   "33.26"
+  ],
+  [
+   "7290058108879",
+   "007",
+   "20261123",
+   "587748661",
+   "444611",
+   "סלמון שלם טרי 1 קג ב  59.9",
+   "",
+   "0.1000",
+   59.9,
+   "25.96"
+  ],
+  [
+   "7290058108879",
+   "007",
+   "20261123",
+   "587748660",
+   "888409",
+   "עגל טרי 1 קג ב 54.9",
+   "",
+   "0.1000",
+   54.9,
+   "31.29"
+  ],
+  [
+   "7290058108879",
+   "007",
+   "20261123",
+   "587748659",
+   "888491",
+   "שריר עגל טרי 1 קג ב 49.9",
+   "",
+   "0.1000",
+   49.9,
+   "23.11"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 37.5
+}

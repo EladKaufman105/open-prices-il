@@ -1,0 +1,355 @@
+{
+ "chain": "SUPER_SAPIR",
+ "started": "2026-11-23 08:48:01",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-22",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-22",
+ "PRICE_FULL_FILE_files": 91,
+ "PRICE_FULL_FILE_mb": 15.2,
+ "PROMO_FULL_FILE_day": "2026-11-22",
+ "PROMO_FULL_FILE_files": 77,
+ "PROMO_FULL_FILE_mb": 3.1,
+ "download_seconds": 101,
+ "raw_heads": {
+  "STORE_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058156016</ChainID>\r\n  <ChainName>ראי מרקט</ChainName>\r\n  <LastUpdateDate>2026-11-22</LastUpdateDate>\r\n  <LastUpdateTime>03:50:36.772</LastUpdateTime>\r\n  <SubChains>\r\n    <SubChain>\r\n      <SubChainID>000</SubChainID>\r\n      <SubChainName />\r\n      <Stores>\r\n        <Store>\r\n          <StoreID>003</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>מחסן אונליין שדרות</StoreName>\r\n          <Address>unknown</Address>\r\n          <City>0</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>004</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>מחסן אונליין אופקים</StoreName>\r\n          <Address>unknown</Address>\r\n          <City>0</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>074</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>מחסן עתלית אונליין</StoreName>\r\n          <Address>unknown</Address>\r\n          <City>0</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>078</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>*זכיין - מעלה אדומים</StoreName>\r\n          <Address>unknown</Address>\r\n          <City>0</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        <",
+  "PRICE_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058156016</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>262</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-22T00:57:00.000</PriceUpdateTime>\r\n      <ItemCode>24</ItemCode>\r\n      <LastSaleDateTime>2026-11-03T06:50:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>סברס</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>IL</ManufactureCountry>\r\n      <ManufactureItemDescription>סברס</ManufactureItemDescription>\r\n      <UnitQty>קילוגרם</UnitQty>\r\n      <Quantity>1</Quantity>\r\n      <UnitOfMeasure>1 קילוגרם</UnitOfMeasure>\r\n      <bIsWeighted>1</bIsWeighted>\r\n      <QtyInPackage />\r\n      <ItemPrice>19.90</ItemPrice>\r\n      <UnitOfMeasurePrice>19.9</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus>0</ItemStatus>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-22T00:57:00.000</PriceUpdateTime>\r\n      <ItemCode>215</ItemCode>\r\n      <LastSaleDateTime>2026-11-21T18:03:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>בצל אדום</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>NL</ManufactureCountry>\r\n      <ManufactureItemDescription>בצל אדום</ManufactureItemDescription>\r\n      <UnitQty>קילוגרם</UnitQty>\r\n      <Quantity>1</Quantity>\r\n      <UnitOfMeasure>1 קילוגרם</UnitOfMeasure>\r\n      <bIsWeighted>1</bIsWeigh",
+  "PROMO_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058156016</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>088</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-22T03:55:03.744</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>123496975</PromotionID>\r\n      <PromotionDescription>סוכריות גומי יוגטה 200 גר 2 ב16</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-12T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-12-12T00:00:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour />\r\n      <PromotionEndHour />\r\n      <PromotionDays />\r\n      <RedemptionLimit />\r\n      <MinNoOfItemOffered />\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>2.0000</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>001</GroupID>\r\n          <MinPurchaseAmount />\r\n          <DiscountType />\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290111355172</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>2.0000</MinQty>\r\n              <MaxQty />\r\n              <DiscountRate />\r\n              <DiscountedPrice>16.00</DiscountedPrice>\r\n              <DiscountedPricePerMida />\r\n              <bIsWeighted>0</bIsWeighted>\r\n            </Prom"
+ },
+ "parse_seconds": 25,
+ "stores": 130,
+ "stores_with_prices": 91,
+ "items": 335197,
+ "distinct_codes": 23845,
+ "item_types": {
+  "1": 335197
+ },
+ "promos": 122392,
+ "cities": [
+  [
+   "0",
+   50
+  ],
+  [
+   "3000",
+   11
+  ],
+  [
+   "7800",
+   4
+  ],
+  [
+   "6600",
+   4
+  ],
+  [
+   "6200",
+   4
+  ],
+  [
+   "9000",
+   3
+  ],
+  [
+   "8400",
+   3
+  ],
+  [
+   "7400",
+   3
+  ],
+  [
+   "6500",
+   3
+  ],
+  [
+   "26",
+   3
+  ],
+  [
+   "9600",
+   2
+  ],
+  [
+   "565",
+   2
+  ],
+  [
+   "4000",
+   2
+  ],
+  [
+   "386",
+   2
+  ],
+  [
+   "3797",
+   2
+  ],
+  [
+   "3570",
+   2
+  ],
+  [
+   "2650",
+   2
+  ],
+  [
+   "229",
+   2
+  ],
+  [
+   "182",
+   2
+  ],
+  [
+   "1731",
+   2
+  ],
+  [
+   "1309",
+   2
+  ],
+  [
+   "1031",
+   2
+  ],
+  [
+   "8300",
+   1
+  ],
+  [
+   "823",
+   1
+  ],
+  [
+   "8000",
+   1
+  ],
+  [
+   "7700",
+   1
+  ],
+  [
+   "732",
+   1
+  ],
+  [
+   "70",
+   1
+  ],
+  [
+   "6900",
+   1
+  ],
+  [
+   "6800",
+   1
+  ],
+  [
+   "456",
+   1
+  ],
+  [
+   "3780",
+   1
+  ],
+  [
+   "2800",
+   1
+  ],
+  [
+   "2610",
+   1
+  ],
+  [
+   "2550",
+   1
+  ],
+  [
+   "2400",
+   1
+  ],
+  [
+   "1401",
+   1
+  ],
+  [
+   "1200",
+   1
+  ],
+  [
+   "1113",
+   1
+  ],
+  [
+   "1020",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290058156016",
+   "ראי מרקט",
+   "000",
+   "",
+   "003",
+   "מחסן אונליין שדרות",
+   "unknown",
+   "0",
+   "0000000"
+  ],
+  [
+   "7290058156016",
+   "ראי מרקט",
+   "000",
+   "",
+   "004",
+   "מחסן אונליין אופקים",
+   "unknown",
+   "0",
+   "0000000"
+  ],
+  [
+   "7290058156016",
+   "ראי מרקט",
+   "000",
+   "",
+   "074",
+   "מחסן עתלית אונליין",
+   "unknown",
+   "0",
+   "0000000"
+  ],
+  [
+   "7290058156016",
+   "ראי מרקט",
+   "000",
+   "",
+   "078",
+   "*זכיין - מעלה אדומים",
+   "unknown",
+   "0",
+   "0000000"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290058156016",
+   "262",
+   "20261122",
+   "24",
+   "1",
+   "סברס",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   19.9,
+   19.9,
+   ""
+  ],
+  [
+   "7290058156016",
+   "262",
+   "20261122",
+   "215",
+   "1",
+   "בצל אדום",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   6.9,
+   6.9,
+   ""
+  ],
+  [
+   "7290058156016",
+   "262",
+   "20261122",
+   "295",
+   "1",
+   "פלפל כתום",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   6.9,
+   6.9,
+   ""
+  ],
+  [
+   "7290058156016",
+   "262",
+   "20261122",
+   "342",
+   "1",
+   "תפוא אדום",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   4.9,
+   4.9,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290058156016",
+   "088",
+   "20261122",
+   "123496975",
+   "7290111355172",
+   "סוכריות גומי יוגטה 200 גר 2 ב16",
+   "",
+   "2.0000",
+   16.0,
+   ""
+  ],
+  [
+   "7290058156016",
+   "088",
+   "20261122",
+   "123496975",
+   "7290111357367",
+   "סוכריות גומי יוגטה 200 גר 2 ב16",
+   "",
+   "2.0000",
+   16.0,
+   ""
+  ],
+  [
+   "7290058156016",
+   "088",
+   "20261122",
+   "123496975",
+   "7290111357749",
+   "סוכריות גומי יוגטה 200 גר 2 ב16",
+   "",
+   "2.0000",
+   16.0,
+   ""
+  ],
+  [
+   "7290058156016",
+   "088",
+   "20261122",
+   "123496969",
+   "64144090013",
+   "תרסיס שמן פאם++14.90",
+   "",
+   "1.0000",
+   14.9,
+   "31.96"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 68.1
+}

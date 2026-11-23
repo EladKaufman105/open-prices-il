@@ -1,0 +1,284 @@
+{
+ "chain": "OSHER_AD",
+ "started": "2026-11-23 08:46:09",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 24,
+ "PRICE_FULL_FILE_mb": 129.6,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 24,
+ "PROMO_FULL_FILE_mb": 59.1,
+ "download_seconds": 48,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290103152017</ChainID><ChainName>אושר עד</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>08:05:01.013</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>001</StoreID><BikoretNo>6</BikoretNo><StoreType>1</StoreType><StoreName>מגדל העמק</StoreName><Address>האיצטדיון 11</Address><City>874</City><ZIPCode>2303401</ZIPCode></Store><Store><StoreID>003</StoreID><BikoretNo>4</BikoretNo><StoreType>1</StoreType><StoreName>גבעת שאול</StoreName><Address>בית הדפוס 29</Address><City>3000</City><ZIPCode>9548334</ZIPCode></Store><Store><StoreID>005</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>קרית ביאליק</StoreName><Address>הנס מולר 6, צור שלום</Address><City>9500</City><ZIPCode>2751206</ZIPCode></Store><Store><StoreID>006</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>כנות</StoreName><Address>אדום 24 פארק התעשיות כנות</Address><City>2006</City><ZIPCode>7982500</ZIPCode></Store><Store><StoreID>009</StoreID><BikoretNo>8</BikoretNo><StoreType>1</StoreType><StoreName>אשדוד</StoreName><Address>בעלי המלאכה 4</Address><City>70</City><ZIPCode>7761205</ZIPCode></Store><Store><StoreID>010</StoreID><BikoretNo>4</BikoretNo><StoreType>1</StoreType><StoreName>פתח תקווה - סגולה</StoreName><Address>בן ציון גליס 30</Address><City>7900</City><ZIPCode>4927930</ZIPCode></Store><Store><StoreID>011</StoreID><BikoretNo>3</BikoretNo><StoreType>1</StoreType><StoreName>",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290103152017</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>025</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2025-06-08T07:31:56.000</PriceUpdateTime>\r\n      <ItemCode>7290000113203</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T22:43:06.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>כיפלי ציפס קטשופ 50</ItemName>\r\n      <ManufactureName>יוניליוור</ManufactureName>\r\n      <ManufactureCountry>ישראל</ManufactureCountry>\r\n      <ManufactureItemDescription>כיפלי ציפס קטשופ 50</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>50.00</Quantity>\r\n      <UnitOfMeasure>100 גרם</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage>לא ידוע</QtyInPackage>\r\n      <ItemPrice>5.50</ItemPrice>\r\n      <UnitOfMeasurePrice>11.00</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus/>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2018-10-07T12:57:51.000</PriceUpdateTime>\r\n      <ItemCode>7290001136287</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T21:12:24.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>שמפו נקה 7 לשיער רגי</ItemName>\r\n      <ManufactureName>אמיליה קוסמטיקס</ManufactureName>\r\n      <ManufactureCountry>ישראל</ManufactureCountry>\r\n      <ManufactureItemDescription>שמפו נקה 7 לשיער רגי</ManufactureItemDescription>\r\n      <UnitQty>לא ידוע</UnitQty>\r\n      <Quantity>750.00</Quantity>\r\n      <UnitOfMeas",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290103152017</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>019</StoreID>\r\n  <BikoretNo>9</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-08T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0001119402</PromotionID>\r\n      <PromotionDescription>ביסלי 200 גרם  אסם  2 ב 12</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-02T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-12-05T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour/>\r\n      <PromotionEndHour/>\r\n      <PromotionDays/>\r\n      <RedemptionLimit/>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>2</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount>0.00</MinPurchaseAmount>\r\n          <DiscountType/>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290000066189</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>2</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate>7.69</DiscountRate>\r\n              <DiscountedPrice>12.00</DiscountedPrice>\r\n              <DiscountedPricePerMida>0.030</DiscountedPricePerMida>\r\n              <bIsWeighted>0</bIsWeigh"
+ },
+ "parse_seconds": 9,
+ "stores": 24,
+ "stores_with_prices": 24,
+ "items": 148580,
+ "distinct_codes": 9618,
+ "item_types": {
+  "0": 26,
+  "1": 148554
+ },
+ "promos": 79390,
+ "cities": [
+  [
+   "3000",
+   3
+  ],
+  [
+   "9600",
+   1
+  ],
+  [
+   "9500",
+   1
+  ],
+  [
+   "9000",
+   1
+  ],
+  [
+   "874",
+   1
+  ],
+  [
+   "8300",
+   1
+  ],
+  [
+   "7900",
+   1
+  ],
+  [
+   "7700",
+   1
+  ],
+  [
+   "7400",
+   1
+  ],
+  [
+   "7100",
+   1
+  ],
+  [
+   "7000",
+   1
+  ],
+  [
+   "70",
+   1
+  ],
+  [
+   "6900",
+   1
+  ],
+  [
+   "6500",
+   1
+  ],
+  [
+   "6100",
+   1
+  ],
+  [
+   "5000",
+   1
+  ],
+  [
+   "4000",
+   1
+  ],
+  [
+   "3780",
+   1
+  ],
+  [
+   "2620",
+   1
+  ],
+  [
+   "2610",
+   1
+  ],
+  [
+   "2006",
+   1
+  ],
+  [
+   "155",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290103152017",
+   "אושר עד",
+   "001",
+   "1",
+   "001",
+   "מגדל העמק",
+   "האיצטדיון 11",
+   "874",
+   "2303401"
+  ],
+  [
+   "7290103152017",
+   "אושר עד",
+   "001",
+   "1",
+   "003",
+   "גבעת שאול",
+   "בית הדפוס 29",
+   "3000",
+   "9548334"
+  ],
+  [
+   "7290103152017",
+   "אושר עד",
+   "001",
+   "1",
+   "005",
+   "קרית ביאליק",
+   "הנס מולר 6, צור שלום",
+   "9500",
+   "2751206"
+  ],
+  [
+   "7290103152017",
+   "אושר עד",
+   "001",
+   "1",
+   "006",
+   "כנות",
+   "אדום 24 פארק התעשיות כנות",
+   "2006",
+   "7982500"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290103152017",
+   "025",
+   "20261123",
+   "7290000113203",
+   "1",
+   "כיפלי ציפס קטשופ 50",
+   "יוניליוור",
+   "50.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   5.5,
+   11.0,
+   ""
+  ],
+  [
+   "7290103152017",
+   "025",
+   "20261123",
+   "7290001136287",
+   "1",
+   "שמפו נקה 7 לשיער רגי",
+   "אמיליה קוסמטיקס",
+   "750.00",
+   "100 מ\"ל",
+   "לא ידוע",
+   "0",
+   8.9,
+   0.01,
+   ""
+  ],
+  [
+   "7290103152017",
+   "025",
+   "20261123",
+   "7290001136294",
+   "1",
+   "שמפו נקה 7 לשיער יבש",
+   "אמיליה קוסמטיקס",
+   "750.00",
+   "100 מ\"ל",
+   "לא ידוע",
+   "0",
+   8.9,
+   0.01,
+   ""
+  ],
+  [
+   "7290103152017",
+   "025",
+   "20261123",
+   "7290001136362",
+   "1",
+   "תחליב נקה 7 אלוורה ו",
+   "אמיליה קוסמטיקס",
+   "1.00",
+   "ליטר",
+   "לא ידוע",
+   "0",
+   11.9,
+   11.9,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290103152017",
+   "019",
+   "20261123",
+   "0001119402",
+   "7290000066189",
+   "ביסלי 200 גרם  אסם  2 ב 12",
+   "",
+   "2",
+   12.0,
+   "7.69"
+  ],
+  [
+   "7290103152017",
+   "019",
+   "20261123",
+   "0001119402",
+   "7290000066196",
+   "ביסלי 200 גרם  אסם  2 ב 12",
+   "",
+   "2",
+   12.0,
+   "7.69"
+  ],
+  [
+   "7290103152017",
+   "019",
+   "20261123",
+   "0001119402",
+   "7290000066226",
+   "ביסלי 200 גרם  אסם  2 ב 12",
+   "",
+   "2",
+   12.0,
+   "7.69"
+  ],
+  [
+   "7290103152017",
+   "019",
+   "20261123",
+   "0001119402",
+   "7290115201703",
+   "ביסלי 200 גרם  אסם  2 ב 12",
+   "",
+   "2",
+   12.0,
+   "7.69"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 32.9
+}

@@ -1,0 +1,200 @@
+{
+ "chain": "POLIZER",
+ "started": "2026-11-23 08:46:31",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 8,
+ "PRICE_FULL_FILE_mb": 95.1,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 8,
+ "PROMO_FULL_FILE_mb": 28.5,
+ "download_seconds": 40,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7291059100008</ChainID><ChainName>פוליצר</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>05:15:00.163</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>001</StoreID><BikoretNo>6</BikoretNo><StoreType>1</StoreType><StoreName>רמב\"ם</StoreName><Address>רמב\"ם 24</Address><City>0</City><ZIPCode>3836339</ZIPCode></Store><Store><StoreID>002</StoreID><BikoretNo>5</BikoretNo><StoreType>1</StoreType><StoreName>ויתקין</StoreName><Address>דרך הכפר מרכז הכפר</Address><City>0</City><ZIPCode>4020000</ZIPCode></Store><Store><StoreID>003</StoreID><BikoretNo>4</BikoretNo><StoreType>1</StoreType><StoreName>קיסריה</StoreName><Address>הרקיע  1 סי סנטר</Address><City>0</City><ZIPCode>3070216</ZIPCode></Store><Store><StoreID>004</StoreID><BikoretNo>3</BikoretNo><StoreType>1</StoreType><StoreName>ניסן</StoreName><Address>יצחק רבין 11</Address><City>0</City><ZIPCode>3824911</ZIPCode></Store><Store><StoreID>005</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>כרכור</StoreName><Address>הנחילות 2</Address><City>0</City><ZIPCode>3750983</ZIPCode></Store><Store><StoreID>008</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>פרדס חנה</StoreName><Address>הגלעד 1</Address><City>0</City><ZIPCode>3711967</ZIPCode></Store><Store><StoreID>009</StoreID><BikoretNo>8</BikoretNo><StoreType>1</StoreType><StoreName>נתניה</StoreName><Address>דודו דותן 10</Address><City>0</City><Z",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7291059100008</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreId>003</StoreId>\r\n  <BikoretNo>8</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2023-01-04T13:07:40.000</PriceUpdateTime>\r\n      <ItemCode>7290104508202</ItemCode>\r\n      <LastSaleDateTime>2026-10-21T18:14:43.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>גביעי גלידה אמריקאים</ItemName>\r\n      <ManufacturerName>אסם</ManufacturerName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufacturerItemDescription>גביעי גלידה אמריקאים</ManufacturerItemDescription>\r\n      <UnitQty>יחידות</UnitQty>\r\n      <Quantity>0.00</Quantity>\r\n      <UnitOfMeasure>יחידה   </UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage>לא ידוע</QtyInPackage>\r\n      <ItemPrice>13.50</ItemPrice>\r\n      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus/>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2021-08-10T11:37:57.000</PriceUpdateTime>\r\n      <ItemCode>7290013269850</ItemCode>\r\n      <LastSaleDateTime>2026-11-19T17:46:09.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>סושי נייר אפיה 50 יח</ItemName>\r\n      <ManufacturerName>סנו סושי</ManufacturerName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufacturerItemDescription>סושי נייר אפיה 50 יח</ManufacturerItemDescription>\r\n      <UnitQty>יחידות</UnitQty>\r\n      <Quantity>0.00</Quantity>\r\n      <UnitOfMea",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7291059100008</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>001</StoreID>\r\n  <BikoretNo>4</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-05T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0000148681</PromotionID>\r\n      <PromotionDescription>כפלי תלמה 3-ב-15</PromotionDescription>\r\n      <PromotionStartDateTime>2026-10-04T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-11-30T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour>00:00:00.000</PromotionStartHour>\r\n      <PromotionEndHour>23:59:00.000</PromotionEndHour>\r\n      <PromotionDays/>\r\n      <RedemptionLimit/>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>3</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount>0.00</MinPurchaseAmount>\r\n          <DiscountType/>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290000110844</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>3</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate/>\r\n              <DiscountedPrice>15.00</DiscountedPrice>\r\n              <DiscountedPricePerMida>0.07</DiscountedPricePerMida>\r\n     "
+ },
+ "parse_seconds": 5,
+ "stores": 8,
+ "stores_with_prices": 8,
+ "items": 109152,
+ "distinct_codes": 23163,
+ "item_types": {
+  "0": 14,
+  "1": 109138
+ },
+ "promos": 39882,
+ "cities": [
+  [
+   "0",
+   8
+  ]
+ ],
+ "store_samples": [
+  [
+   "7291059100008",
+   "פוליצר",
+   "001",
+   "1",
+   "001",
+   "רמב\"ם",
+   "רמב\"ם 24",
+   "0",
+   "3836339"
+  ],
+  [
+   "7291059100008",
+   "פוליצר",
+   "001",
+   "1",
+   "002",
+   "ויתקין",
+   "דרך הכפר מרכז הכפר",
+   "0",
+   "4020000"
+  ],
+  [
+   "7291059100008",
+   "פוליצר",
+   "001",
+   "1",
+   "003",
+   "קיסריה",
+   "הרקיע  1 סי סנטר",
+   "0",
+   "3070216"
+  ],
+  [
+   "7291059100008",
+   "פוליצר",
+   "001",
+   "1",
+   "004",
+   "ניסן",
+   "יצחק רבין 11",
+   "0",
+   "3824911"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7291059100008",
+   "003",
+   "20261123",
+   "7290104508202",
+   "1",
+   "גביעי גלידה אמריקאים",
+   "אסם",
+   "0.00",
+   "יחידה",
+   "יחידות",
+   "0",
+   13.5,
+   0.0,
+   ""
+  ],
+  [
+   "7291059100008",
+   "003",
+   "20261123",
+   "7290013269850",
+   "1",
+   "סושי נייר אפיה 50 יח",
+   "סנו סושי",
+   "0.00",
+   "יחידה",
+   "יחידות",
+   "0",
+   14.9,
+   0.0,
+   ""
+  ],
+  [
+   "7291059100008",
+   "003",
+   "20261123",
+   "4000576722654",
+   "1",
+   "פדים להסרת איפור",
+   "לא ידוע",
+   "0.00",
+   "יחידה",
+   "יחידות",
+   "0",
+   15.9,
+   0.0,
+   ""
+  ],
+  [
+   "7291059100008",
+   "003",
+   "20261123",
+   "4860019001346",
+   "1",
+   "בורז'ומי מים מינרליי",
+   "לא ידוע",
+   "500.00",
+   "100 מיליליטר",
+   "מיליליטר",
+   "0",
+   8.5,
+   1.7,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7291059100008",
+   "001",
+   "20261123",
+   "0000148681",
+   "7290000110844",
+   "כפלי תלמה 3-ב-15",
+   "",
+   "3",
+   15.0,
+   ""
+  ],
+  [
+   "7291059100008",
+   "001",
+   "20261123",
+   "0000148681",
+   "7290000110851",
+   "כפלי תלמה 3-ב-15",
+   "",
+   "3",
+   15.0,
+   ""
+  ],
+  [
+   "7291059100008",
+   "001",
+   "20261123",
+   "0000148681",
+   "7290000113180",
+   "כפלי תלמה 3-ב-15",
+   "",
+   "3",
+   15.0,
+   ""
+  ],
+  [
+   "7291059100008",
+   "001",
+   "20261123",
+   "0000148681",
+   "7290000113203",
+   "כפלי תלמה 3-ב-15",
+   "",
+   "3",
+   15.0,
+   ""
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 21.3
+}

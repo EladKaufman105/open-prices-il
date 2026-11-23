@@ -1,0 +1,199 @@
+{
+ "chain": "SALACH_DABACH",
+ "started": "2026-11-23 08:47:15",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 6,
+ "PRICE_FULL_FILE_mb": 84.7,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 6,
+ "PROMO_FULL_FILE_mb": 131.8,
+ "download_seconds": 34,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290526500006</ChainID><ChainName>Dabach</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>09:00:01.050</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>004</StoreID><BikoretNo>3</BikoretNo><StoreType>1</StoreType><StoreName>מגדל</StoreName><Address>צומת מגדל</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>007</StoreID><BikoretNo>0</BikoretNo><StoreType>1</StoreType><StoreName>עין המפרץ</StoreName><Address>עין המפרץ</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>011</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>סופר דבאח מול</StoreName><Address>unknown</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>013</StoreID><BikoretNo>5</BikoretNo><StoreType>1</StoreType><StoreName>באר שבע</StoreName><Address>הירדן 1</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>015</StoreID><BikoretNo>3</BikoretNo><StoreType>1</StoreType><StoreName>נצרת</StoreName><Address>unknown</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>017</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>עפולה</StoreName><Address>unknown</Address><City>0</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>019</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>צק פוסט</StoreName><Address>unknown</Address><City>0</City><ZIPCode>0000000</ZIP",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290526500006</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>013</StoreID>\r\n  <BikoretNo>7</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2026-05-12T10:32:17.000</PriceUpdateTime>\r\n      <ItemCode>7290115201741</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T20:41:11.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>אסם ביסלי בצל 70גרם</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufactureItemDescription>אסם ביסלי בצל 70גרם</ManufactureItemDescription>\r\n      <UnitQty>לא ידוע</UnitQty>\r\n      <Quantity>0.00</Quantity>\r\n      <UnitOfMeasure>0   0</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage>לא ידוע</QtyInPackage>\r\n      <ItemPrice>4.30</ItemPrice>\r\n      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus/>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-06-03T07:44:27.000</PriceUpdateTime>\r\n      <ItemCode>7290111344527</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T20:16:04.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>ניקול זוג שקיות אשפה</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufactureItemDescription>ניקול זוג שקיות אשפה</ManufactureItemDescription>\r\n      <UnitQty>קילוגרם</UnitQty>\r\n      <Quantity>20.00</Quantity>\r\n      <UnitOfMeasure>יחי",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290526500006</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>013</StoreID>\r\n  <BikoretNo>7</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-03T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0001347902</PromotionID>\r\n      <PromotionDescription>שניצל עוף 3 ק ג ב 90</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-03T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-11-30T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour/>\r\n      <PromotionEndHour/>\r\n      <PromotionDays/>\r\n      <RedemptionLimit/>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem/>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount>0.00</MinPurchaseAmount>\r\n          <DiscountType/>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290000066017</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>3</RewardType>\r\n              <MinQty>3</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate>33.18</DiscountRate>\r\n              <DiscountedPrice>90.00</DiscountedPrice>\r\n              <DiscountedPricePerMida>30.000</DiscountedPricePerMida>\r\n              <bIsWeighted>1</bIsWeighted>\r\n            "
+ },
+ "parse_seconds": 11,
+ "stores": 12,
+ "stores_with_prices": 6,
+ "items": 96676,
+ "distinct_codes": 23244,
+ "item_types": {
+  "1": 96676
+ },
+ "promos": 253187,
+ "cities": [
+  [
+   "0",
+   12
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290526500006",
+   "Dabach",
+   "001",
+   "1",
+   "004",
+   "מגדל",
+   "צומת מגדל",
+   "0",
+   "0000000"
+  ],
+  [
+   "7290526500006",
+   "Dabach",
+   "001",
+   "1",
+   "007",
+   "עין המפרץ",
+   "עין המפרץ",
+   "0",
+   "0000000"
+  ],
+  [
+   "7290526500006",
+   "Dabach",
+   "001",
+   "1",
+   "011",
+   "סופר דבאח מול",
+   "unknown",
+   "0",
+   "0000000"
+  ],
+  [
+   "7290526500006",
+   "Dabach",
+   "001",
+   "1",
+   "013",
+   "באר שבע",
+   "הירדן 1",
+   "0",
+   "0000000"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290526500006",
+   "013",
+   "20261123",
+   "7290115201741",
+   "1",
+   "אסם ביסלי בצל 70גרם",
+   "לא ידוע",
+   "0.00",
+   "0   0",
+   "לא ידוע",
+   "0",
+   4.3,
+   0.0,
+   ""
+  ],
+  [
+   "7290526500006",
+   "013",
+   "20261123",
+   "7290111344527",
+   "1",
+   "ניקול זוג שקיות אשפה",
+   "לא ידוע",
+   "20.00",
+   "יחידות",
+   "קילוגרם",
+   "0",
+   19.9,
+   0.99,
+   ""
+  ],
+  [
+   "7290526500006",
+   "013",
+   "20261123",
+   "7290111348525",
+   "1",
+   "האגיס מגבוני אקסטרה",
+   "לא ידוע",
+   "4.00",
+   "יחידות",
+   "קילוגרם",
+   "0",
+   24.9,
+   6.22,
+   ""
+  ],
+  [
+   "7290526500006",
+   "013",
+   "20261123",
+   "7290109134741",
+   "1",
+   "כף סיליקון 28 ס\"מ Ba",
+   "לא ידוע",
+   "0.00",
+   "יחידה",
+   "יחידות",
+   "0",
+   16.9,
+   0.0,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290526500006",
+   "013",
+   "20261123",
+   "0001347902",
+   "7290000066017",
+   "שניצל עוף 3 ק ג ב 90",
+   "",
+   "3",
+   90.0,
+   "33.18"
+  ],
+  [
+   "7290526500006",
+   "013",
+   "20261123",
+   "0001347908",
+   "7290000066016",
+   "שוקיים עוף 3 קג ב 60",
+   "",
+   "3",
+   60.0,
+   "33.11"
+  ],
+  [
+   "7290526500006",
+   "013",
+   "20261123",
+   "0001346474",
+   "3890000781095",
+   "וודקה בלוגה 1 ליטר- ב149.90",
+   "",
+   "1",
+   149.9,
+   "6.25"
+  ],
+  [
+   "7290526500006",
+   "013",
+   "20261123",
+   "0001347911",
+   "7290000066003",
+   "חזה עוף חצוי 3 ק ג ב 80",
+   "",
+   "3",
+   79.98,
+   "33.18"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 45.5
+}

@@ -1,0 +1,228 @@
+{
+ "chain": "STOP_MARKET",
+ "started": "2026-11-23 08:47:57",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 13,
+ "PRICE_FULL_FILE_mb": 179.4,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 11,
+ "PROMO_FULL_FILE_mb": 155.8,
+ "download_seconds": 46,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290639000004</ChainID><ChainName>סטופמרקט</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>05:55:00.580</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>002</StoreID><BikoretNo>5</BikoretNo><StoreType>1</StoreType><StoreName>ארנה</StoreName><Address>קניון ארנה</Address><City>6400</City><ZIPCode>4655502</ZIPCode></Store><Store><StoreID>003</StoreID><BikoretNo>4</BikoretNo><StoreType>1</StoreType><StoreName>קריות</StoreName><Address>שד ההסתדרות 271</Address><City>4000</City><ZIPCode>2620248</ZIPCode></Store><Store><StoreID>004</StoreID><BikoretNo>3</BikoretNo><StoreType>1</StoreType><StoreName>יגור</StoreName><Address>קיבוץ יגור</Address><City>96</City><ZIPCode>3006500</ZIPCode></Store><Store><StoreID>005</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>קסטרא</StoreName><Address>דרך משה פלימן 8</Address><City>4000</City><ZIPCode>3508418</ZIPCode></Store><Store><StoreID>006</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>הוד השרון</StoreName><Address>רחוב הנגר 24</Address><City>9700</City><ZIPCode>4527713</ZIPCode></Store><Store><StoreID>007</StoreID><BikoretNo>0</BikoretNo><StoreType>1</StoreType><StoreName>איינשטיין</StoreName><Address>רחוב איינשטיין 139</Address><City>4000</City><ZIPCode>3460177</ZIPCode></Store><Store><StoreID>008</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>סוהו נתניה</StoreName><Address>מפי",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290639000004</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>008</StoreID>\r\n  <BikoretNo>3</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2025-02-25T08:24:04.000</PriceUpdateTime>\r\n      <ItemCode>7290002007029</ItemCode>\r\n      <LastSaleDateTime>2026-11-19T20:10:06.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>קוקוס טחון הנמל 100</ItemName>\r\n      <ManufactureName>הנמל אריזות ושיווק ב</ManufactureName>\r\n      <ManufactureCountry>IL</ManufactureCountry>\r\n      <ManufactureItemDescription>קוקוס טחון הנמל 100 גרם</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>100.00</Quantity>\r\n      <UnitOfMeasure>100 גרם</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage>24</QtyInPackage>\r\n      <ItemPrice>5.90</ItemPrice>\r\n      <UnitOfMeasurePrice>5.90</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus/>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2025-12-01T08:15:44.000</PriceUpdateTime>\r\n      <ItemCode>7290003457991</ItemCode>\r\n      <LastSaleDateTime>2026-11-20T11:57:47.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>מאגדת קורנטו קלאסיק</ItemName>\r\n      <ManufactureName>גלידת שטראוס בע\"מ</ManufactureName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufactureItemDescription>מאגדת קורנטו קלאסיק 6 יח</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>360.00</Quantity>\r\n      <",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290639000004</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>015</StoreID>\r\n  <BikoretNo>1</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2025-12-01T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0000190826</PromotionID>\r\n      <PromotionDescription>פרוטרי מים נבגלווי 1 ליטר פלסטיק 2 ב13שח</PromotionDescription>\r\n      <PromotionStartDateTime>2018-11-05T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-12-31T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour/>\r\n      <PromotionEndHour/>\r\n      <PromotionDays/>\r\n      <RedemptionLimit/>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>2</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount>0.00</MinPurchaseAmount>\r\n          <DiscountType/>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>4865602000027</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>1</RewardType>\r\n              <MinQty>2</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate>26.97</DiscountRate>\r\n              <DiscountedPrice>13.00</DiscountedPrice>\r\n              <DiscountedPricePerMida>6.500</DiscountedPricePerMida>\r\n              <bIsWeight"
+ },
+ "parse_seconds": 16,
+ "stores": 11,
+ "stores_with_prices": 11,
+ "items": 204849,
+ "distinct_codes": 24957,
+ "item_types": {
+  "0": 3385,
+  "1": 201464
+ },
+ "promos": 293387,
+ "cities": [
+  [
+   "4000",
+   3
+  ],
+  [
+   "7400",
+   2
+  ],
+  [
+   "9700",
+   1
+  ],
+  [
+   "96",
+   1
+  ],
+  [
+   "8300",
+   1
+  ],
+  [
+   "6400",
+   1
+  ],
+  [
+   "250",
+   1
+  ],
+  [
+   "240",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290639000004",
+   "סטופמרקט",
+   "001",
+   "1",
+   "002",
+   "ארנה",
+   "קניון ארנה",
+   "6400",
+   "4655502"
+  ],
+  [
+   "7290639000004",
+   "סטופמרקט",
+   "001",
+   "1",
+   "003",
+   "קריות",
+   "שד ההסתדרות 271",
+   "4000",
+   "2620248"
+  ],
+  [
+   "7290639000004",
+   "סטופמרקט",
+   "001",
+   "1",
+   "004",
+   "יגור",
+   "קיבוץ יגור",
+   "96",
+   "3006500"
+  ],
+  [
+   "7290639000004",
+   "סטופמרקט",
+   "001",
+   "1",
+   "005",
+   "קסטרא",
+   "דרך משה פלימן 8",
+   "4000",
+   "3508418"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290639000004",
+   "008",
+   "20261123",
+   "7290002007029",
+   "1",
+   "קוקוס טחון הנמל 100",
+   "הנמל אריזות ושיווק ב",
+   "100.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   5.9,
+   5.9,
+   ""
+  ],
+  [
+   "7290639000004",
+   "008",
+   "20261123",
+   "7290003457991",
+   "1",
+   "מאגדת קורנטו קלאסיק",
+   "גלידת שטראוס בע\"מ",
+   "360.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   42.9,
+   11.92,
+   ""
+  ],
+  [
+   "7290639000004",
+   "008",
+   "20261123",
+   "7290000036151",
+   "1",
+   "קורנפלור קונדיטור500",
+   "אשבל מזון פונקציונלי",
+   "500.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   7.9,
+   1.58,
+   ""
+  ],
+  [
+   "7290639000004",
+   "008",
+   "20261123",
+   "7290002008347",
+   "1",
+   "קורנפלור הנמל 500 גר",
+   "הס חברה לייצור ושיוו",
+   "500.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   6.9,
+   1.38,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290639000004",
+   "015",
+   "20261123",
+   "0000190826",
+   "4865602000027",
+   "פרוטרי מים נבגלווי 1 ליטר פלסטיק 2 ב13שח",
+   "",
+   "2",
+   13.0,
+   "26.97"
+  ],
+  [
+   "7290639000004",
+   "015",
+   "20261123",
+   "0000191955",
+   "7290008757034",
+   "יפאורה סודה אישי 250מל-500מל 5 ב15שח",
+   "",
+   "5",
+   15.0,
+   "28.57"
+  ],
+  [
+   "7290639000004",
+   "015",
+   "20261123",
+   "0000191955",
+   "7290011051358",
+   "יפאורה סודה אישי 250מל-500מל 5 ב15שח",
+   "",
+   "5",
+   15.0,
+   "28.57"
+  ],
+  [
+   "7290639000004",
+   "015",
+   "20261123",
+   "0000191955",
+   "7290014791626",
+   "יפאורה סודה אישי 250מל-500מל 5 ב15שח",
+   "",
+   "5",
+   15.0,
+   "28.57"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 70.4
+}

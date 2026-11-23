@@ -1,0 +1,231 @@
+{
+ "chain": "SUPER_YUDA",
+ "started": "2026-11-23 08:48:44",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 29,
+ "PRICE_FULL_FILE_mb": 144.4,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 30,
+ "PROMO_FULL_FILE_mb": 47.7,
+ "download_seconds": 61,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290058177776</ChainID><ChainName>סופר יודה</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>06:00:01.030</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>201</StoreID><BikoretNo>4</BikoretNo><StoreType>1</StoreType><StoreName>סופר יודה בוגרשוב</StoreName><Address>בוגרשוב 9</Address><City>5000</City><ZIPCode>6334201</ZIPCode></Store><Store><StoreID>202</StoreID><BikoretNo>3</BikoretNo><StoreType>1</StoreType><StoreName>סופר יודה אלנבי</StoreName><Address>אלנבי 29</Address><City>5000</City><ZIPCode>6332501</ZIPCode></Store><Store><StoreID>203</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>סופר יודהנחלת בנימין</StoreName><Address>נחלת בנימין 37</Address><City>5000</City><ZIPCode>6516216</ZIPCode></Store><Store><StoreID>204</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>סופר יודה הרצל</StoreName><Address>הרצל 50</Address><City>5000</City><ZIPCode>6515401</ZIPCode></Store><Store><StoreID>205</StoreID><BikoretNo>0</BikoretNo><StoreType>1</StoreType><StoreName>סופר יודה ישעיהו</StoreName><Address>ישעיהו 1</Address><City>5000</City><ZIPCode>6228301</ZIPCode></Store><Store><StoreID>206</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>סופר יודהדיזנגוף 215</StoreName><Address>דיזנגוף 215</Address><City>5000</City><ZIPCode>6311509</ZIPCode></Store><Store><StoreID>207</StoreID><BikoretNo>8</BikoretNo><StoreType>1</StoreType",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290058177776</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>230</StoreID>\r\n  <BikoretNo>8</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2025-06-18T11:39:59.000</PriceUpdateTime>\r\n      <ItemCode>7290006983152</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T19:15:03.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>אסם קרוטונים מתובלים</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufactureItemDescription>אסם קרוטונים מתובלים</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>400.00</Quantity>\r\n      <UnitOfMeasure>100 גרם</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage>לא ידוע</QtyInPackage>\r\n      <ItemPrice>26.90</ItemPrice>\r\n      <UnitOfMeasurePrice>6.72</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus/>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-06-14T08:32:36.000</PriceUpdateTime>\r\n      <ItemCode>7290006983176</ItemCode>\r\n      <LastSaleDateTime>2026-11-18T08:20:29.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>לחמית שיפון 230 גרם</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufactureItemDescription>לחמית שיפון 230 גרם</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>230.00</Quantity>\r\n      <UnitOfMeasure>100 ג",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290058177776</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>216</StoreID>\r\n  <BikoretNo>2</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-09-07T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0000114978</PromotionID>\r\n      <PromotionDescription>טורבו מיקס 2 ב25.90</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-01T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-11-28T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour/>\r\n      <PromotionEndHour/>\r\n      <PromotionDays/>\r\n      <RedemptionLimit/>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>2</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount>0.00</MinPurchaseAmount>\r\n          <DiscountType/>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290122592115</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>2</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate>18.55</DiscountRate>\r\n              <DiscountedPrice>25.90</DiscountedPrice>\r\n              <DiscountedPricePerMida>12.950</DiscountedPricePerMida>\r\n              <bIsWeighted>0</bIsWeighted>\r"
+ },
+ "parse_seconds": 12,
+ "stores": 26,
+ "stores_with_prices": 27,
+ "items": 165268,
+ "distinct_codes": 14881,
+ "item_types": {
+  "1": 165268
+ },
+ "promos": 82052,
+ "cities": [
+  [
+   "5000",
+   17
+  ],
+  [
+   "8300",
+   2
+  ],
+  [
+   "7900",
+   1
+  ],
+  [
+   "6600",
+   1
+  ],
+  [
+   "6400",
+   1
+  ],
+  [
+   "587",
+   1
+  ],
+  [
+   "2650",
+   1
+  ],
+  [
+   "182",
+   1
+  ],
+  [
+   "1345",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290058177776",
+   "סופר יודה",
+   "001",
+   "1",
+   "201",
+   "סופר יודה בוגרשוב",
+   "בוגרשוב 9",
+   "5000",
+   "6334201"
+  ],
+  [
+   "7290058177776",
+   "סופר יודה",
+   "001",
+   "1",
+   "202",
+   "סופר יודה אלנבי",
+   "אלנבי 29",
+   "5000",
+   "6332501"
+  ],
+  [
+   "7290058177776",
+   "סופר יודה",
+   "001",
+   "1",
+   "203",
+   "סופר יודהנחלת בנימין",
+   "נחלת בנימין 37",
+   "5000",
+   "6516216"
+  ],
+  [
+   "7290058177776",
+   "סופר יודה",
+   "001",
+   "1",
+   "204",
+   "סופר יודה הרצל",
+   "הרצל 50",
+   "5000",
+   "6515401"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290058177776",
+   "230",
+   "20261123",
+   "7290006983152",
+   "1",
+   "אסם קרוטונים מתובלים",
+   "לא ידוע",
+   "400.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   26.9,
+   6.72,
+   ""
+  ],
+  [
+   "7290058177776",
+   "230",
+   "20261123",
+   "7290006983176",
+   "1",
+   "לחמית שיפון 230 גרם",
+   "לא ידוע",
+   "230.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   13.9,
+   6.04,
+   ""
+  ],
+  [
+   "7290058177776",
+   "230",
+   "20261123",
+   "7290006983206",
+   "1",
+   "אסם פלאפל בקלי קלות",
+   "לא ידוע",
+   "180.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   15.9,
+   8.83,
+   ""
+  ],
+  [
+   "7290058177776",
+   "230",
+   "20261123",
+   "7290006983763",
+   "1",
+   "הבית עוגת שוקולד 400",
+   "לא ידוע",
+   "400.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   18.9,
+   4.72,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290058177776",
+   "216",
+   "20261123",
+   "0000114978",
+   "7290122592115",
+   "טורבו מיקס 2 ב25.90",
+   "",
+   "2",
+   25.9,
+   "18.55"
+  ],
+  [
+   "7290058177776",
+   "216",
+   "20261123",
+   "0000114978",
+   "7290122592122",
+   "טורבו מיקס 2 ב25.90",
+   "",
+   "2",
+   25.9,
+   "18.55"
+  ],
+  [
+   "7290058177776",
+   "216",
+   "20261123",
+   "0000110560",
+   "0000000000000",
+   "קופון 50 שח- חבר",
+   "",
+   "",
+   null,
+   ""
+  ],
+  [
+   "7290058177776",
+   "216",
+   "20261123",
+   "0000110560",
+   "7290020595201",
+   "קופון 50 שח- חבר",
+   "",
+   "",
+   null,
+   ""
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 2,
+ "sqlite_mb": 33.7
+}

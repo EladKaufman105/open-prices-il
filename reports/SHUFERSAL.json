@@ -1,0 +1,356 @@
+{
+ "chain": "SHUFERSAL",
+ "started": "2026-11-23 08:47:48",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.1,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 417,
+ "PRICE_FULL_FILE_mb": 1987.0,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 418,
+ "PROMO_FULL_FILE_mb": 1788.2,
+ "download_seconds": 109,
+ "raw_heads": {
+  "STORE_FILE": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Chain><ChainID>7290027600007</ChainID><ChainName>שופרסל</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>02:12:39</LastUpdateTime><SubChains><SubChain><SubChainID>1</SubChainID><SubChainName>שופרסל שלי</SubChainName><Stores><Store><StoreID>756</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>שלי באר יעקב</StoreName><Address>17 יצחק שמיר</Address><City>2530</City><ZIPCode>7030336</ZIPCode></Store><Store><StoreID>374</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>שלי הרצליה- הבנים</StoreName><Address>הבנים 46</Address><City>6400</City><ZIPCode>4637948</ZIPCode></Store><Store><StoreID>371</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>שלי ברניצקי</StoreName><Address>נתן ברניצקי 13</Address><City>8300</City><ZIPCode>7523901</ZIPCode></Store><Store><StoreID>369</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>שלי שוהם- תרשיש</StoreName><Address>עמק איילון פינת</Address><City>1304</City><ZIPCode>6080001</ZIPCode></Store><Store><StoreID>366</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>שלי כפר ורדים- מרכז מסחר</StoreName><Address>מרכז מסחרי כפר ו</Address><City>1263</City><ZIPCode>2451700</ZIPCode></Store><Store><StoreID>365</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>שלי פרדס חנה כרכור- קדמה</StoreName><Address>דרך הקידמה צמרת</Address><City>7800</City><ZIPCode>3707307</ZIPCode></Store><Store><Store",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290027600007</ChainID>\r\n  <SubChainID>002</SubChainID>\r\n  <StoreID>083</StoreID>\r\n  <BikoretNo>3</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2025-12-28T13:26:00</PriceUpdateTime>\r\n      <ItemCode>10900302814</ItemCode>\r\n      <LastSaleDateTime>2026-11-09T08:51:22</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>ניילון נצמד 30ס\"מ30* מטר</ItemName>\r\n      <ManufactureName>ריינולדס</ManufactureName>\r\n      <ManufactureCountry>CN</ManufactureCountry>\r\n      <ManufactureItemDescription>ניילון נצמד 30ס\"מ*30 מטר</ManufactureItemDescription>\r\n      <UnitQty>מטרים</UnitQty>\r\n      <Quantity>30.00</Quantity>\r\n      <UnitOfMeasure>מטרים</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage>1</QtyInPackage>\r\n      <ItemPrice>10.00</ItemPrice>\r\n      <UnitOfMeasurePrice>0.33</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus />\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-10-01T11:30:00</PriceUpdateTime>\r\n      <ItemCode>11182700954</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T19:07:53</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>שעועית שחורה 439 גרם</ItemName>\r\n      <ManufactureName>האנאובר פודס קורפורשיין</ManufactureName>\r\n      <ManufactureCountry>US</ManufactureCountry>\r\n      <ManufactureItemDescription>שעועית שחורה 439 גרם</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>439.00</Quantity>\r\n      <UnitOfMeasure>100 גרם</UnitO",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290027600007</ChainID>\r\n  <SubChainID>007</SubChainID>\r\n  <StoreID>599</StoreID>\r\n  <BikoretNo>9</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-07-28T09:30:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>1</AllowMultipleDiscounts>\r\n      <PromotionID>2553848</PromotionID>\r\n      <PromotionDescription>קופון חד ערכי - טסט</PromotionDescription>\r\n      <PromotionStartDateTime>2020-11-18T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2031-01-01T02:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour />\r\n      <PromotionEndHour />\r\n      <PromotionDays />\r\n      <RedemptionLimit>1</RedemptionLimit>\r\n      <MinNoOfItemOffered>1</MinNoOfItemOffered>\r\n      <ClubID>0 - כלל הלקוחות</ClubID>\r\n      <IsGiftItem />\r\n      <AdditionalIsCoupon>1</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount>50.00</MinPurchaseAmount>\r\n          <DiscountType>1</DiscountType>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>0000000000000</ItemCode>\r\n              <ItemType></ItemType>\r\n              <RewardType>0</RewardType>\r\n              <MinQty>1</MinQty>\r\n              <MaxQty></MaxQty>\r\n              <DiscountRate></DiscountRate>\r\n              <DiscountedPrice></DiscountedPrice>\r\n              <DiscountedPricePerMida></DiscountedPricePerMida>\r\n              <b"
+ },
+ "parse_seconds": 244,
+ "stores": 418,
+ "stores_with_prices": 417,
+ "items": 2326956,
+ "distinct_codes": 38127,
+ "item_types": {
+  "0": 2147,
+  "1": 2324809
+ },
+ "promos": 2723692,
+ "cities": [
+  [
+   "5000",
+   33
+  ],
+  [
+   "4000",
+   26
+  ],
+  [
+   "3000",
+   23
+  ],
+  [
+   "7900",
+   19
+  ],
+  [
+   "6900",
+   14
+  ],
+  [
+   "9000",
+   13
+  ],
+  [
+   "70",
+   13
+  ],
+  [
+   "7400",
+   11
+  ],
+  [
+   "8600",
+   10
+  ],
+  [
+   "8300",
+   9
+  ],
+  [
+   "8400",
+   8
+  ],
+  [
+   "7100",
+   8
+  ],
+  [
+   "6600",
+   8
+  ],
+  [
+   "6300",
+   8
+  ],
+  [
+   "6100",
+   8
+  ],
+  [
+   "9700",
+   7
+  ],
+  [
+   "8700",
+   7
+  ],
+  [
+   "2600",
+   7
+  ],
+  [
+   "6500",
+   6
+  ],
+  [
+   "2610",
+   6
+  ],
+  [
+   "1200",
+   6
+  ],
+  [
+   "7700",
+   5
+  ],
+  [
+   "6400",
+   5
+  ],
+  [
+   "2650",
+   5
+  ],
+  [
+   "1247",
+   5
+  ],
+  [
+   "8500",
+   4
+  ],
+  [
+   "8200",
+   4
+  ],
+  [
+   "7800",
+   4
+  ],
+  [
+   "6800",
+   4
+  ],
+  [
+   "6200",
+   4
+  ],
+  [
+   "2640",
+   4
+  ],
+  [
+   "1139",
+   4
+  ],
+  [
+   "9400",
+   3
+  ],
+  [
+   "9100",
+   3
+  ],
+  [
+   "8000",
+   3
+  ],
+  [
+   "7200",
+   3
+  ],
+  [
+   "3570",
+   3
+  ],
+  [
+   "2800",
+   3
+  ],
+  [
+   "2660",
+   3
+  ],
+  [
+   "2630",
+   3
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290027600007",
+   "שופרסל",
+   "1",
+   "שופרסל שלי",
+   "756",
+   "שלי באר יעקב",
+   "17 יצחק שמיר",
+   "2530",
+   "7030336"
+  ],
+  [
+   "7290027600007",
+   "שופרסל",
+   "1",
+   "שופרסל שלי",
+   "374",
+   "שלי הרצליה- הבנים",
+   "הבנים 46",
+   "6400",
+   "4637948"
+  ],
+  [
+   "7290027600007",
+   "שופרסל",
+   "1",
+   "שופרסל שלי",
+   "371",
+   "שלי ברניצקי",
+   "נתן ברניצקי 13",
+   "8300",
+   "7523901"
+  ],
+  [
+   "7290027600007",
+   "שופרסל",
+   "1",
+   "שופרסל שלי",
+   "369",
+   "שלי שוהם- תרשיש",
+   "עמק איילון פינת",
+   "1304",
+   "6080001"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290027600007",
+   "083",
+   "20261123",
+   "10900302814",
+   "1",
+   "ניילון נצמד 30ס\"מ30* מטר",
+   "ריינולדס",
+   "30.00",
+   "מטרים",
+   "מטרים",
+   "0",
+   10.0,
+   0.33,
+   ""
+  ],
+  [
+   "7290027600007",
+   "083",
+   "20261123",
+   "11182700954",
+   "1",
+   "שעועית שחורה 439 גרם",
+   "האנאובר פודס קורפורשיין",
+   "439.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   11.9,
+   2.71,
+   ""
+  ],
+  [
+   "7290027600007",
+   "083",
+   "20261123",
+   "11210000094",
+   "1",
+   "רוטב טבסקו 60 מ\"ל",
+   "ניצן",
+   "60.00",
+   "100 מיליליטר",
+   "מיליליטר",
+   "0",
+   12.9,
+   21.5,
+   ""
+  ],
+  [
+   "7290027600007",
+   "083",
+   "20261123",
+   "11210009387",
+   "1",
+   "רוטב טבסקו ירוק 60 מ\"ל",
+   "ניצן",
+   "60.00",
+   "100 מיליליטר",
+   "מיליליטר",
+   "0",
+   12.9,
+   21.5,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290027600007",
+   "599",
+   "20261123",
+   "2553848",
+   "0000000000000",
+   "קופון חד ערכי - טסט",
+   "",
+   "1",
+   null,
+   ""
+  ],
+  [
+   "7290027600007",
+   "599",
+   "20261123",
+   "2553848",
+   "0000000000000",
+   "קופון חד ערכי - טסט",
+   "",
+   "1",
+   null,
+   ""
+  ],
+  [
+   "7290027600007",
+   "599",
+   "20261123",
+   "3246581",
+   "6935325410118",
+   "תו זהב 5% הנחה מותג שופרסל",
+   "",
+   "1.00",
+   7.51,
+   "5"
+  ],
+  [
+   "7290027600007",
+   "599",
+   "20261123",
+   "3246581",
+   "7290000000466",
+   "תו זהב 5% הנחה מותג שופרסל",
+   "",
+   "1.00",
+   7.51,
+   "5"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 69,
+ "sqlite_mb": 721.0
+}

@@ -1,0 +1,356 @@
+{
+ "chain": "DOR_ALON",
+ "started": "2026-11-23 08:46:10",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.1,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 156,
+ "PRICE_FULL_FILE_mb": 459.1,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 156,
+ "PROMO_FULL_FILE_mb": 1163.2,
+ "download_seconds": 187,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290492000005</ChainID><ChainName>Dor Alon</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>02:00:00.347</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>AM:PM</SubChainName><Stores><Store><StoreID>501</StoreID><BikoretNo>4</BikoretNo><StoreType>1</StoreType><StoreName>Am-pm בן יהודה 30</StoreName><Address>בן יהודה 30</Address><City>5000</City><ZIPCode>6380407</ZIPCode></Store><Store><StoreID>503</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>Am-pm ארלוזרוב</StoreName><Address>דיזנגוף 193</Address><City>5000</City><ZIPCode>6346232</ZIPCode></Store><Store><StoreID>504</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>Am-pm נורדאו</StoreName><Address>בן יהודה 195</Address><City>5000</City><ZIPCode>6347312</ZIPCode></Store><Store><StoreID>505</StoreID><BikoretNo>0</BikoretNo><StoreType>1</StoreType><StoreName>Am-pmאלנבי</StoreName><Address>אלנבי 115</Address><City>5000</City><ZIPCode>6581708</ZIPCode></Store><Store><StoreID>506</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>Am-pm קינג גורג</StoreName><Address>קינג גורג 24</Address><City>5000</City><ZIPCode>6326709</ZIPCode></Store><Store><StoreID>507</StoreID><BikoretNo>8</BikoretNo><StoreType>1</StoreType><StoreName>Am-pm 24 שנקין</StoreName><Address>שנקין 24</Address><City>5000</City><ZIPCode>6523132</ZIPCode></Store><Store><StoreID>508</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290492000005</ChainID>\r\n  <SubChainID>002</SubChainID>\r\n  <StoreID>940</StoreID>\r\n  <BikoretNo>3</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2026-08-14T09:06:59.000</PriceUpdateTime>\r\n      <ItemCode>3329</ItemCode>\r\n      <LastSaleDateTime>2026-10-05T08:06:02.000</LastSaleDateTime>\r\n      <ItemType>0</ItemType>\r\n      <ItemName>קופון קפה קר ב-1 שח-</ItemName>\r\n      <ManufactureName>Unknown</ManufactureName>\r\n      <ManufactureCountry>Unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>קופון קפה קר ב-1 שח- מתדלקים</ManufactureItemDescription>\r\n      <UnitQty>יחידות</UnitQty>\r\n      <Quantity>1.00</Quantity>\r\n      <UnitOfMeasure>יחידות</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage/>\r\n      <ItemPrice>0.01</ItemPrice>\r\n      <UnitOfMeasurePrice>0.01</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus/>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-09-27T15:43:49.000</PriceUpdateTime>\r\n      <ItemCode>3341</ItemCode>\r\n      <LastSaleDateTime>2026-11-06T15:04:50.000</LastSaleDateTime>\r\n      <ItemType>0</ItemType>\r\n      <ItemName>קופון משקה אנרגיה BL</ItemName>\r\n      <ManufactureName>Unknown</ManufactureName>\r\n      <ManufactureCountry>Unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>קופון משקה אנרגיה BLU אלוניות</ManufactureItemDescription>\r\n      <UnitQty>יחידות</UnitQty>\r\n      <Quantity>1.00</Quantity>\r\n      <UnitOfMeasure>יחידות</UnitOfMeasure>\r\n ",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290492000005</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>506</StoreID>\r\n  <BikoretNo>4</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-10-25T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0013410018</PromotionID>\r\n      <PromotionDescription>מבצע דגני בוקר קוקומן ב 21.90 שח</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-10T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-12-14T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour/>\r\n      <PromotionEndHour/>\r\n      <PromotionDays/>\r\n      <RedemptionLimit/>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>1</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount>0.00</MinPurchaseAmount>\r\n          <DiscountType/>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290107647731</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>3</RewardType>\r\n              <MinQty>1</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate>21.51</DiscountRate>\r\n              <DiscountedPrice>21.90</DiscountedPrice>\r\n              <DiscountedPricePerMida>5.840</DiscountedPricePerMida>\r\n              <bIsWeighted>0</bI"
+ },
+ "parse_seconds": 105,
+ "stores": 157,
+ "stores_with_prices": 156,
+ "items": 528014,
+ "distinct_codes": 16162,
+ "item_types": {
+  "0": 3638,
+  "1": 524376
+ },
+ "promos": 2353195,
+ "cities": [
+  [
+   "5000",
+   31
+  ],
+  [
+   "4000",
+   8
+  ],
+  [
+   "8600",
+   4
+  ],
+  [
+   "6200",
+   4
+  ],
+  [
+   "0",
+   4
+  ],
+  [
+   "871",
+   3
+  ],
+  [
+   "6500",
+   3
+  ],
+  [
+   "6300",
+   3
+  ],
+  [
+   "858",
+   2
+  ],
+  [
+   "7200",
+   2
+  ],
+  [
+   "72",
+   2
+  ],
+  [
+   "6900",
+   2
+  ],
+  [
+   "6400",
+   2
+  ],
+  [
+   "375",
+   2
+  ],
+  [
+   "158",
+   2
+  ],
+  [
+   "139",
+   2
+  ],
+  [
+   "99",
+   1
+  ],
+  [
+   "9800",
+   1
+  ],
+  [
+   "9500",
+   1
+  ],
+  [
+   "9400",
+   1
+  ],
+  [
+   "9200",
+   1
+  ],
+  [
+   "9000",
+   1
+  ],
+  [
+   "853",
+   1
+  ],
+  [
+   "852",
+   1
+  ],
+  [
+   "850",
+   1
+  ],
+  [
+   "849",
+   1
+  ],
+  [
+   "845",
+   1
+  ],
+  [
+   "839",
+   1
+  ],
+  [
+   "8300",
+   1
+  ],
+  [
+   "828",
+   1
+  ],
+  [
+   "8200",
+   1
+  ],
+  [
+   "8000",
+   1
+  ],
+  [
+   "80",
+   1
+  ],
+  [
+   "791",
+   1
+  ],
+  [
+   "7900",
+   1
+  ],
+  [
+   "775",
+   1
+  ],
+  [
+   "7600",
+   1
+  ],
+  [
+   "7400",
+   1
+  ],
+  [
+   "715",
+   1
+  ],
+  [
+   "703",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290492000005",
+   "Dor Alon",
+   "001",
+   "AM:PM",
+   "501",
+   "Am-pm בן יהודה 30",
+   "בן יהודה 30",
+   "5000",
+   "6380407"
+  ],
+  [
+   "7290492000005",
+   "Dor Alon",
+   "001",
+   "AM:PM",
+   "503",
+   "Am-pm ארלוזרוב",
+   "דיזנגוף 193",
+   "5000",
+   "6346232"
+  ],
+  [
+   "7290492000005",
+   "Dor Alon",
+   "001",
+   "AM:PM",
+   "504",
+   "Am-pm נורדאו",
+   "בן יהודה 195",
+   "5000",
+   "6347312"
+  ],
+  [
+   "7290492000005",
+   "Dor Alon",
+   "001",
+   "AM:PM",
+   "505",
+   "Am-pmאלנבי",
+   "אלנבי 115",
+   "5000",
+   "6581708"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290492000005",
+   "940",
+   "20261123",
+   "3329",
+   "0",
+   "קופון קפה קר ב-1 שח-",
+   "Unknown",
+   "1.00",
+   "יחידות",
+   "יחידות",
+   "0",
+   0.01,
+   0.01,
+   ""
+  ],
+  [
+   "7290492000005",
+   "940",
+   "20261123",
+   "3341",
+   "0",
+   "קופון משקה אנרגיה BL",
+   "Unknown",
+   "1.00",
+   "יחידות",
+   "יחידות",
+   "0",
+   0.01,
+   0.01,
+   ""
+  ],
+  [
+   "7290492000005",
+   "940",
+   "20261123",
+   "5497",
+   "0",
+   "מאפה קטן ליחידה גדרו",
+   "גדרון",
+   "1.00",
+   "יחידות",
+   "יחידות",
+   "0",
+   4.9,
+   4.9,
+   ""
+  ],
+  [
+   "7290492000005",
+   "940",
+   "20261123",
+   "7290000005598",
+   "1",
+   "קוקיס בסגנון אמסטרדם",
+   "גדרון",
+   "1.00",
+   "יחידות",
+   "יחידות",
+   "0",
+   11.9,
+   11.9,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290492000005",
+   "506",
+   "20261123",
+   "0013410018",
+   "7290107647731",
+   "מבצע דגני בוקר קוקומן ב 21.90 שח",
+   "",
+   "1",
+   21.9,
+   "21.51"
+  ],
+  [
+   "7290492000005",
+   "506",
+   "20261123",
+   "0013410018",
+   "7290112495037",
+   "מבצע דגני בוקר קוקומן ב 21.90 שח",
+   "",
+   "1",
+   21.9,
+   "21.51"
+  ],
+  [
+   "7290492000005",
+   "506",
+   "20261123",
+   "0013410175",
+   "8000500310397",
+   "מבצע נוטלה ביסקויט 166 גרם 2 ב 40 שח",
+   "",
+   "2",
+   40.0,
+   "8.68"
+  ],
+  [
+   "7290492000005",
+   "506",
+   "20261123",
+   "0013306178",
+   "7290018011003",
+   "מבצע שלגון תמרה 2 יח ב 20 שח",
+   "",
+   "2",
+   20.0,
+   "22.48"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 380.1
+}

@@ -1,0 +1,355 @@
+{
+ "chain": "RAMI_LEVY",
+ "started": "2026-11-23 08:46:50",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 173,
+ "PRICE_FULL_FILE_mb": 1447.1,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 172,
+ "PROMO_FULL_FILE_mb": 1151.6,
+ "download_seconds": 152,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290058140886</ChainID><ChainName>רמי לוי שיווק השקמה</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>05:05:00.190</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>001</StoreID><BikoretNo>6</BikoretNo><StoreType>1</StoreType><StoreName>תלפיות</StoreName><Address>האומן,15</Address><City>3000</City><ZIPCode>9342110</ZIPCode></Store><Store><StoreID>002</StoreID><BikoretNo>5</BikoretNo><StoreType>1</StoreType><StoreName>בזק מחסני מזון</StoreName><Address>יד חרוצים 18</Address><City>3000</City><ZIPCode>9342155</ZIPCode></Store><Store><StoreID>003</StoreID><BikoretNo>4</BikoretNo><StoreType>1</StoreType><StoreName>רמות</StoreName><Address>90 דרך החורש</Address><City>3000</City><ZIPCode>1294800</ZIPCode></Store><Store><StoreID>005</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>רב מכר</StoreName><Address>הפרסה 3</Address><City>3000</City><ZIPCode>9342263</ZIPCode></Store><Store><StoreID>006</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>מישור אדומים</StoreName><Address>איתם 1</Address><City>3616</City><ZIPCode>9851387</ZIPCode></Store><Store><StoreID>007</StoreID><BikoretNo>0</BikoretNo><StoreType>1</StoreType><StoreName>מבשרת</StoreName><Address>שדרות החוצבים 10</Address><City>1015</City><ZIPCode>9075517</ZIPCode></Store><Store><StoreID>008</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>שער בנימין</StoreName><Addres",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290058140886</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>036</StoreID>\r\n  <BikoretNo>6</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2016-12-06T11:12:32.000</PriceUpdateTime>\r\n      <ItemCode>7290003996957</ItemCode>\r\n      <LastSaleDateTime>2026-09-14T17:48:24.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>נבטי אלפלפא</ItemName>\r\n      <ManufactureName>קטיף ירק ירושלים</ManufactureName>\r\n      <ManufactureCountry>לא ידוע</ManufactureCountry>\r\n      <ManufactureItemDescription>נבטי אלפלפא</ManufactureItemDescription>\r\n      <UnitQty>יחידות</UnitQty>\r\n      <Quantity>1.00</Quantity>\r\n      <UnitOfMeasure>יחידות  </UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage>לא ידוע</QtyInPackage>\r\n      <ItemPrice>5.90</ItemPrice>\r\n      <UnitOfMeasurePrice>5.90</UnitOfMeasurePrice>\r\n      <AllowDiscount>1</AllowDiscount>\r\n      <ItemStatus/>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2025-01-14T13:31:12.000</PriceUpdateTime>\r\n      <ItemCode>7290010154678</ItemCode>\r\n      <LastSaleDateTime>2026-11-20T09:56:27.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>אריסה מרוקאית תבליני</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>ישראל</ManufactureCountry>\r\n      <ManufactureItemDescription>אריסה מרוקאית תבליני</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>250.00</Quantity>\r\n      <UnitOfMeasure>100 גרם</Unit",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290058140886</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>730</StoreID>\r\n  <BikoretNo>3</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2025-12-18T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0001390339</PromotionID>\r\n      <PromotionDescription>כרית נוי 45*45 ס מ 3ב49.90 ש ח</PromotionDescription>\r\n      <PromotionStartDateTime>2025-12-18T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-12-31T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour/>\r\n      <PromotionEndHour/>\r\n      <PromotionDays/>\r\n      <RedemptionLimit/>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>3</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount>0.00</MinPurchaseAmount>\r\n          <DiscountType/>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290121045261</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>3</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate>42.25</DiscountRate>\r\n              <DiscountedPrice>49.90</DiscountedPrice>\r\n              <DiscountedPricePerMida>16.633</DiscountedPricePerMida>\r\n              <bIsWeighted>0</bI"
+ },
+ "parse_seconds": 162,
+ "stores": 99,
+ "stores_with_prices": 99,
+ "items": 1668916,
+ "distinct_codes": 26765,
+ "item_types": {
+  "1": 1668916
+ },
+ "promos": 1717391,
+ "cities": [
+  [
+   "3000",
+   11
+  ],
+  [
+   "5000",
+   6
+  ],
+  [
+   "7400",
+   5
+  ],
+  [
+   "7900",
+   4
+  ],
+  [
+   "6500",
+   4
+  ],
+  [
+   "4000",
+   4
+  ],
+  [
+   "9000",
+   3
+  ],
+  [
+   "8300",
+   3
+  ],
+  [
+   "2610",
+   3
+  ],
+  [
+   "0",
+   3
+  ],
+  [
+   "8700",
+   2
+  ],
+  [
+   "7700",
+   2
+  ],
+  [
+   "7100",
+   2
+  ],
+  [
+   "70",
+   2
+  ],
+  [
+   "6900",
+   2
+  ],
+  [
+   "6600",
+   2
+  ],
+  [
+   "6100",
+   2
+  ],
+  [
+   "2640",
+   2
+  ],
+  [
+   "2630",
+   2
+  ],
+  [
+   "9700",
+   1
+  ],
+  [
+   "9500",
+   1
+  ],
+  [
+   "9300",
+   1
+  ],
+  [
+   "9200",
+   1
+  ],
+  [
+   "9100",
+   1
+  ],
+  [
+   "874",
+   1
+  ],
+  [
+   "8600",
+   1
+  ],
+  [
+   "8500",
+   1
+  ],
+  [
+   "8400",
+   1
+  ],
+  [
+   "7800",
+   1
+  ],
+  [
+   "7600",
+   1
+  ],
+  [
+   "7000",
+   1
+  ],
+  [
+   "681",
+   1
+  ],
+  [
+   "6700",
+   1
+  ],
+  [
+   "6400",
+   1
+  ],
+  [
+   "6300",
+   1
+  ],
+  [
+   "6200",
+   1
+  ],
+  [
+   "3780",
+   1
+  ],
+  [
+   "3616",
+   1
+  ],
+  [
+   "3570",
+   1
+  ],
+  [
+   "31",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290058140886",
+   "רמי לוי שיווק השקמה",
+   "001",
+   "1",
+   "001",
+   "תלפיות",
+   "האומן,15",
+   "3000",
+   "9342110"
+  ],
+  [
+   "7290058140886",
+   "רמי לוי שיווק השקמה",
+   "001",
+   "1",
+   "002",
+   "בזק מחסני מזון",
+   "יד חרוצים 18",
+   "3000",
+   "9342155"
+  ],
+  [
+   "7290058140886",
+   "רמי לוי שיווק השקמה",
+   "001",
+   "1",
+   "003",
+   "רמות",
+   "90 דרך החורש",
+   "3000",
+   "1294800"
+  ],
+  [
+   "7290058140886",
+   "רמי לוי שיווק השקמה",
+   "001",
+   "1",
+   "005",
+   "רב מכר",
+   "הפרסה 3",
+   "3000",
+   "9342263"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290058140886",
+   "036",
+   "20261123",
+   "7290003996957",
+   "1",
+   "נבטי אלפלפא",
+   "קטיף ירק ירושלים",
+   "1.00",
+   "יחידות",
+   "יחידות",
+   "0",
+   5.9,
+   5.9,
+   ""
+  ],
+  [
+   "7290058140886",
+   "036",
+   "20261123",
+   "7290010154678",
+   "1",
+   "אריסה מרוקאית תבליני",
+   "לא ידוע",
+   "250.00",
+   "100 גרם",
+   "גרם",
+   "0",
+   15.7,
+   6.28,
+   ""
+  ],
+  [
+   "7290058140886",
+   "036",
+   "20261123",
+   "7290000000175",
+   "1",
+   "אפונה",
+   "ביכורי השקמה",
+   "1.00",
+   "קילוגרם",
+   "קילוגרם",
+   "1",
+   19.9,
+   19.9,
+   ""
+  ],
+  [
+   "7290058140886",
+   "036",
+   "20261123",
+   "7290000000176",
+   "1",
+   "שעועית ירוקה",
+   "ביכורי השקמה",
+   "1.00",
+   "קילוגרם",
+   "קילוגרם",
+   "1",
+   19.9,
+   19.9,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290058140886",
+   "730",
+   "20261123",
+   "0001390339",
+   "7290121045261",
+   "כרית נוי 45*45 ס מ 3ב49.90 ש ח",
+   "",
+   "3",
+   49.9,
+   "42.25"
+  ],
+  [
+   "7290058140886",
+   "730",
+   "20261123",
+   "0001390339",
+   "7290121045278",
+   "כרית נוי 45*45 ס מ 3ב49.90 ש ח",
+   "",
+   "3",
+   49.9,
+   "42.25"
+  ],
+  [
+   "7290058140886",
+   "730",
+   "20261123",
+   "0001390339",
+   "7290121045285",
+   "כרית נוי 45*45 ס מ 3ב49.90 ש ח",
+   "",
+   "3",
+   49.9,
+   "42.25"
+  ],
+  [
+   "7290058140886",
+   "730",
+   "20261123",
+   "0001390339",
+   "7290121045292",
+   "כרית נוי 45*45 ס מ 3ב49.90 ש ח",
+   "",
+   "3",
+   49.9,
+   "42.25"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 1,
+ "sqlite_mb": 480.0
+}

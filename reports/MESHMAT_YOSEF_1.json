@@ -1,0 +1,116 @@
+{
+ "chain": "MESHMAT_YOSEF_1",
+ "started": "2026-11-23 08:46:11",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 1,
+ "PRICE_FULL_FILE_mb": 0.2,
+ "PROMO_FULL_FILE_files": 0,
+ "PROMO_FULL_FILE_mb": 0.0,
+ "download_seconds": 7,
+ "raw_heads": {
+  "STORE_FILE": "<Root>\n\t<ChainID>5144744100002</ChainID>\n\t<ChainName>משנת יוסף - קיי טי יבוא ושיווק בע\"מ</ChainName>\n\t<LastUpdateDate>2026-11-23</LastUpdateDate>\n\t<LastUpdateTime>00:00:01</LastUpdateTime>\n\t<SubChains>\n\t  <SubChain>\n\t\t<SubChainID>001</SubChainID>\n\t\t<SubChainName>1</SubChainName>\n\t\t<Stores>\n\t\t  <Store>\n\t\t\t<StoreID>1</StoreID>\n\t\t\t<BikoretNo>0</BikoretNo>\n\t\t\t<StoreType>2</StoreType>\n\t\t\t<StoreName>אתר משנת יוסף </StoreName>\n\t\t\t<Address>new.mishnatyosef.org</Address>\n\t\t\t<City></City>\n\t\t\t<ZipCode></ZipCode>\n\t\t  </Store>\n\t   \n\t\t</Stores>\n\t  </SubChain>\n\t</SubChains>\n  </Root>",
+  "PRICE_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Root>\n    <ChainID>5144744100002</ChainID>\n    <SubChainID>001</SubChainID>\n    <StoreID>1</StoreID>\n    <BikoretNo>0</BikoretNo>\n\t<Items>\n<Item>\n\t\t<PriceUpdateTime>2026-11-22T21:59:16.000</PriceUpdateTime>\n\t\t<ItemCode>7290000481883</ItemCode>\n\t\t<ItemType>1</ItemType>\n\t\t<ItemName>עשיריית לחמניות - דגנית עין בר</ItemName>\n\t\t<ManufacturerName>לא ידוע</ManufacturerName>\n\t\t<ManufactureCountry>לא ידוע</ManufactureCountry>\n\t\t<ManufacturerItemDescription>עשיריית לחמניות - דגנית עין בר</ManufacturerItemDescription>\n\t\t<UnitQty>ק\"ג</UnitQty>\n\t\t<Quantity>0.75</Quantity>\n\t\t<UnitOfMeasure>null</UnitOfMeasure>\n\t\t<QtyInPackage>לא ידוע</QtyInPackage>\n\t\t<ItemPrice>10.8</ItemPrice>\n\t\t<UnitOfMeasurePrice>10.8</UnitOfMeasurePrice>\n\t\t<AllowDiscount>0</AllowDiscount>\n\t\t<ItemStatus>1</ItemStatus>\n\t  </Item>\n<Item>\n\t\t<PriceUpdateTime>2026-11-22T21:59:16.000</PriceUpdateTime>\n\t\t<ItemCode>0679723243010</ItemCode>\n\t\t<ItemType>1</ItemType>\n\t\t<ItemName>קרטונית מטבעות בטעם שוקולד-  24 רשתות</ItemName>\n\t\t<ManufacturerName>לא ידוע</ManufacturerName>\n\t\t<ManufactureCountry>לא ידוע</ManufactureCountry>\n\t\t<ManufacturerItemDescription>קרטונית מטבעות בטעם שוקולד-  24 רשתות</ManufacturerItemDescription>\n\t\t<UnitQty>ק\"ג</UnitQty>\n\t\t<Quantity>0.48</Quantity>\n\t\t<UnitOfMeasure>null</UnitOfMeasure>\n\t\t<QtyInPackage>לא ידוע</QtyInPackage>\n\t\t<ItemPrice>29.8</ItemPrice>\n\t\t<UnitOfMeasurePrice>29.8</UnitOfMeasurePrice>\n\t\t<AllowDiscount>0</AllowDiscount>\n\t\t<ItemStatus>1</ItemStatus>\n\t  </"
+ },
+ "parse_seconds": 0,
+ "stores": 1,
+ "stores_with_prices": 1,
+ "items": 273,
+ "distinct_codes": 272,
+ "item_types": {
+  "0": 36,
+  "1": 237
+ },
+ "promos": 0,
+ "cities": [
+  [
+   "",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "5144744100002",
+   "משנת יוסף - קיי טי יבוא ושיווק בע\"מ",
+   "001",
+   "1",
+   "1",
+   "אתר משנת יוסף",
+   "new.mishnatyosef.org",
+   "",
+   ""
+  ]
+ ],
+ "item_samples": [
+  [
+   "5144744100002",
+   "1",
+   "20261123",
+   "7290000481883",
+   "1",
+   "עשיריית לחמניות - דגנית עין בר",
+   "לא ידוע",
+   "0.75",
+   "null",
+   "ק\"ג",
+   "",
+   10.8,
+   10.8,
+   ""
+  ],
+  [
+   "5144744100002",
+   "1",
+   "20261123",
+   "0679723243010",
+   "1",
+   "קרטונית מטבעות בטעם שוקולד-  24 רשתות",
+   "לא ידוע",
+   "0.48",
+   "null",
+   "ק\"ג",
+   "",
+   29.8,
+   29.8,
+   ""
+  ],
+  [
+   "5144744100002",
+   "1",
+   "20261123",
+   "693493231879",
+   "1",
+   "שמיניית פיתות מסעדה - בר ולחם",
+   "לא ידוע",
+   "0.92",
+   "יחידה",
+   "ק\"ג",
+   "",
+   9.5,
+   9.5,
+   ""
+  ],
+  [
+   "5144744100002",
+   "1",
+   "20261123",
+   "693493231879",
+   "1",
+   "שמיניית פיתות מסעדה - בר ולחם {מ}",
+   "לא ידוע",
+   "0.92",
+   "יחידה",
+   "ק\"ג",
+   "",
+   9.5,
+   9.5,
+   ""
+  ]
+ ],
+ "promo_samples": [],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 0.1
+}

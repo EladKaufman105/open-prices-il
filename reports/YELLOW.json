@@ -1,0 +1,356 @@
+{
+ "chain": "YELLOW",
+ "started": "2026-11-23 08:48:41",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.1,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 241,
+ "PRICE_FULL_FILE_mb": 328.7,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 241,
+ "PROMO_FULL_FILE_mb": 2392.8,
+ "download_seconds": 171,
+ "raw_heads": {
+  "STORE_FILE": "<Root><ChainID>7290644700005</ChainID><ChainName>פז קמעונאות ואנרגיה בע\"מ</ChainName><LastUpdateDate>2026-11-23</LastUpdateDate><LastUpdateTime>06:00:00.613</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>100</StoreID><BikoretNo>6</BikoretNo><StoreType>1</StoreType><StoreName>אבו כביר - אלכס סטפי</StoreName><Address>188 הרצל</Address><City>5000</City><ZIPCode>0066555</ZIPCode></Store><Store><StoreID>107</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>נווה צדק - יחיא אבו</StoreName><Address>35 אילת</Address><City>5000</City><ZIPCode>0068103</ZIPCode></Store><Store><StoreID>108</StoreID><BikoretNo>8</BikoretNo><StoreType>1</StoreType><StoreName>הסיירים - רוזי ריזה</StoreName><Address>כביש 4 תל אביב -אשדוד מול מרכז חיזו</Address><City>466</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>109</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>טל הגשר -אלכס סטפינס</StoreName><Address>42 יצחק שדה</Address><City>5000</City><ZIPCode>0067212</ZIPCode></Store><Store><StoreID>111</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>זיו און - שולי שון ס</StoreName><Address>דרך הטייסים 126</Address><City>5000</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>112</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>הירקון- פאטריק אבו</StoreName><Address>136 דרך נמיר</Address><City>5000</City><ZIPCode>0062507</ZIPCode></Store><Store><StoreID>1",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290644700005</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>405</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2025-12-29T00:03:04.000</PriceUpdateTime>\r\n      <ItemCode>7290000888000</ItemCode>\r\n      <LastSaleDateTime>2026-11-18T19:55:43.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>מצת אבן</ItemName>\r\n      <ManufactureName>Unknown</ManufactureName>\r\n      <ManufactureCountry>Unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>Unknown</ManufactureItemDescription>\r\n      <UnitQty>יחידה</UnitQty>\r\n      <Quantity/>\r\n      <UnitOfMeasure>Unknown</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage/>\r\n      <ItemPrice>4.00</ItemPrice>\r\n      <UnitOfMeasurePrice/>\r\n      <AllowDiscount>0</AllowDiscount>\r\n      <ItemStatus/>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2025-12-29T00:03:04.000</PriceUpdateTime>\r\n      <ItemCode>7290000888001</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T21:47:13.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>מצת אלקטרוני</ItemName>\r\n      <ManufactureName>Unknown</ManufactureName>\r\n      <ManufactureCountry>Unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>Unknown</ManufactureItemDescription>\r\n      <UnitQty>יחידה</UnitQty>\r\n      <Quantity/>\r\n      <UnitOfMeasure>Unknown</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage/>\r\n      <ItemPrice>5.00</ItemPrice>\r\n     ",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290644700005</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>217</StoreID>\r\n  <BikoretNo>9</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-10T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0000238677</PromotionID>\r\n      <PromotionDescription>הגדלת סל-בפלות ש/ל/ש 400-500 ב-20</PromotionDescription>\r\n      <PromotionStartDateTime>2026-10-05T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-11-29T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour/>\r\n      <PromotionEndHour/>\r\n      <PromotionDays/>\r\n      <RedemptionLimit>1</RedemptionLimit>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem/>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount/>\r\n          <DiscountType/>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>0000000000000</ItemCode>\r\n              <ItemType>0</ItemType>\r\n              <RewardType>0</RewardType>\r\n              <MinQty>3</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate/>\r\n              <DiscountedPrice/>\r\n              <DiscountedPricePerMida/>\r\n              <bIsWeighted>0</bIsWeighted>\r\n            </PromotionItem>\r\n            <PromotionItem>\r\n              <I"
+ },
+ "parse_seconds": 192,
+ "stores": 242,
+ "stores_with_prices": 238,
+ "items": 394319,
+ "distinct_codes": 5225,
+ "item_types": {
+  "0": 1034,
+  "1": 393285
+ },
+ "promos": 5270551,
+ "cities": [
+  [
+   "3000",
+   20
+  ],
+  [
+   "5000",
+   14
+  ],
+  [
+   "4000",
+   13
+  ],
+  [
+   "9000",
+   11
+  ],
+  [
+   "8300",
+   7
+  ],
+  [
+   "7900",
+   7
+  ],
+  [
+   "7100",
+   6
+  ],
+  [
+   "70",
+   6
+  ],
+  [
+   "7400",
+   5
+  ],
+  [
+   "7300",
+   5
+  ],
+  [
+   "6700",
+   4
+  ],
+  [
+   "8600",
+   3
+  ],
+  [
+   "8500",
+   3
+  ],
+  [
+   "7700",
+   3
+  ],
+  [
+   "6900",
+   3
+  ],
+  [
+   "6600",
+   3
+  ],
+  [
+   "6400",
+   3
+  ],
+  [
+   "2600",
+   3
+  ],
+  [
+   "9800",
+   2
+  ],
+  [
+   "9700",
+   2
+  ],
+  [
+   "9100",
+   2
+  ],
+  [
+   "8800",
+   2
+  ],
+  [
+   "8400",
+   2
+  ],
+  [
+   "7500",
+   2
+  ],
+  [
+   "7000",
+   2
+  ],
+  [
+   "6100",
+   2
+  ],
+  [
+   "598",
+   2
+  ],
+  [
+   "53",
+   2
+  ],
+  [
+   "2800",
+   2
+  ],
+  [
+   "2660",
+   2
+  ],
+  [
+   "2610",
+   2
+  ],
+  [
+   "2400",
+   2
+  ],
+  [
+   "1292",
+   2
+  ],
+  [
+   "1200",
+   2
+  ],
+  [
+   "1139",
+   2
+  ],
+  [
+   "1034",
+   2
+  ],
+  [
+   "998",
+   1
+  ],
+  [
+   "99",
+   1
+  ],
+  [
+   "9500",
+   1
+  ],
+  [
+   "9400",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290644700005",
+   "פז קמעונאות ואנרגיה בע\"מ",
+   "001",
+   "1",
+   "100",
+   "אבו כביר - אלכס סטפי",
+   "188 הרצל",
+   "5000",
+   "0066555"
+  ],
+  [
+   "7290644700005",
+   "פז קמעונאות ואנרגיה בע\"מ",
+   "001",
+   "1",
+   "107",
+   "נווה צדק - יחיא אבו",
+   "35 אילת",
+   "5000",
+   "0068103"
+  ],
+  [
+   "7290644700005",
+   "פז קמעונאות ואנרגיה בע\"מ",
+   "001",
+   "1",
+   "108",
+   "הסיירים - רוזי ריזה",
+   "כביש 4 תל אביב -אשדוד מול מרכז חיזו",
+   "466",
+   "0000000"
+  ],
+  [
+   "7290644700005",
+   "פז קמעונאות ואנרגיה בע\"מ",
+   "001",
+   "1",
+   "109",
+   "טל הגשר -אלכס סטפינס",
+   "42 יצחק שדה",
+   "5000",
+   "0067212"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290644700005",
+   "405",
+   "20261123",
+   "7290000888000",
+   "1",
+   "מצת אבן",
+   "Unknown",
+   "",
+   "Unknown",
+   "יחידה",
+   "0",
+   4.0,
+   null,
+   ""
+  ],
+  [
+   "7290644700005",
+   "405",
+   "20261123",
+   "7290000888001",
+   "1",
+   "מצת אלקטרוני",
+   "Unknown",
+   "",
+   "Unknown",
+   "יחידה",
+   "0",
+   5.0,
+   null,
+   ""
+  ],
+  [
+   "7290644700005",
+   "405",
+   "20261123",
+   "7290003423909",
+   "1",
+   "הרשי קוקיס קרים 43 ג",
+   "Unknown",
+   "43.00",
+   "100 גרם",
+   "יחידה",
+   "0",
+   8.9,
+   20.7,
+   ""
+  ],
+  [
+   "7290644700005",
+   "405",
+   "20261123",
+   "7290003444009",
+   "1",
+   "ריזס חמאת בוטנים",
+   "Unknown",
+   "42.00",
+   "100 גרם",
+   "יחידה",
+   "0",
+   8.9,
+   21.19,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290644700005",
+   "217",
+   "20261123",
+   "0000238677",
+   "0000000000000",
+   "הגדלת סל-בפלות ש/ל/ש 400-500 ב-20",
+   "",
+   "3",
+   null,
+   ""
+  ],
+  [
+   "7290644700005",
+   "217",
+   "20261123",
+   "0000238677",
+   "7290000010523",
+   "הגדלת סל-בפלות ש/ל/ש 400-500 ב-20",
+   "",
+   "3",
+   null,
+   ""
+  ],
+  [
+   "7290644700005",
+   "217",
+   "20261123",
+   "0000238677",
+   "7290000011690",
+   "הגדלת סל-בפלות ש/ל/ש 400-500 ב-20",
+   "",
+   "3",
+   null,
+   ""
+  ],
+  [
+   "7290644700005",
+   "217",
+   "20261123",
+   "0000238677",
+   "7290000014944",
+   "הגדלת סל-בפלות ש/ל/ש 400-500 ב-20",
+   "",
+   "3",
+   null,
+   ""
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 2,
+ "sqlite_mb": 657.5
+}

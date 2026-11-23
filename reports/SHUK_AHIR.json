@@ -1,0 +1,251 @@
+{
+ "chain": "SHUK_AHIR",
+ "started": "2026-11-23 08:47:52",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 25,
+ "PRICE_FULL_FILE_mb": 4.5,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 26,
+ "PROMO_FULL_FILE_mb": 1.5,
+ "download_seconds": 38,
+ "raw_heads": {
+  "STORE_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058148776</ChainID>\r\n  <ChainName>שוק העיר (ט.ע.מ.ס.) בע\"מ</ChainName>\r\n  <LastUpdateDate>2026-11-23</LastUpdateDate>\r\n  <LastUpdateTime>05:03:13.363</LastUpdateTime>\r\n  <SubChains>\r\n    <SubChain>\r\n      <SubChainID>000</SubChainID>\r\n      <SubChainName />\r\n      <Stores>\r\n        <Store>\r\n          <StoreID>004</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>רמות</StoreName>\r\n          <Address>שד' גולדן מאיר 255</Address>\r\n          <City>4702</City>\r\n          <ZIPCode>0097733</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>005</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>אשקלון צפוני</StoreName>\r\n          <Address>א.ת. צפוני , הנחושתן 10</Address>\r\n          <City>7100</City>\r\n          <ZIPCode>0078322</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>006</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>אשקלון מכללה</StoreName>\r\n          <Address>אלי כהן 19</Address>\r\n          <City>7100</City>\r\n          <ZIPCode>0078323</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>008</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>1</StoreType>\r\n          <StoreName>גבעת זאב</StoreName>\r\n          <Address>שכונת נווה מנחם , רח' קרדון 10</Address>\r\n          <City>3730</City>\r\n     ",
+  "PRICE_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058148776</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>015</StoreID>\r\n  <BikoretNo>1</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-23T00:32:00.000</PriceUpdateTime>\r\n      <ItemCode>88</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T14:18:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>שקיות קופה</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>שקיות קופה</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>0.01</Quantity>\r\n      <UnitOfMeasure>100 גרם</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage />\r\n      <ItemPrice>0.10</ItemPrice>\r\n      <UnitOfMeasurePrice>1000</UnitOfMeasurePrice>\r\n      <AllowDiscount>0</AllowDiscount>\r\n      <ItemStatus>0</ItemStatus>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-22T19:14:00.000</PriceUpdateTime>\r\n      <ItemCode>120</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T12:14:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>פיתה בודדת</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>פיתה בודדת</ManufactureItemDescription>\r\n      <UnitQty>גרם</UnitQty>\r\n      <Quantity>75</Quantity>\r\n      <UnitOfMeasure>100 גרם</UnitOfMeasure>\r\n      <bIsWei",
+  "PROMO_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290058148776</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>313</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-23T05:06:15.996</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>201370955</PromotionID>\r\n      <PromotionDescription>סלק בוואקום 2 ב 9.90 ש\"ח</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-22T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-11-28T00:00:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour />\r\n      <PromotionEndHour />\r\n      <PromotionDays />\r\n      <RedemptionLimit>3</RedemptionLimit>\r\n      <MinNoOfItemOffered />\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>2.0000</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>001</GroupID>\r\n          <MinPurchaseAmount />\r\n          <DiscountType />\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290017918723</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>2.0000</MinQty>\r\n              <MaxQty />\r\n              <DiscountRate />\r\n              <DiscountedPrice>9.90</DiscountedPrice>\r\n              <DiscountedPricePerMida />\r\n              <bIsWeighted>0</bIsWeighted>\r\n         "
+ },
+ "parse_seconds": 6,
+ "stores": 26,
+ "stores_with_prices": 25,
+ "items": 98169,
+ "distinct_codes": 13960,
+ "item_types": {
+  "1": 98169
+ },
+ "promos": 45678,
+ "cities": [
+  [
+   "0",
+   12
+  ],
+  [
+   "7100",
+   2
+  ],
+  [
+   "8700",
+   1
+  ],
+  [
+   "8500",
+   1
+  ],
+  [
+   "70",
+   1
+  ],
+  [
+   "6900",
+   1
+  ],
+  [
+   "6600",
+   1
+  ],
+  [
+   "6500",
+   1
+  ],
+  [
+   "6100",
+   1
+  ],
+  [
+   "4702",
+   1
+  ],
+  [
+   "3730",
+   1
+  ],
+  [
+   "2630",
+   1
+  ],
+  [
+   "246",
+   1
+  ],
+  [
+   "163",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290058148776",
+   "שוק העיר (ט.ע.מ.ס.) בע\"מ",
+   "000",
+   "",
+   "004",
+   "רמות",
+   "שד' גולדן מאיר 255",
+   "4702",
+   "0097733"
+  ],
+  [
+   "7290058148776",
+   "שוק העיר (ט.ע.מ.ס.) בע\"מ",
+   "000",
+   "",
+   "005",
+   "אשקלון צפוני",
+   "א.ת. צפוני , הנחושתן 10",
+   "7100",
+   "0078322"
+  ],
+  [
+   "7290058148776",
+   "שוק העיר (ט.ע.מ.ס.) בע\"מ",
+   "000",
+   "",
+   "006",
+   "אשקלון מכללה",
+   "אלי כהן 19",
+   "7100",
+   "0078323"
+  ],
+  [
+   "7290058148776",
+   "שוק העיר (ט.ע.מ.ס.) בע\"מ",
+   "000",
+   "",
+   "008",
+   "גבעת זאב",
+   "שכונת נווה מנחם , רח' קרדון 10",
+   "3730",
+   "0090940"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290058148776",
+   "015",
+   "20261123",
+   "88",
+   "1",
+   "שקיות קופה",
+   "לא ידוע",
+   "0.01",
+   "100 גרם",
+   "גרם",
+   "0",
+   0.1,
+   1000.0,
+   ""
+  ],
+  [
+   "7290058148776",
+   "015",
+   "20261123",
+   "120",
+   "1",
+   "פיתה בודדת",
+   "לא ידוע",
+   "75",
+   "100 גרם",
+   "גרם",
+   "0",
+   2.0,
+   2.66,
+   ""
+  ],
+  [
+   "7290058148776",
+   "015",
+   "20261123",
+   "434",
+   "1",
+   "שזיף אדום",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   14.9,
+   14.9,
+   ""
+  ],
+  [
+   "7290058148776",
+   "015",
+   "20261123",
+   "500",
+   "1",
+   "תאנים",
+   "לא ידוע",
+   "1",
+   "1 קילוגרם",
+   "קילוגרם",
+   "1",
+   29.9,
+   29.9,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290058148776",
+   "313",
+   "20261123",
+   "201370955",
+   "7290017918723",
+   "סלק בוואקום 2 ב 9.90 ש\"ח",
+   "",
+   "2.0000",
+   9.9,
+   ""
+  ],
+  [
+   "7290058148776",
+   "313",
+   "20261123",
+   "201370954",
+   "824",
+   "אונ-שום ארוז4 ב 9.90 מוגבל 6",
+   "",
+   "4.0000",
+   9.9,
+   ""
+  ],
+  [
+   "7290058148776",
+   "313",
+   "20261123",
+   "201370952",
+   "693493014267",
+   "אבוקדו בשל 2 ב 9.90 ש\"ח",
+   "",
+   "2.0000",
+   9.9,
+   ""
+  ],
+  [
+   "7290058148776",
+   "313",
+   "20261123",
+   "201370948",
+   "563",
+   "אונ-קיווי 12.90 מוגבל 6 ק\"ג",
+   "",
+   "0.0100",
+   0.13,
+   "35.18"
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 22.9
+}

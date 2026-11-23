@@ -1,0 +1,227 @@
+{
+ "chain": "BAREKET",
+ "started": "2026-11-23 08:46:43",
+ "errors": [],
+ "STORE_FILE_day": "2026-11-23",
+ "STORE_FILE_files": 1,
+ "STORE_FILE_mb": 0.0,
+ "PRICE_FULL_FILE_day": "2026-11-23",
+ "PRICE_FULL_FILE_files": 14,
+ "PRICE_FULL_FILE_mb": 3.2,
+ "PROMO_FULL_FILE_day": "2026-11-23",
+ "PROMO_FULL_FILE_files": 15,
+ "PROMO_FULL_FILE_mb": 1.0,
+ "download_seconds": 26,
+ "raw_heads": {
+  "STORE_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290875100001</ChainID>\r\n  <ChainName>סופר ברקת קמעונאות בע\"מ</ChainName>\r\n  <LastUpdateDate>2026-11-23</LastUpdateDate>\r\n  <LastUpdateTime>04:07:18.772</LastUpdateTime>\r\n  <SubChains>\r\n    <SubChain>\r\n      <SubChainID>001</SubChainID>\r\n      <SubChainName>רשת ברקת</SubChainName>\r\n      <Stores>\r\n        <Store>\r\n          <StoreID>002</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>3</StoreType>\r\n          <StoreName>יהוד</StoreName>\r\n          <Address>התעשייה 29</Address>\r\n          <City>9400</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>005</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>3</StoreType>\r\n          <StoreName>נס ציונה</StoreName>\r\n          <Address>החרש 9</Address>\r\n          <City>7200</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>006</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>3</StoreType>\r\n          <StoreName>תל אביב</StoreName>\r\n          <Address>שלבים 26</Address>\r\n          <City>0</City>\r\n          <ZIPCode>0000000</ZIPCode>\r\n        </Store>\r\n        <Store>\r\n          <StoreID>007</StoreID>\r\n          <BikoretNo>0</BikoretNo>\r\n          <StoreType>3</StoreType>\r\n          <StoreName>ראשון לציון בקר</StoreName>\r\n          <Address>משה בקר 17</Address>\r\n          <City>8300</City>\r\n          <ZIPCode>0000000</ZIPCode>\r",
+  "PRICE_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290875100001</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>007</StoreID>\r\n  <BikoretNo>4</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-17T07:50:00.000</PriceUpdateTime>\r\n      <ItemCode>1</ItemCode>\r\n      <LastSaleDateTime>2026-11-22T08:50:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>אבוקדו</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>IL</ManufactureCountry>\r\n      <ManufactureItemDescription>אבוקדו</ManufactureItemDescription>\r\n      <UnitQty>ק\"ג</UnitQty>\r\n      <Quantity>1</Quantity>\r\n      <UnitOfMeasure>1 ק\"ג</UnitOfMeasure>\r\n      <bIsWeighted>1</bIsWeighted>\r\n      <QtyInPackage />\r\n      <ItemPrice>8.90</ItemPrice>\r\n      <UnitOfMeasurePrice>8.9</UnitOfMeasurePrice>\r\n      <AllowDiscount>0</AllowDiscount>\r\n      <ItemStatus>0</ItemStatus>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2026-11-17T07:50:00.000</PriceUpdateTime>\r\n      <ItemCode>2</ItemCode>\r\n      <LastSaleDateTime>2026-11-16T08:09:00.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>לוף</ItemName>\r\n      <ManufactureName>לא ידוע</ManufactureName>\r\n      <ManufactureCountry>unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>לוף</ManufactureItemDescription>\r\n      <UnitQty>יח</UnitQty>\r\n      <Quantity>1</Quantity>\r\n      <UnitOfMeasure />\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage />\r\n      <ItemP",
+  "PROMO_FULL_FILE": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Root>\r\n  <ChainID>7290875100001</ChainID>\r\n  <SubChainID>000</SubChainID>\r\n  <StoreID>010</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-11-23T04:09:50.010</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>14517</PromotionID>\r\n      <PromotionDescription>יוגטה סוכריות גומי/מקלות-3ב20</PromotionDescription>\r\n      <PromotionStartDateTime>2026-11-22T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-12-11T00:00:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour />\r\n      <PromotionEndHour />\r\n      <PromotionDays />\r\n      <RedemptionLimit />\r\n      <MinNoOfItemOffered />\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem>3.0000</IsGiftItem>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions />\r\n      <Remarks />\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>001</GroupID>\r\n          <MinPurchaseAmount />\r\n          <DiscountType />\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7702174066631</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>3.0000</MinQty>\r\n              <MaxQty />\r\n              <DiscountRate />\r\n              <DiscountedPrice>20.00</DiscountedPrice>\r\n              <DiscountedPricePerMida />\r\n              <bIsWeighted>0</bIsWeighted>\r\n            </PromotionI"
+ },
+ "parse_seconds": 4,
+ "stores": 15,
+ "stores_with_prices": 14,
+ "items": 80072,
+ "distinct_codes": 12080,
+ "item_types": {
+  "1": 80072
+ },
+ "promos": 30417,
+ "cities": [
+  [
+   "0",
+   5
+  ],
+  [
+   "8300",
+   2
+  ],
+  [
+   "7200",
+   2
+  ],
+  [
+   "681",
+   2
+  ],
+  [
+   "9400",
+   1
+  ],
+  [
+   "8400",
+   1
+  ],
+  [
+   "6600",
+   1
+  ],
+  [
+   "2650",
+   1
+  ]
+ ],
+ "store_samples": [
+  [
+   "7290875100001",
+   "סופר ברקת קמעונאות בע\"מ",
+   "001",
+   "רשת ברקת",
+   "002",
+   "יהוד",
+   "התעשייה 29",
+   "9400",
+   "0000000"
+  ],
+  [
+   "7290875100001",
+   "סופר ברקת קמעונאות בע\"מ",
+   "001",
+   "רשת ברקת",
+   "005",
+   "נס ציונה",
+   "החרש 9",
+   "7200",
+   "0000000"
+  ],
+  [
+   "7290875100001",
+   "סופר ברקת קמעונאות בע\"מ",
+   "001",
+   "רשת ברקת",
+   "006",
+   "תל אביב",
+   "שלבים 26",
+   "0",
+   "0000000"
+  ],
+  [
+   "7290875100001",
+   "סופר ברקת קמעונאות בע\"מ",
+   "001",
+   "רשת ברקת",
+   "007",
+   "ראשון לציון בקר",
+   "משה בקר 17",
+   "8300",
+   "0000000"
+  ]
+ ],
+ "item_samples": [
+  [
+   "7290875100001",
+   "007",
+   "20261123",
+   "1",
+   "1",
+   "אבוקדו",
+   "לא ידוע",
+   "1",
+   "1 ק\"ג",
+   "ק\"ג",
+   "1",
+   8.9,
+   8.9,
+   ""
+  ],
+  [
+   "7290875100001",
+   "007",
+   "20261123",
+   "2",
+   "1",
+   "לוף",
+   "לא ידוע",
+   "1",
+   "יח",
+   "יח",
+   "0",
+   7.9,
+   7.9,
+   ""
+  ],
+  [
+   "7290875100001",
+   "007",
+   "20261123",
+   "3",
+   "1",
+   "קישוא זוקיני",
+   "לא ידוע",
+   "1",
+   "1 ק\"ג",
+   "ק\"ג",
+   "1",
+   9.9,
+   9.9,
+   ""
+  ],
+  [
+   "7290875100001",
+   "007",
+   "20261123",
+   "5",
+   "1",
+   "אבטיח",
+   "לא ידוע",
+   "1",
+   "1 ק\"ג",
+   "ק\"ג",
+   "1",
+   7.9,
+   7.9,
+   ""
+  ]
+ ],
+ "promo_samples": [
+  [
+   "7290875100001",
+   "010",
+   "20261123",
+   "14517",
+   "7702174066631",
+   "יוגטה סוכריות גומי/מקלות-3ב20",
+   "",
+   "3.0000",
+   20.0,
+   ""
+  ],
+  [
+   "7290875100001",
+   "010",
+   "20261123",
+   "14517",
+   "7702174085465",
+   "יוגטה סוכריות גומי/מקלות-3ב20",
+   "",
+   "3.0000",
+   20.0,
+   ""
+  ],
+  [
+   "7290875100001",
+   "010",
+   "20261123",
+   "14517",
+   "7290111356353",
+   "יוגטה סוכריות גומי/מקלות-3ב20",
+   "",
+   "3.0000",
+   20.0,
+   ""
+  ],
+  [
+   "7290875100001",
+   "010",
+   "20261123",
+   "14517",
+   "7290111357367",
+   "יוגטה סוכריות גומי/מקלות-3ב20",
+   "",
+   "3.0000",
+   20.0,
+   ""
+  ]
+ ],
+ "store_ids_prices_not_in_stores": 0,
+ "sqlite_mb": 15.8
+}
