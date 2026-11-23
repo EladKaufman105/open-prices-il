@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "pipeline/fetch_logos.py"
+      - "pipeline/fetch_logos*.py"
       - ".github/workflows/logos.yml"
 
 permissions:
@@ -18,8 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install pillow
-      - run: python pipeline/fetch_logos.py
+      - run: pip install pillow cairosvg
+      - run: python pipeline/fetch_logos_wiki.py
       - name: Commit candidates
         run: |
           git config user.name "github-actions[bot]"
