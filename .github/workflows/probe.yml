@@ -1,0 +1,75 @@
+name: Probe chains
+
+# Checks which supermarket portals are reachable from GitHub's runners
+# and how much data each one publishes. Results are committed to probe/.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "pipeline/probe*.py"
+      - ".github/workflows/probe.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    outputs:
+      chains: ${{ steps.list.outputs.chains }}
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install il-supermarket-scraper==1.0.8
+      - id: list
+        run: |
+          python - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json
+          from il_supermarket_scarper.scrappers_factory import ScraperFactory
+          print("chains=" + json.dumps(ScraperFactory.all_listed_scrappers()))
+          EOF
+
+  probe:
+    needs: list
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        chain: ${{ fromJson(needs.list.outputs.chains) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install il-supermarket-scraper==1.0.8
+      - run: playwright install --with-deps chromium
+      - run: python pipeline/probe.py "${{ matrix.chain }}"
+        continue-on-error: true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: probe-${{ matrix.chain }}
+          path: probe_out/
+          if-no-files-found: ignore
+
+  report:
+    needs: probe
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: all_probe
+          pattern: probe-*
+      - run: python pipeline/probe_report.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add probe/
+          git commit -m "Probe results $(date -u +%F)" || exit 0
+          git push
