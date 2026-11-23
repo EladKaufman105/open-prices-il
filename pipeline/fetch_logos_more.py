@@ -19,6 +19,14 @@ CHAINS = {
     "SHEFA_BARCART_ASHEM": "שפע ברכת השם", "SHUK_AHIR": "שוק העיר", "BAREKET": "סופר ברקת",
     "SALACH_DABACH": "סאלח דבאח", "MESHMAT_YOSEF": "משנת יוסף", "OSHER_AD": "אושר עד", "RAMI_LEVY": "רמי לוי",
     "VICTORY": "ויקטורי", "CARREFOUR": "קרפור", "YELLOW": "יילו", "KESHET": "קשת טעמים", "DOR_ALON": "אלונית",
+    "MAHSANI_ASHUK": "מחסני השוק",
+}
+PLAY = {
+    "SHUFERSAL": "com.Shufersal", "TIV_TAAM": "com.selfpoint.TivTaam", "YOHANANOF": "il.co.yochananof.mobile.twa",
+    "POLIZER": "com.selfpoint.politzer", "SHUK_AHIR": "com.selfpoint.shukhayir", "SALACH_DABACH": "com.selfpoint.bigdabach",
+    "RAMI_LEVY": "com.superup.ramilevy", "CARREFOUR": "il.co.inmanage.carrefour_android", "YELLOW": "il.co.yellow.app",
+    "KESHET": "com.selfpoint.keshetteamim", "DOR_ALON": "com.doralonapp", "MAHSANI_ASHUK": "com.selfpoint.MahsaneiShuk",
+    "SUPER_YUDA": "com.selfpoint.supermerkado", "OSHER_AD": "com.supersmart.android",
 }
 UA = {"User-Agent": "open-prices-il/0.1 (https://github.com/EladKaufman105/open-prices-il)",
       "Accept-Language": "he-IL,he;q=0.9"}
@@ -59,11 +67,10 @@ for key, name in CHAINS.items():
         report[key]["wikidata_err"] = str(e)[:100]
     # ---- Google Play app icon ----
     try:
-        html = get("https://play.google.com/store/search?c=apps&hl=iw&gl=IL&q=" + urllib.parse.quote(name)).decode("utf-8", "ignore")
-        ids = list(dict.fromkeys(re.findall(r"/store/apps/details\?id=([\w.]+)", html)))
-        report[key]["play_ids"] = ids[:4]
+        ids = [PLAY[key]] if key in PLAY else []
+        report[key]["play_ids"] = ids
         if ids:
-            page = get(f"https://play.google.com/store/apps/details?id={ids[0]}&hl=iw&gl=IL").decode("utf-8", "ignore")
+            page = get(f"https://play.google.com/store/apps/details?id={ids[0]}&hl=en&gl=IL").decode("utf-8", "ignore")
             m = re.search(r'<meta property="og:image" content="([^"]+)"', page)
             t = re.search(r'<meta property="og:title" content="([^"]+)"', page)
             if m:
