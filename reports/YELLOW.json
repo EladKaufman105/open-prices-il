@@ -1,32 +1,32 @@
 {
  "chain": "YELLOW",
- "started": "2026-11-27 13:08:56",
+ "started": "2026-11-28 12:23:48",
  "errors": [],
- "STORE_FILE_day": "2026-11-27",
+ "STORE_FILE_day": "2026-11-28",
  "STORE_FILE_files": 1,
  "STORE_FILE_mb": 0.1,
- "PRICE_FULL_FILE_day": "2026-11-27",
- "PRICE_FULL_FILE_files": 244,
- "PRICE_FULL_FILE_mb": 330.0,
- "PROMO_FULL_FILE_day": "2026-11-27",
+ "PRICE_FULL_FILE_day": "2026-11-28",
+ "PRICE_FULL_FILE_files": 243,
+ "PRICE_FULL_FILE_mb": 328.2,
+ "PROMO_FULL_FILE_day": "2026-11-28",
  "PROMO_FULL_FILE_files": 243,
- "PROMO_FULL_FILE_mb": 2433.6,
- "download_seconds": 295,
+ "PROMO_FULL_FILE_mb": 2434.3,
+ "download_seconds": 396,
  "raw_heads": {
-  "STORE_FILE": "<Root><ChainID>7290644700005</ChainID><ChainName>פז קמעונאות ואנרגיה בע\"מ</ChainName><LastUpdateDate>2026-11-27</LastUpdateDate><LastUpdateTime>06:00:00.297</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>100</StoreID><BikoretNo>6</BikoretNo><StoreType>1</StoreType><StoreName>אבו כביר - אלכס סטפי</StoreName><Address>188 הרצל</Address><City>5000</City><ZIPCode>0066555</ZIPCode></Store><Store><StoreID>107</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>נווה צדק - יחיא אבו</StoreName><Address>35 אילת</Address><City>5000</City><ZIPCode>0068103</ZIPCode></Store><Store><StoreID>108</StoreID><BikoretNo>8</BikoretNo><StoreType>1</StoreType><StoreName>הסיירים - רוזי ריזה</StoreName><Address>כביש 4 תל אביב -אשדוד מול מרכז חיזו</Address><City>466</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>109</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>טל הגשר -אלכס סטפינס</StoreName><Address>42 יצחק שדה</Address><City>5000</City><ZIPCode>0067212</ZIPCode></Store><Store><StoreID>111</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>זיו און - שולי שון ס</StoreName><Address>דרך הטייסים 126</Address><City>5000</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>112</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>הירקון- פאטריק אבו</StoreName><Address>136 דרך נמיר</Address><City>5000</City><ZIPCode>0062507</ZIPCode></Store><Store><StoreID>1",
-  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290644700005</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>611</StoreID>\r\n  <BikoretNo>5</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2025-12-29T00:03:04.000</PriceUpdateTime>\r\n      <ItemCode>7290000888000</ItemCode>\r\n      <LastSaleDateTime>2026-11-25T10:57:51.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>מצת אבן</ItemName>\r\n      <ManufactureName>Unknown</ManufactureName>\r\n      <ManufactureCountry>Unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>Unknown</ManufactureItemDescription>\r\n      <UnitQty>יחידה</UnitQty>\r\n      <Quantity/>\r\n      <UnitOfMeasure>Unknown</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage/>\r\n      <ItemPrice>4.00</ItemPrice>\r\n      <UnitOfMeasurePrice/>\r\n      <AllowDiscount>0</AllowDiscount>\r\n      <ItemStatus/>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2025-12-29T00:03:04.000</PriceUpdateTime>\r\n      <ItemCode>7290000888001</ItemCode>\r\n      <LastSaleDateTime>2026-11-26T16:37:41.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>מצת אלקטרוני</ItemName>\r\n      <ManufactureName>Unknown</ManufactureName>\r\n      <ManufactureCountry>Unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>Unknown</ManufactureItemDescription>\r\n      <UnitQty>יחידה</UnitQty>\r\n      <Quantity/>\r\n      <UnitOfMeasure>Unknown</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage/>\r\n      <ItemPrice>5.00</ItemPrice>\r\n     ",
-  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290644700005</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>319</StoreID>\r\n  <BikoretNo>0</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-01-14T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0000232259</PromotionID>\r\n      <PromotionDescription>קופון מודפס פזומט קפה ומאפה עד2026</PromotionDescription>\r\n      <PromotionStartDateTime>2024-12-22T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2027-12-31T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour/>\r\n      <PromotionEndHour/>\r\n      <PromotionDays/>\r\n      <RedemptionLimit>1</RedemptionLimit>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem/>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount/>\r\n          <DiscountType>0</DiscountType>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>7290006463609</ItemCode>\r\n              <ItemType>1</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>1</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate>100.00</DiscountRate>\r\n              <DiscountedPrice>0.00</DiscountedPrice>\r\n              <DiscountedPricePerMida>0.00</DiscountedPricePerMida>\r\n              <bIsWeighted>0</bIs"
+  "STORE_FILE": "<Root><ChainID>7290644700005</ChainID><ChainName>פז קמעונאות ואנרגיה בע\"מ</ChainName><LastUpdateDate>2026-11-28</LastUpdateDate><LastUpdateTime>06:00:00.907</LastUpdateTime><SubChains><SubChain><SubChainID>001</SubChainID><SubChainName>1</SubChainName><Stores><Store><StoreID>100</StoreID><BikoretNo>6</BikoretNo><StoreType>1</StoreType><StoreName>אבו כביר - אלכס סטפי</StoreName><Address>188 הרצל</Address><City>5000</City><ZIPCode>0066555</ZIPCode></Store><Store><StoreID>107</StoreID><BikoretNo>9</BikoretNo><StoreType>1</StoreType><StoreName>נווה צדק - יחיא אבו</StoreName><Address>35 אילת</Address><City>5000</City><ZIPCode>0068103</ZIPCode></Store><Store><StoreID>108</StoreID><BikoretNo>8</BikoretNo><StoreType>1</StoreType><StoreName>הסיירים - רוזי ריזה</StoreName><Address>כביש 4 תל אביב -אשדוד מול מרכז חיזו</Address><City>466</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>109</StoreID><BikoretNo>7</BikoretNo><StoreType>1</StoreType><StoreName>טל הגשר -אלכס סטפינס</StoreName><Address>42 יצחק שדה</Address><City>5000</City><ZIPCode>0067212</ZIPCode></Store><Store><StoreID>111</StoreID><BikoretNo>2</BikoretNo><StoreType>1</StoreType><StoreName>זיו און - שולי שון ס</StoreName><Address>דרך הטייסים 126</Address><City>5000</City><ZIPCode>0000000</ZIPCode></Store><Store><StoreID>112</StoreID><BikoretNo>1</BikoretNo><StoreType>1</StoreType><StoreName>הירקון- פאטריק אבו</StoreName><Address>136 דרך נמיר</Address><City>5000</City><ZIPCode>0062507</ZIPCode></Store><Store><StoreID>1",
+  "PRICE_FULL_FILE": "<Root>\r\n  <ChainID>7290644700005</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>601</StoreID>\r\n  <BikoretNo>6</BikoretNo>\r\n  <Items>\r\n    <Item>\r\n      <PriceUpdateTime>2025-12-29T00:03:05.000</PriceUpdateTime>\r\n      <ItemCode>7290000888000</ItemCode>\r\n      <LastSaleDateTime>2026-11-27T03:50:25.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>מצת אבן</ItemName>\r\n      <ManufactureName>Unknown</ManufactureName>\r\n      <ManufactureCountry>Unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>Unknown</ManufactureItemDescription>\r\n      <UnitQty>יחידה</UnitQty>\r\n      <Quantity/>\r\n      <UnitOfMeasure>Unknown</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage/>\r\n      <ItemPrice>4.00</ItemPrice>\r\n      <UnitOfMeasurePrice/>\r\n      <AllowDiscount>0</AllowDiscount>\r\n      <ItemStatus/>\r\n    </Item>\r\n    <Item>\r\n      <PriceUpdateTime>2025-12-29T00:03:05.000</PriceUpdateTime>\r\n      <ItemCode>7290000888001</ItemCode>\r\n      <LastSaleDateTime>2026-11-27T23:39:10.000</LastSaleDateTime>\r\n      <ItemType>1</ItemType>\r\n      <ItemName>מצת אלקטרוני</ItemName>\r\n      <ManufactureName>Unknown</ManufactureName>\r\n      <ManufactureCountry>Unknown</ManufactureCountry>\r\n      <ManufactureItemDescription>Unknown</ManufactureItemDescription>\r\n      <UnitQty>יחידה</UnitQty>\r\n      <Quantity/>\r\n      <UnitOfMeasure>Unknown</UnitOfMeasure>\r\n      <bIsWeighted>0</bIsWeighted>\r\n      <QtyInPackage/>\r\n      <ItemPrice>5.00</ItemPrice>\r\n     ",
+  "PROMO_FULL_FILE": "<Root>\r\n  <ChainID>7290644700005</ChainID>\r\n  <SubChainID>001</SubChainID>\r\n  <StoreID>503</StoreID>\r\n  <BikoretNo>3</BikoretNo>\r\n  <Promotions>\r\n    <Promotion>\r\n      <PromotionUpdateTime>2026-03-26T00:00:00.000</PromotionUpdateTime>\r\n      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>\r\n      <PromotionID>0000237230</PromotionID>\r\n      <PromotionDescription>קופון קפה מתנה פזגז</PromotionDescription>\r\n      <PromotionStartDateTime>2026-03-26T00:00:00.000</PromotionStartDateTime>\r\n      <PromotionEndDateTime>2026-12-31T23:59:00.000</PromotionEndDateTime>\r\n      <PromotionStartHour/>\r\n      <PromotionEndHour/>\r\n      <PromotionDays/>\r\n      <RedemptionLimit/>\r\n      <MinNoOfItemOffered>10</MinNoOfItemOffered>\r\n      <ClubID>0</ClubID>\r\n      <IsGiftItem/>\r\n      <AdditionalIsCoupon>0</AdditionalIsCoupon>\r\n      <AdditionalRestrictions/>\r\n      <Remarks/>\r\n      <Groups>\r\n        <Group>\r\n          <GroupID>1</GroupID>\r\n          <MinPurchaseAmount/>\r\n          <DiscountType>0</DiscountType>\r\n          <PromotionItems/>\r\n        </Group>\r\n        <Group>\r\n          <GroupID>2</GroupID>\r\n          <MinPurchaseAmount/>\r\n          <DiscountType>0</DiscountType>\r\n          <PromotionItems>\r\n            <PromotionItem>\r\n              <ItemCode>9999921019060</ItemCode>\r\n              <ItemType>0</ItemType>\r\n              <RewardType>10</RewardType>\r\n              <MinQty>1</MinQty>\r\n              <MaxQty/>\r\n              <DiscountRate>100.00</DiscountRate>\r\n              <Disco"
  },
- "parse_seconds": 161,
+ "parse_seconds": 195,
  "stores": 242,
  "stores_with_prices": 239,
- "items": 395875,
- "distinct_codes": 5242,
+ "items": 393718,
+ "distinct_codes": 5241,
  "item_types": {
-  "0": 1027,
-  "1": 394848
+  "0": 1017,
+  "1": 392701
  },
- "promos": 5358484,
+ "promos": 5359902,
  "cities": [
   [
    "3000",
@@ -238,8 +238,8 @@
  "item_samples": [
   [
    "7290644700005",
-   "611",
-   "20261127",
+   "601",
+   "20261128",
    "7290000888000",
    "1",
    "מצת אבן",
@@ -254,8 +254,8 @@
   ],
   [
    "7290644700005",
-   "611",
-   "20261127",
+   "601",
+   "20261128",
    "7290000888001",
    "1",
    "מצת אלקטרוני",
@@ -270,46 +270,46 @@
   ],
   [
    "7290644700005",
-   "611",
-   "20261127",
+   "601",
+   "20261128",
    "7290003423909",
    "1",
    "הרשי קוקיס קרים 43 ג",
    "Unknown",
-   "",
-   "Unknown",
+   "43.00",
+   "100 גרם",
    "יחידה",
    "0",
    8.9,
-   null,
+   20.7,
    ""
   ],
   [
    "7290644700005",
-   "611",
-   "20261127",
+   "601",
+   "20261128",
    "7290003444009",
    "1",
    "ריזס חמאת בוטנים",
    "Unknown",
-   "",
-   "Unknown",
+   "42.00",
+   "100 גרם",
    "יחידה",
    "0",
    8.9,
-   null,
+   21.19,
    ""
   ]
  ],
  "promo_samples": [
   [
    "7290644700005",
-   "319",
-   "20261127",
-   "0000232259",
-   "7290006463609",
-   "קופון מודפס פזומט קפה ומאפה עד2026",
-   "2027-12-31T23:59:00.000",
+   "503",
+   "20261128",
+   "0000237230",
+   "9999921019060",
+   "קופון קפה מתנה פזגז",
+   "2026-12-31T23:59:00.000",
    "1",
    0.0,
    "100.00",
@@ -317,12 +317,12 @@
   ],
   [
    "7290644700005",
-   "319",
-   "20261127",
-   "0000232259",
-   "7290006463616",
-   "קופון מודפס פזומט קפה ומאפה עד2026",
-   "2027-12-31T23:59:00.000",
+   "503",
+   "20261128",
+   "0000237230",
+   "9999921024961",
+   "קופון קפה מתנה פזגז",
+   "2026-12-31T23:59:00.000",
    "1",
    0.0,
    "100.00",
@@ -330,12 +330,12 @@
   ],
   [
    "7290644700005",
-   "319",
-   "20261127",
-   "0000232259",
-   "7290006463623",
-   "קופון מודפס פזומט קפה ומאפה עד2026",
-   "2027-12-31T23:59:00.000",
+   "503",
+   "20261128",
+   "0000237230",
+   "9999921024962",
+   "קופון קפה מתנה פזגז",
+   "2026-12-31T23:59:00.000",
    "1",
    0.0,
    "100.00",
@@ -343,12 +343,12 @@
   ],
   [
    "7290644700005",
-   "319",
-   "20261127",
-   "0000232259",
-   "9999921010221",
-   "קופון מודפס פזומט קפה ומאפה עד2026",
-   "2027-12-31T23:59:00.000",
+   "503",
+   "20261128",
+   "0000237230",
+   "9999921024965",
+   "קופון קפה מתנה פזגז",
+   "2026-12-31T23:59:00.000",
    "1",
    0.0,
    "100.00",
@@ -356,40 +356,40 @@
   ]
  ],
  "store_ids_prices_not_in_stores": 2,
- "active_promo_rows": 5312705,
+ "active_promo_rows": 5334142,
  "promo_clubs": [
   [
    "1=",
-   3255950
+   3255696
   ],
   [
    "0",
-   989538
+   993690
   ],
   [
    "(1=מועדון הקפה-YF+|1=Yellow friends)",
-   904134
+   918743
   ],
   [
    "1=Yellow friends",
-   128348
+   130599
   ],
   [
    "1=מועדון שוטרים",
-   30516
+   31113
   ],
   [
    "(1=test)&(3=פז סנדביץ)",
-   1600
+   1632
   ],
   [
    "(1=test)&(3=טורינו - כרטיסית קפה)",
-   1300
+   1326
   ],
   [
    "(1=test)&(3=עם פזומט YF/YF+ חברי)",
-   602
+   614
   ]
  ],
- "sqlite_mb": 601.4
+ "sqlite_mb": 604.3
 }
